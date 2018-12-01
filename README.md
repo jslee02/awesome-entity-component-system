@@ -19,6 +19,10 @@
 
 ## ETC
 
+### Benchmark
+
+* [ecs_benchmark](https://github.com/abeimler/ecs_benchmark): EnTT vs. entityx vs. anax vs. Artemis-Cpp
+
 ### Blog Posts
 
 * [Component Based Engine Design](http://www.randygaul.net/2013/05/20/component-based-engine-design/)
