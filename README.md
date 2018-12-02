@@ -3,6 +3,7 @@
 
 ## ECS Libraries
 
+* anax - Open source C++ entity system [[github](https://github.com/miguelmartin75/anax) ![miguelmartin75/anax](https://img.shields.io/github/stars/miguelmartin75/anax.svg?style=flat&label=Star&maxAge=86400)]
 * ECS - C++ single-header entity component system library [[github](https://github.com/redxdev/ECS) ![redxdev/ECS](https://img.shields.io/github/stars/redxdev/ECS.svg?style=flat&label=Star&maxAge=86400)]
 * ecst - Experimental C++14 multithreaded compile-time entity-compnent-system library [[github](https://github.com/SuperV1234/ecst) ![SuperV1234/ecst](https://img.shields.io/github/stars/SuperV1234/ecst.svg?style=flat&label=Star&maxAge=86400)]
 * EntityPlus - C++14 entity component system [[github](https://github.com/Yelnats321/EntityPlus) ![Yelnats321/EntityPlus](https://img.shields.io/github/stars/Yelnats321/EntityPlus.svg?style=flat&label=Star&maxAge=86400)]
