@@ -31,7 +31,7 @@
 
 ### Slides
 
-* [Data Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)
+* [Data Oriented Design Resources](http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
 
 ### Book
 
@@ -39,4 +39,4 @@
 
 ### Lists
 
-* [Entity Component System & Data Oriented Design](http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
+* [Entity Component System & Data Oriented Design](https://github.com/dbartolini/data-oriented-design)
