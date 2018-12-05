@@ -18,7 +18,7 @@
 * Sparky - Cross-Platform High Performance 2D/3D game engine [[github](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)]
 * Usagi - Hierarchical component entity system based game engine [[github](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)]
 
-## ETC
+## Other Resources
 
 ### Benchmark
 
@@ -28,6 +28,11 @@
 
 * [Component Based Engine Design](http://www.randygaul.net/2013/05/20/component-based-engine-design/)
 * [Data-oriented design](http://gamesfromwithin.com/category/data-oriented-design)
+
+### Talks
+
+* [CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”](https://www.youtube.com/watch?v=yy8jQgmhbAU)
+* [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://www.youtube.com/watch?v=rX0ItVEVjHc)
 
 ### Slides
 
