@@ -1,5 +1,5 @@
 # awesome-ecs
-:sunglasses: A curated list of Entity-Component-System (ECS) resources
+:sunglasses: A curated list of Entity-Component-System (ECS) libraries and resources
 
 ## ECS Libraries
 
