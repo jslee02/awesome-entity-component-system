@@ -29,13 +29,10 @@
 * [Component Based Engine Design](http://www.randygaul.net/2013/05/20/component-based-engine-design/)
 * [Data-oriented design](http://gamesfromwithin.com/category/data-oriented-design)
 
-### Talks
+### Talks & Slides
 
 * [CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”](https://youtu.be/yy8jQgmhbAU)
 * [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc)
-
-### Slides
-
 * [Data Oriented Design Resources](http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
 
 ### Book
@@ -45,3 +42,7 @@
 ### Lists
 
 * [Entity Component System & Data Oriented Design](https://github.com/dbartolini/data-oriented-design)
+
+### ETC
+
+* [Entity Systems Wiki](http://entity-systems.wikidot.com/)
