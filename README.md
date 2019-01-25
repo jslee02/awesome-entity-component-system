@@ -10,6 +10,8 @@
 * EntityX - Fast, type-safe C++ entity component system [[github](https://github.com/alecthomas/entityx) ![alecthomas/entityx](https://img.shields.io/github/stars/alecthomas/entityx.svg?style=flat&label=Star&maxAge=86400)]
 * entt - Fast and reliable entity-component system [[github](https://github.com/skypjack/entt) ![skypjack/entt](https://img.shields.io/github/stars/skypjack/entt.svg?style=flat&label=Star&maxAge=86400)]
 * Kengine - Type-safe and self-documenting implementation of an Entity-Component-System [[github](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)]
+* Specs - Parallel entity component system written in Rust [[github](https://github.com/slide-rs/specs) ![slide-rs/specs](https://img.shields.io/github/stars/slide-rs/specs.svg?style=flat&label=Star&maxAge=86400)]
+* Reflecs - Multithreaded entity component system written in C99 [[github](https://github.com/SanderMertens/reflecs) ![SanderMertens/reflecs](https://img.shields.io/github/stars/SanderMertens/reflecs.svg?style=flat&label=Star&maxAge=86400)]
 
 ## Game Engines powered by ECS
 
@@ -47,3 +49,4 @@
 ### ETC
 
 * [Entity Systems Wiki](http://entity-systems.wikidot.com/)
+* [Entity Component Systems FAQ](https://github.com/SanderMertens/ecs-faq)
