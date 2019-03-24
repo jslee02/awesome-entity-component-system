@@ -33,6 +33,7 @@
 
 ### Talks & Slides
 
+* [GDC 2018: Unity at GDC - A Data Oriented Approach to Using Component Systems](https://youtu.be/p65Yt20pw0g)
 * [Meeting C++ 2018: Data oriented design in practice](https://youtu.be/NWMx1Q66c14)
 * [CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”](https://youtu.be/yy8jQgmhbAU)
 * [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc)
