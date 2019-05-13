@@ -17,6 +17,7 @@
 
 ## Game Engines powered by ECS
 
+* [Amethyst](https://amethyst.rs) - Data-oriented and data-driven game engine written in Rust [[github](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)]
 * crown - General purpose data-driven game engine [[github](https://github.com/dbartolini/crown) ![dbartolini/crown](https://img.shields.io/github/stars/dbartolini/crown.svg?style=flat&label=Star&maxAge=86400)]
 * [Engine](https://shervanator.github.io/Engine/) - Basic cross-platform 3D game engine [[github](https://github.com/Shervanator/Engine) ![Shervanator/Engine](https://img.shields.io/github/stars/Shervanator/Engine.svg?style=flat&label=Star&maxAge=86400)]
 * Sparky - Cross-Platform High Performance 2D/3D game engine [[github](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)]
