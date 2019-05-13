@@ -21,6 +21,7 @@
 * [Engine](https://shervanator.github.io/Engine/) - Basic cross-platform 3D game engine [[github](https://github.com/Shervanator/Engine) ![Shervanator/Engine](https://img.shields.io/github/stars/Shervanator/Engine.svg?style=flat&label=Star&maxAge=86400)]
 * Sparky - Cross-Platform High Performance 2D/3D game engine [[github](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)]
 * Usagi - Hierarchical component entity system based game engine [[github](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)]
+* [Amethyst](https://amethyst.rs) - Data-oriented and data-driven game engine written in Rust [[github](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)]
 
 ## Other Resources
 
