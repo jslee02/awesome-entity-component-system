@@ -25,7 +25,9 @@
 
 * Specs - Parallel entity component system written in Rust [[github](https://github.com/slide-rs/specs) ![slide-rs/specs](https://img.shields.io/github/stars/slide-rs/specs.svg?style=flat&label=Star&maxAge=86400)]
 
-## Game Engines powered by ECS
+## Applications powered by ECS
+
+### Game Engines
 
 #### C++
 
