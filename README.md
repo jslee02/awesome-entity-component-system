@@ -58,6 +58,7 @@
 * [CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”](https://youtu.be/yy8jQgmhbAU)
 * [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc)
 * [Data Oriented Design Resources](http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
+* [Data Oriented GUI in Rust](https://www.youtube.com/watch?v=4YTfxresvS8)
 
 ### Book
 
