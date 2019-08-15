@@ -36,6 +36,7 @@
 * crown - General purpose data-driven game engine [[github](https://github.com/dbartolini/crown) ![dbartolini/crown](https://img.shields.io/github/stars/dbartolini/crown.svg?style=flat&label=Star&maxAge=86400)]
 * [Engine](https://shervanator.github.io/Engine/) - Basic cross-platform 3D game engine [[github](https://github.com/Shervanator/Engine) ![Shervanator/Engine](https://img.shields.io/github/stars/Shervanator/Engine.svg?style=flat&label=Star&maxAge=86400)]
 * igneous - Open source game engine written in C++ [[github](https://github.com/MissingBitStudios/igneous) ![MissingBitStudios/igneous](https://img.shields.io/github/stars/MissingBitStudios/igneous.svg?style=flat&label=Star&maxAge=86400)]
+* shiva - Modern Cross-Platform C++ Engine with modularity [[github](https://github.com/Milerius/shiva) ![Milerius/shiva](https://img.shields.io/github/stars/Milerius/shiva.svg?style=flat&label=Star&maxAge=86400)]
 * Sparky - Cross-Platform High Performance 2D/3D game engine [[github](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)]
 * Usagi - Hierarchical component entity system based game engine [[github](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)]
 
