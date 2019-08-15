@@ -43,6 +43,12 @@
 
 * [Amethyst](https://amethyst.rs) - Data-oriented and data-driven game engine written in Rust [[github](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)]
 
+### Graphics Engines
+
+#### C++
+
+* bs::framework - Modern C++14 library for the development of real-time graphical applications [[github](https://github.com/GameFoundry/bsf) ![GameFoundry/bsf](https://img.shields.io/github/stars/GameFoundry/bsf.svg?style=flat&label=Star&maxAge=86400)]
+
 ## Other Resources
 
 ### Benchmark
