@@ -71,6 +71,7 @@
 * [Data Oriented GUI in Rust](https://www.youtube.com/watch?v=4YTfxresvS8)
 * [Is There More to Game Architecture than ECS](https://www.youtube.com/watch?v=JxI3Eu5DPwE) - Bob Nystrom (Roguelike Celebration 2018)
 * [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc)
+* [C# Job System + ECS usage and demo with Intel](https://www.youtube.com/watch?v=fp1D45hhVEM)
 
 ### Book
 
