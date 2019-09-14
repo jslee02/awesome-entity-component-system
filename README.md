@@ -19,8 +19,9 @@
 * Reflecs - Multithreaded entity component system written in C99 [[github](https://github.com/SanderMertens/reflecs) ![SanderMertens/reflecs](https://img.shields.io/github/stars/SanderMertens/reflecs.svg?style=flat&label=Star&maxAge=86400)]
 
 #### C#
-* [DefaultEcs](https://github.com/Doraku/DefaultEcs)
-* [Svelto ECS](https://github.com/sebas77/Svelto.ECS)
+
+* DefaultEcs - ECS for syntax and usage simplicity with maximum performance for game development [[github](https://github.com/Doraku/DefaultEcs) ![Doraku/DefaultEcs](https://img.shields.io/github/stars/Doraku/DefaultEcs.svg?style=flat&label=Star&maxAge=86400)]
+* Svelto.ECS - Lightweight data oriented entity component system framework [[github](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)]
 
 #### Python
 
