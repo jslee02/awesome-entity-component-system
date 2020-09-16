@@ -32,6 +32,10 @@
 * Shipyard - Entity Component System written in Rust [[github](https://github.com/leudz/shipyard) ![leudz/shipyard](https://img.shields.io/github/stars/leudz/shipyard.svg?style=flat&label=Star&maxAge=86400)]
 * Specs - Parallel entity component system written in Rust [[github](https://github.com/slide-rs/specs) ![slide-rs/specs](https://img.shields.io/github/stars/slide-rs/specs.svg?style=flat&label=Star&maxAge=86400)]
 
+#### Lua
+
+* tiny-ecs - Entity Component System for Lua that's simple, flexible, and useful [[github](https://github.com/bakpakin/tiny-ecs) ![bakpakin/tiny-ecs](https://img.shields.io/github/stars/bakpakin/tiny-ecs.svg?style=flat&label=Star&maxAge=86400)]
+
 ## Applications powered by ECS
 
 ### Game Engines
