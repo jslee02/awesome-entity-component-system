@@ -35,6 +35,7 @@
 #### Lua
 
 * tiny-ecs - Entity Component System for Lua that's simple, flexible, and useful [[github](https://github.com/bakpakin/tiny-ecs) ![bakpakin/tiny-ecs](https://img.shields.io/github/stars/bakpakin/tiny-ecs.svg?style=flat&label=Star&maxAge=86400)]
+* Roblox-ECS - A tiny, fast and easy to use ECS (Entity Component System) engine for game development on the Roblox platform [[github](https://github.com/nidorx/roblox-ecs) ![nidorx/roblox-ecs](https://img.shields.io/github/stars/nidorx/roblox-ecs.svg?style=flat&label=Star&maxAge=86400)]
 
 ## Applications powered by ECS
 
