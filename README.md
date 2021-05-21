@@ -40,6 +40,7 @@
 #### JavaScript
 
 * [ECSY](https://ecsy.io/) - Entity Component System for javascript [[github](https://github.com/ecsyjs/ecsy) ![ecsyjs/ecsy](https://img.shields.io/github/stars/ecsyjs/ecsy.svg?style=flat&label=Star&maxAge=86400)]
+* [bitECS](https://github.com/NateTheGreatt/bitECS) Functional, minimal, data-oriented, ultra-high performance ECS library written in JavaScript ![bitecs](https://img.shields.io/github/stars/NateTheGreatt/bitecs.svg?style=flat&label=Star&maxAge=86400)]
 
 ## Applications powered by ECS
 
