@@ -63,7 +63,7 @@
 
 #### C++
 
-* [bs::framework](https://www.bsframework.io/) - Modern C++14 library for the development of real-time graphical applications [[github](https://github.com/GameFoundry/bsf) ![GameFoundry/bsf](https://img.shields.io/github/stars/GameFoundry/bsf.svg?style=flat&label=Star&maxAge=86400)]
+* bs::framework - Modern C++14 library for the development of real-time graphical applications [[github](https://github.com/GameFoundry/bsf) ![GameFoundry/bsf](https://img.shields.io/github/stars/GameFoundry/bsf.svg?style=flat&label=Star&maxAge=86400)]
 
 ## Other Resources
 
