@@ -23,6 +23,10 @@
 * DefaultEcs - ECS for syntax and usage simplicity with maximum performance [[github](https://github.com/Doraku/DefaultEcs) ![Doraku/DefaultEcs](https://img.shields.io/github/stars/Doraku/DefaultEcs.svg?style=flat&label=Star&maxAge=86400)]
 * Svelto.ECS - Lightweight data oriented entity component system framework [[github](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)]
 
+#### Dart
+
+* Fast ECS - Simple and fast Entity-Component-System (ECS) library written in Dart. [[github](https://github.com/QiXi/fast_ecs) ![QiXi/fast_ecs](https://img.shields.io/github/stars/QiXi/fast_ecs.svg?style=flat&label=Star&maxAge=86400)]
+
 #### Python
 
 * esper - A lightweight Entity System for Python [[github](https://github.com/benmoran56/esper) ![benmoran56/esper](https://img.shields.io/github/stars/benmoran56/esper.svg?style=flat&label=Star&maxAge=86400)]
