@@ -62,6 +62,7 @@
 #### Rust
 
 * [Amethyst](https://amethyst.rs) - Data-oriented and data-driven game engine written in Rust [[github](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)]
+* [Bevy](https://bevyengine.org) - A refreshingly simple data-driven game engine built in Rust [[github](https://github.com/bevyengine/bevy) ![bevyengine/bevy](https://img.shields.io/github/stars/bevyengine/bevy.svg?style=flat&label=Star&maxAge=86400)]
 
 ### Graphics Engines
 
