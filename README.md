@@ -17,6 +17,7 @@
 * goomy - A tiny, experimental ECS framework [[github](https://github.com/vberlier/goomy) ![vberlier/goomy](https://img.shields.io/github/stars/vberlier/goomy.svg?style=flat&label=Star&maxAge=86400)]
 * Kengine - Type-safe and self-documenting implementation of an Entity-Component-System [[github](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)]
 * matter - C++17/20 ECS implementation [[github](https://github.com/Dreyri/matter) ![Dreyri/matter](https://img.shields.io/github/stars/Dreyri/matter.svg?style=flat&label=Star&maxAge=86400)]
+* Gaia-ECS - Fast and type-safe C++17 archetype-based entity component system [[github](https://github.com/richardbiely/gaia-ecs) ![richardbiely/gaia-ecs](https://img.shields.io/github/stars/richardbiely/gaia-ecs.svg?style=flat&label=Star&maxAge=86400)]
 
 #### C#
 
