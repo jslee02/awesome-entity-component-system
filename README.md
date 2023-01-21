@@ -75,7 +75,7 @@
 
 ### Benchmark
 
-* [ecs_benchmark](https://github.com/abeimler/ecs_benchmark): EnTT vs. entityx vs. anax vs. Artemis-Cpp
+* [ecs_benchmark](https://github.com/abeimler/ecs_benchmark): Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
 
 ### Blog Posts
 
