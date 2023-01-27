@@ -82,7 +82,6 @@
 
 ### Blog Posts
 
-* [Component Based Engine Design](http://www.randygaul.net/2013/05/20/component-based-engine-design/)
 * [Data-oriented design](http://gamesfromwithin.com/category/data-oriented-design)
 
 ### Talks & Slides
