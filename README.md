@@ -40,6 +40,10 @@
 * Shipyard - Entity Component System written in Rust [[github](https://github.com/leudz/shipyard) ![leudz/shipyard](https://img.shields.io/github/stars/leudz/shipyard.svg?style=flat&label=Star&maxAge=86400)]
 * Specs - Parallel entity component system written in Rust [[github](https://github.com/slide-rs/specs) ![slide-rs/specs](https://img.shields.io/github/stars/slide-rs/specs.svg?style=flat&label=Star&maxAge=86400)]
 
+#### Go
+
+* Arche - An archetype-based Entity Component System for Go [[github](https://github.com/mlange-42/arche) ![mlange-42/arche](https://img.shields.io/github/stars/mlange-42/arche.svg?style=flat&label=Star&maxAge=86400)]
+
 #### Lua
 
 * ECS Lua - A fast and easy to use ECS engine for game development [[github](https://github.com/nidorx/ecs-lua) ![nidorx/ecs-lua](https://img.shields.io/github/stars/nidorx/ecs-lua.svg?style=flat&label=Star&maxAge=86400)]
