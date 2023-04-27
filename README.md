@@ -49,6 +49,10 @@
 * ECS Lua - A fast and easy to use ECS engine for game development [[github](https://github.com/nidorx/ecs-lua) ![nidorx/ecs-lua](https://img.shields.io/github/stars/nidorx/ecs-lua.svg?style=flat&label=Star&maxAge=86400)]
 * tiny-ecs - Entity Component System for Lua that's simple, flexible, and useful [[github](https://github.com/bakpakin/tiny-ecs) ![bakpakin/tiny-ecs](https://img.shields.io/github/stars/bakpakin/tiny-ecs.svg?style=flat&label=Star&maxAge=86400)]
 
+#### Java
+
+* Artemis-odb - A continuation of the popular Artemis ECS framework [[github](https://github.com/junkdog/artemis-odb) ![junkdog/artemis-odb](https://img.shields.io/github/stars/junkdog/artemis-odb.svg?style=flat&label=Star&maxAge=86400)]
+
 #### JavaScript
 
 * bitECS - Functional, minimal, data-oriented, ultra-high performance ECS library [[github](https://github.com/NateTheGreatt/bitECS) ![bitecs](https://img.shields.io/github/stars/NateTheGreatt/bitecs.svg?style=flat&label=Star&maxAge=86400)]
