@@ -31,6 +31,10 @@
 
 * Fast ECS - Simple and fast Entity-Component-System (ECS) library written in Dart. [[github](https://github.com/QiXi/fast_ecs) ![QiXi/fast_ecs](https://img.shields.io/github/stars/QiXi/fast_ecs.svg?style=flat&label=Star&maxAge=86400)]
 
+#### Elixir
+
+* ECSx - An ECS framework for Elixir [[github](https://github.com/ecsx-framework/ECSx) ![ecsx-framework/ECSx](https://img.shields.io/github/stars/ecsx-framework/ECSx.svg?style=flat&label=Star&maxAge=86400)]
+
 #### Python
 
 * esper - A lightweight Entity System for Python [[github](https://github.com/benmoran56/esper) ![benmoran56/esper](https://img.shields.io/github/stars/benmoran56/esper.svg?style=flat&label=Star&maxAge=86400)]
