@@ -100,7 +100,7 @@
 
 ## Other Resources
 
-### Benchmark
+### Benchmarks
 
 * [ecs_benchmark](https://github.com/abeimler/ecs_benchmark): Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
 * [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark): Benchmarks of the main ECS Frameworks for C#
@@ -123,9 +123,13 @@
 * [Codestar 2018 ECS - A Different Approach to Game Development](https://www.youtube.com/watch?v=lt4eL4RSx7k)
 * [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc))
 
-### Book
+### Books
 
 * [Data-Oriented Design](http://www.dataorienteddesign.com/dodbook/)
+
+### Tutorials
+
+* [Starting a new 2D platformer with ECS](https://www.youtube.com/playlist?list=PLWtPciJ1UMuAoCq8NAw8J-n387U4QHFBW)
 
 ### Lists
 
