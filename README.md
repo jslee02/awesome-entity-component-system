@@ -109,6 +109,14 @@
 ### Blog Posts
 
 * [Data-oriented design](http://gamesfromwithin.com/category/data-oriented-design)
+* [ECS back and forth](https://skypjack.github.io/2019-02-14-ecs-baf-part-1/)
+* [Let's build an Entity Component System from scratch](https://devlog.hexops.com/2022/lets-build-ecs-part-1/)
+* [Entity Systems are the future of MMOG development](https://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/)
+* [Building an ECS](https://ajmmertens.medium.com/building-an-ecs-1-where-are-my-entities-and-components-63d07c7da742)
+* [Systems Interaction in Entity-Component-System (events)](https://medium.com/@ben.rasooli/systems-interaction-in-entity-component-system-events-4a050153c8ac)
+* [Overview of ECS variants & definitions](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
+* [Understand data-oriented design](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
+* [Unity ECS series](https://gametorrahod.com/tag/unity-ecs/)
 
 ### Talks & Slides
 
