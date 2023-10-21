@@ -33,13 +33,13 @@
 
 #### Common Lisp
 
-* beast - Basic Entity/Aspect/System Toolkit [[github](https://github.com/sjl/beast) ![sjl/beast](https://img.shields.io/github/stars/sjl/beast.svg?style=flat&label=Star&maxAge=86400)]
-* cl-ecs - An implementation of the Entity-Component-System pattern mostly used in game development [[github](https://github.com/bit-phlippers/cl-ecs) ![bit-phlippers/cl-ecs](https://img.shields.io/github/stars/bit-phlippers/cl-ecs.svg?style=flat&label=Star&maxAge=86400)]
-* cl-fast-ecs - Blazingly fast Entity-Component-System microframework [[gitlab](https://gitlab.com/lockie/cl-fast-ecs) ![lockie/cl-fast-ecs](https://img.shields.io/gitlab/stars/lockie/cl-fast-ecs.svg?style=flat&label=Star&maxAge=86400)]
+* __beast__ - Basic Entity/Aspect/System Toolkit [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sjl/beast) ![sjl/beast](https://img.shields.io/github/stars/sjl/beast.svg?style=flat&label=Star&maxAge=86400)
+* __cl-ecs__ - An implementation of the Entity-Component-System pattern mostly used in game development [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bit-phlippers/cl-ecs) ![bit-phlippers/cl-ecs](https://img.shields.io/github/stars/bit-phlippers/cl-ecs.svg?style=flat&label=Star&maxAge=86400)
+* __cl-fast-ecs__ - Blazingly fast Entity-Component-System microframework [![GitLab](https://img.shields.io/badge/GitLab-grey)](https://gitlab.com/lockie/cl-fast-ecs) ![lockie/cl-fast-ecs](https://img.shields.io/gitlab/stars/lockie/cl-fast-ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Dart
 
-* __Fast__ ECS - Simple and fast Entity-Component-System (ECS) library written in Dart. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/QiXi/fast_ecs) ![QiXi/fast_ecs](https://img.shields.io/github/stars/QiXi/fast_ecs.svg?style=flat&label=Star&maxAge=86400)
+* __Fast ECS__ - Simple and fast Entity-Component-System (ECS) library written in Dart. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/QiXi/fast_ecs) ![QiXi/fast_ecs](https://img.shields.io/github/stars/QiXi/fast_ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Elixir
 
