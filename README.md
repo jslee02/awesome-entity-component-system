@@ -41,8 +41,11 @@
 
 #### Rust
 
-* Shipyard - Entity Component System written in Rust [[github](https://github.com/leudz/shipyard) ![leudz/shipyard](https://img.shields.io/github/stars/leudz/shipyard.svg?style=flat&label=Star&maxAge=86400)]
-* Specs - Parallel entity component system written in Rust [[github](https://github.com/slide-rs/specs) ![slide-rs/specs](https://img.shields.io/github/stars/slide-rs/specs.svg?style=flat&label=Star&maxAge=86400)]
+* shipyard - Entity Component System written in Rust [[github](https://github.com/leudz/shipyard) ![leudz/shipyard](https://img.shields.io/github/stars/leudz/shipyard.svg?style=flat&label=Star&maxAge=86400)]
+* specs - Parallel entity component system written in Rust [[github](https://github.com/slide-rs/specs) ![slide-rs/specs](https://img.shields.io/github/stars/slide-rs/specs.svg?style=flat&label=Star&maxAge=86400)]
+* legion - High performance Rust ECS library [[github](https://github.com/amethyst/legion) ![amethyst/legion](https://img.shields.io/github/stars/amethyst/legion.svg?style=flat&label=Star&maxAge=86400)]
+* bevy_ecs - Simple to use, ergonomic, fast, massively parallel, opinionated, and featureful written in Rust [[github](https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs) ![bevyengine/bevy](https://img.shields.io/github/stars/bevyengine/bevy.svg?style=flat&label=Star&maxAge=86400)]
+* hecs - High-performance, minimalist entity-component-system [[github](https://github.com/Ralith/hecs) ![Ralith/hecs](https://img.shields.io/github/stars/Ralith/hecs.svg?style=flat&label=Star&maxAge=86400)]
 
 #### Go
 
