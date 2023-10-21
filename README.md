@@ -69,6 +69,11 @@
 * bitECS - Functional, minimal, data-oriented, ultra-high performance ECS library [[github](https://github.com/NateTheGreatt/bitECS) ![bitecs](https://img.shields.io/github/stars/NateTheGreatt/bitecs.svg?style=flat&label=Star&maxAge=86400)]
 * [ECSY](https://ecsy.io/) - Entity Component System for javascript [[github](https://github.com/ecsyjs/ecsy) ![ecsyjs/ecsy](https://img.shields.io/github/stars/ecsyjs/ecsy.svg?style=flat&label=Star&maxAge=86400)]
 
+#### Zig
+
+* mach-ecs - Entity Component System from first-principles designed for Zig [[github](https://github.com/hexops/mach-ecs) ![hexops/mach-ecs](https://img.shields.io/github/stars/hexops/mach-ecs.svg?style=flat&label=Star&maxAge=86400)]
+* Zig ECS - A Zig port of the fantasic Entt [[github](https://github.com/prime31/zig-ecs) ![prime31/zig-ecs](https://img.shields.io/github/stars/prime31/zig-ecs.svg?style=flat&label=Star&maxAge=86400)]
+
 ## Applications powered by ECS
 
 ### Game Engines
