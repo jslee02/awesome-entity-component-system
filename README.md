@@ -127,6 +127,7 @@
 * [Overview of ECS variants & definitions](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
 * [Understand data-oriented design](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
 * [Unity ECS series](https://gametorrahod.com/tag/unity-ecs/)
+* [Seba's Lab](https://www.sebaslab.com/)
 
 ### Talks & Slides
 
