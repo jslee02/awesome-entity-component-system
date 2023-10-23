@@ -60,6 +60,7 @@
 #### Go
 
 * __Arche__ - An archetype-based Entity Component System for Go [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/mlange-42/arche) ![mlange-42/arche](https://img.shields.io/github/stars/mlange-42/arche.svg?style=flat&label=Star&maxAge=86400)
+* __ecs__ - A Go-implementation of the Entity-Component-System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/ecs) ![EngoEngine/ecs](https://img.shields.io/github/stars/EngoEngine/ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Lua
 
@@ -97,6 +98,10 @@
 * __kengine__ - Game engine focused on ease-of-use, runtime extensibility and compile-time type safety [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)
 * __MxEngine__ - C++ open source 3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/asc-community/MxEngine) ![asc-community/MxEngine](https://img.shields.io/github/stars/asc-community/MxEngine.svg?style=flat&label=Star&maxAge=86400)
 * __nebula__ - Open-source and free-to-use modern C++ game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/gscept/nebula) ![gscept/nebula](https://img.shields.io/github/stars/gscept/nebula.svg?style=flat&label=Star&maxAge=86400)
+
+#### Go
+
+* __Engo__ - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/engo) ![EngoEngine/engo](https://img.shields.io/github/stars/EngoEngine/engo.svg?style=flat&label=Star&maxAge=86400)
 
 #### Rust
 
