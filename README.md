@@ -98,6 +98,7 @@
 * __kengine__ - Game engine focused on ease-of-use, runtime extensibility and compile-time type safety [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)
 * __MxEngine__ - C++ open source 3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/asc-community/MxEngine) ![asc-community/MxEngine](https://img.shields.io/github/stars/asc-community/MxEngine.svg?style=flat&label=Star&maxAge=86400)
 * __nebula__ - Open-source and free-to-use modern C++ game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/gscept/nebula) ![gscept/nebula](https://img.shields.io/github/stars/gscept/nebula.svg?style=flat&label=Star&maxAge=86400)
+* __halley__ - A lightweight game engine written in modern C++ [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amzeratul/halley) ![amzeratul/halley](https://img.shields.io/github/stars/amzeratul/halley.svg?style=flat&label=Star&maxAge=86400)
 
 #### Go
 
