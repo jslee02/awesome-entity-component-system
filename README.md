@@ -121,6 +121,12 @@
 * __bs::framework__ - Modern C++14 library for the development of real-time graphical applications [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/GameFoundry/bsf) ![GameFoundry/bsf](https://img.shields.io/github/stars/GameFoundry/bsf.svg?style=flat&label=Star&maxAge=86400)
 * __The Forge__ - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2 [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/ConfettiFX/The-Forge) ![ConfettiFX/The-Forge](https://img.shields.io/github/stars/ConfettiFX/The-Forge.svg?style=flat&label=Star&maxAge=86400)
 
+### Physics libraries
+
+#### C++
+
+* __edyn__ - A real-time physics engine organized as an ECS [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/xissburg/edyn) ![xissburg/edyn](https://img.shields.io/github/stars/xissburg/edyn.svg?style=flat&label=Star&maxAge=86400)
+
 ## Other Resources
 
 ### Benchmarks
