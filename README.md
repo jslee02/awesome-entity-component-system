@@ -70,10 +70,13 @@
 
 * __Artemis-odb__ - A continuation of the popular Artemis ECS framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/junkdog/artemis-odb) ![junkdog/artemis-odb](https://img.shields.io/github/stars/junkdog/artemis-odb.svg?style=flat&label=Star&maxAge=86400)
 
-#### JavaScript
+#### JavaScript / Typescript
 
+* __becsy__ - A multithreaded Entity Component System (ECS) for TypeScript and JavaScript, inspired by ECSY and bitecs. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LastOliveGames/becsy) ![bitecs](https://img.shields.io/github/stars/LastOliveGames/becsy.svg?style=flat&label=Star&maxAge=86400)
 * __bitECS__ - Functional, minimal, data-oriented, ultra-high performance ECS library [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/NateTheGreatt/bitECS) ![bitecs](https://img.shields.io/github/stars/NateTheGreatt/bitecs.svg?style=flat&label=Star&maxAge=86400)
 * __ECSY__ - Entity Component System for javascript [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/ecsyjs/ecsy) ![ecsyjs/ecsy](https://img.shields.io/github/stars/ecsyjs/ecsy.svg?style=flat&label=Star&maxAge=86400)
+* __miniplex__ - The gentle game entity manager, focused on ease of use and developer experience. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hmans/miniplex) ![miniplex](https://img.shields.io/github/stars/hmans/miniplex.svg?style=flat&label=Star&maxAge=86400)
+* __Thyseus__ - An archetypal Entity Component System, built entirely in Typescript [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/JaimeGensler/thyseus) ![miniplex](https://img.shields.io/github/stars/JaimeGensler/thyseus.svg?style=flat&label=Star&maxAge=86400)
 
 #### Zig
 
@@ -95,6 +98,7 @@
 
 #### Rust
 
+* __Ambient__ - The multiplayer game engine  [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/AmbientRun/Ambient) ![dbartolini/crown](https://img.shields.io/github/stars/AmbientRun/Ambient.svg?style=flat&label=Star&maxAge=86400)
 * __Amethyst__ - Data-oriented and data-driven game engine written in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)
 * __Bevy__ - A refreshingly simple data-driven game engine built in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bevyengine/bevy) ![bevyengine/bevy](https://img.shields.io/github/stars/bevyengine/bevy.svg?style=flat&label=Star&maxAge=86400)
 
