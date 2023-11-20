@@ -60,6 +60,7 @@
 #### Go
 
 * __Arche__ - An archetype-based Entity Component System for Go [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/mlange-42/arche) ![mlange-42/arche](https://img.shields.io/github/stars/mlange-42/arche.svg?style=flat&label=Star&maxAge=86400)
+* __ecs__ - A Go-implementation of the Entity-Component-System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/ecs) ![EngoEngine/ecs](https://img.shields.io/github/stars/EngoEngine/ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Lua
 
@@ -95,6 +96,17 @@
 * __shiva__ - Modern Cross-Platform C++ Engine with modularity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Milerius/shiva) ![Milerius/shiva](https://img.shields.io/github/stars/Milerius/shiva.svg?style=flat&label=Star&maxAge=86400)
 * __Sparky__ - Cross-Platform High Performance 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)
 * __Usagi__ - Hierarchical component entity system based game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)
+* __Lumos__ - Cross-Platform C++ 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jmorton06/Lumos) ![jmorton06/Lumos](https://img.shields.io/github/stars/jmorton06/Lumos.svg?style=flat&label=Star&maxAge=86400)
+* __supernova__ - Game engine for 2D and 3D projects with ECS and data-oriented design [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/supernovaengine/supernova) ![supernovaengine/supernova](https://img.shields.io/github/stars/supernovaengine/supernova.svg?style=flat&label=Star&maxAge=86400)
+* __kengine__ - Game engine focused on ease-of-use, runtime extensibility and compile-time type safety [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)
+* __MxEngine__ - C++ open source 3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/asc-community/MxEngine) ![asc-community/MxEngine](https://img.shields.io/github/stars/asc-community/MxEngine.svg?style=flat&label=Star&maxAge=86400)
+* __nebula__ - Open-source and free-to-use modern C++ game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/gscept/nebula) ![gscept/nebula](https://img.shields.io/github/stars/gscept/nebula.svg?style=flat&label=Star&maxAge=86400)
+* __halley__ - A lightweight game engine written in modern C++ [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amzeratul/halley) ![amzeratul/halley](https://img.shields.io/github/stars/amzeratul/halley.svg?style=flat&label=Star&maxAge=86400)
+* __Nazara Engine__ - Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network and more [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/NazaraEngine/NazaraEngine) ![NazaraEngine/NazaraEngine](https://img.shields.io/github/stars/NazaraEngine/NazaraEngine.svg?style=flat&label=Star&maxAge=86400)
+
+#### Go
+
+* __Engo__ - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/engo) ![EngoEngine/engo](https://img.shields.io/github/stars/EngoEngine/engo.svg?style=flat&label=Star&maxAge=86400)
 
 #### Rust
 
@@ -102,12 +114,22 @@
 * __Amethyst__ - Data-oriented and data-driven game engine written in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)
 * __Bevy__ - A refreshingly simple data-driven game engine built in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bevyengine/bevy) ![bevyengine/bevy](https://img.shields.io/github/stars/bevyengine/bevy.svg?style=flat&label=Star&maxAge=86400)
 
+#### Zig
+
+* __mach__ - Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach) ![hexops/mach](https://img.shields.io/github/stars/hexops/mach.svg?style=flat&label=Star&maxAge=86400)
+
 ### Graphics Engines
 
 #### C++
 
 * __bs::framework__ - Modern C++14 library for the development of real-time graphical applications [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/GameFoundry/bsf) ![GameFoundry/bsf](https://img.shields.io/github/stars/GameFoundry/bsf.svg?style=flat&label=Star&maxAge=86400)
 * __The Forge__ - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2 [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/ConfettiFX/The-Forge) ![ConfettiFX/The-Forge](https://img.shields.io/github/stars/ConfettiFX/The-Forge.svg?style=flat&label=Star&maxAge=86400)
+
+### Physics libraries
+
+#### C++
+
+* __edyn__ - A real-time physics engine organized as an ECS [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/xissburg/edyn) ![xissburg/edyn](https://img.shields.io/github/stars/xissburg/edyn.svg?style=flat&label=Star&maxAge=86400)
 
 ## Other Resources
 
@@ -128,6 +150,7 @@
 * [Overview of ECS variants & definitions](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
 * [Understand data-oriented design](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
 * [Unity ECS series](https://gametorrahod.com/tag/unity-ecs/)
+* [Seba's Lab](https://www.sebaslab.com/)
 
 ### Talks & Slides
 
