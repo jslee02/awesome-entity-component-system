@@ -111,6 +111,7 @@
 
 * __Amethyst__ - Data-oriented and data-driven game engine written in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)
 * __Bevy__ - A refreshingly simple data-driven game engine built in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bevyengine/bevy) ![bevyengine/bevy](https://img.shields.io/github/stars/bevyengine/bevy.svg?style=flat&label=Star&maxAge=86400)
+* __Bones__ - An easy-to-use game engine for making real games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/fishfolk/bones) ![fishfolk/bones](https://img.shields.io/github/stars/fishfolk/bones.svg?style=flat&label=Star&maxAge=86400)
 
 #### Zig
 
