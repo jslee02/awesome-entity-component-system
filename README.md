@@ -30,6 +30,7 @@
 * __Entitas__ - The Entity Component System Framework for C# and Unity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sschmid/Entitas) ![sschmid/Entitas](https://img.shields.io/github/stars/sschmid/Entitas.svg?style=flat&label=Star&maxAge=86400)
 * __LeoEcsLite__ - Lightweight C# Entity Component System framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LeoECSCommunity/ecslite) ![LeoECSCommunity/ecslite](https://img.shields.io/github/stars/LeoECSCommunity/ecslite.svg?style=flat&label=Star&maxAge=86400)
 * __Morpeh__ - ECS Framework for Unity Game Engine and .NET Platform [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/scellecs/morpeh) ![scellecs/morpeh](https://img.shields.io/github/stars/scellecs/morpeh.svg?style=flat&label=Star&maxAge=86400)
+* __Friflo Engine ECS__ - ECS for .NET with focus on performance, cache locality and DX [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/friflo/Friflo.Json.Fliox/tree/main/Engine) ![friflo/Friflo.Json.Fliox](https://img.shields.io/github/stars/friflo/Friflo.Json.Fliox.svg?style=flat&label=Star&maxAge=86400)
 
 #### Common Lisp
 
