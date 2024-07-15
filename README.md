@@ -144,7 +144,8 @@
 ### Benchmarks
 
 * [ecs_benchmark](https://github.com/abeimler/ecs_benchmark): Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
-* [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark): Benchmarks of the main ECS Frameworks for C#
+* [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark): Benchmarks of the main ECS Frameworks for: C#
+* [ECS C# Benchmark - Common uses-cases](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases): Benchmark many common use cases in the simplest and most performant variant
 * [CSharpECSComparison](https://github.com/Chillu1/CSharpECSComparison): Benchmarks of common ECS Frameworks for C#
 
 ### Blog Posts
