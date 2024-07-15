@@ -32,6 +32,8 @@
 * __ME.BECS__ - ECS for Unity with full game state automatic rollbacks [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/chromealex/ME.BECS) ![chromealex/ME.BECS](https://img.shields.io/github/stars/chromealex/ME.BECS.svg?style=flat&label=Star&maxAge=86400)
 * __Morpeh__ - ECS Framework for Unity Game Engine and .NET Platform [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/scellecs/morpeh) ![scellecs/morpeh](https://img.shields.io/github/stars/scellecs/morpeh.svg?style=flat&label=Star&maxAge=86400)
 * __Svelto.ECS__ - Lightweight data oriented entity component system framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)
+* __Fennecs__ - ... the tiny, tiny, high-energy Entity-Component System! [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/outfox/fennecs) ![outfox/fennecs](https://img.shields.io/github/stars/outfox/fennecs.svg?style=flat&label=Star&maxAge=86400)
+* __TinyEcs__ - A tiny bevy-like archetype-style ECS library for dotnet [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/andreakarasho/TinyEcs) ![andreakarasho/TinyEcs](https://img.shields.io/github/stars/andreakarasho/TinyEcs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Common Lisp
 
