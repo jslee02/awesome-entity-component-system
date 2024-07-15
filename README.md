@@ -122,10 +122,6 @@
 
 * __mach__ - Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach) ![hexops/mach](https://img.shields.io/github/stars/hexops/mach.svg?style=flat&label=Star&maxAge=86400)
 
-#### Zig
-
-* __mach__ - Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach) ![hexops/mach](https://img.shields.io/github/stars/hexops/mach.svg?style=flat&label=Star&maxAge=86400)
-
 ### Graphics Engines
 
 #### C++
