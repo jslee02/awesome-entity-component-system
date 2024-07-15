@@ -24,14 +24,14 @@
 
 #### C#
 
-* __DefaultEcs__ - ECS for syntax and usage simplicity with maximum performance [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Doraku/DefaultEcs) ![Doraku/DefaultEcs](https://img.shields.io/github/stars/Doraku/DefaultEcs.svg?style=flat&label=Star&maxAge=86400)
-* __Svelto.ECS__ - Lightweight data oriented entity component system framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)
 * __Arch__ - A high-performance Archetype & Chunks Entity Component System for game development and data-oriented programming [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/genaray/Arch) ![genaray/Arch](https://img.shields.io/github/stars/genaray/Arch.svg?style=flat&label=Star&maxAge=86400)
+* __DefaultEcs__ - ECS for syntax and usage simplicity with maximum performance [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Doraku/DefaultEcs) ![Doraku/DefaultEcs](https://img.shields.io/github/stars/Doraku/DefaultEcs.svg?style=flat&label=Star&maxAge=86400)
 * __Entitas__ - The Entity Component System Framework for C# and Unity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sschmid/Entitas) ![sschmid/Entitas](https://img.shields.io/github/stars/sschmid/Entitas.svg?style=flat&label=Star&maxAge=86400)
-* __LeoEcsLite__ - Lightweight C# Entity Component System framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LeoECSCommunity/ecslite) ![LeoECSCommunity/ecslite](https://img.shields.io/github/stars/LeoECSCommunity/ecslite.svg?style=flat&label=Star&maxAge=86400)
-* __Morpeh__ - ECS Framework for Unity Game Engine and .NET Platform [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/scellecs/morpeh) ![scellecs/morpeh](https://img.shields.io/github/stars/scellecs/morpeh.svg?style=flat&label=Star&maxAge=86400)
-* __ME.BECS__ - ECS for Unity with full game state automatic rollbacks [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/chromealex/ME.BECS) ![chromealex/ME.BECS](https://img.shields.io/github/stars/chromealex/ME.BECS.svg?style=flat&label=Star&maxAge=86400)
 * __Friflo Engine ECS__ - ECS for .NET with focus on performance, cache locality and DX [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/friflo/Friflo.Json.Fliox/tree/main/Engine) ![friflo/Friflo.Json.Fliox](https://img.shields.io/github/stars/friflo/Friflo.Json.Fliox.svg?style=flat&label=Star&maxAge=86400)
+* __LeoEcsLite__ - Lightweight C# Entity Component System framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LeoECSCommunity/ecslite) ![LeoECSCommunity/ecslite](https://img.shields.io/github/stars/LeoECSCommunity/ecslite.svg?style=flat&label=Star&maxAge=86400)
+* __ME.BECS__ - ECS for Unity with full game state automatic rollbacks [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/chromealex/ME.BECS) ![chromealex/ME.BECS](https://img.shields.io/github/stars/chromealex/ME.BECS.svg?style=flat&label=Star&maxAge=86400)
+* __Morpeh__ - ECS Framework for Unity Game Engine and .NET Platform [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/scellecs/morpeh) ![scellecs/morpeh](https://img.shields.io/github/stars/scellecs/morpeh.svg?style=flat&label=Star&maxAge=86400)
+* __Svelto.ECS__ - Lightweight data oriented entity component system framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)
 
 #### Common Lisp
 
@@ -73,10 +73,13 @@
 
 * __Artemis-odb__ - A continuation of the popular Artemis ECS framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/junkdog/artemis-odb) ![junkdog/artemis-odb](https://img.shields.io/github/stars/junkdog/artemis-odb.svg?style=flat&label=Star&maxAge=86400)
 
-#### JavaScript
+#### JavaScript / Typescript
 
+* __becsy__ - A multithreaded Entity Component System (ECS) for TypeScript and JavaScript, inspired by ECSY and bitecs. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LastOliveGames/becsy) ![bitecs](https://img.shields.io/github/stars/LastOliveGames/becsy.svg?style=flat&label=Star&maxAge=86400)
 * __bitECS__ - Functional, minimal, data-oriented, ultra-high performance ECS library [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/NateTheGreatt/bitECS) ![bitecs](https://img.shields.io/github/stars/NateTheGreatt/bitecs.svg?style=flat&label=Star&maxAge=86400)
 * __ECSY__ - Entity Component System for javascript [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/ecsyjs/ecsy) ![ecsyjs/ecsy](https://img.shields.io/github/stars/ecsyjs/ecsy.svg?style=flat&label=Star&maxAge=86400)
+* __miniplex__ - The gentle game entity manager, focused on ease of use and developer experience. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hmans/miniplex) ![miniplex](https://img.shields.io/github/stars/hmans/miniplex.svg?style=flat&label=Star&maxAge=86400)
+* __Thyseus__ - An archetypal Entity Component System, built entirely in Typescript [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/JaimeGensler/thyseus) ![miniplex](https://img.shields.io/github/stars/JaimeGensler/thyseus.svg?style=flat&label=Star&maxAge=86400)
 
 #### Zig
 
@@ -91,18 +94,18 @@
 
 * __crown__ - General purpose data-driven game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/dbartolini/crown) ![dbartolini/crown](https://img.shields.io/github/stars/dbartolini/crown.svg?style=flat&label=Star&maxAge=86400)
 * __Engine__ - Basic cross-platform 3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Shervanator/Engine) ![Shervanator/Engine](https://img.shields.io/github/stars/Shervanator/Engine.svg?style=flat&label=Star&maxAge=86400)
+* __halley__ - A lightweight game engine written in modern C++ [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amzeratul/halley) ![amzeratul/halley](https://img.shields.io/github/stars/amzeratul/halley.svg?style=flat&label=Star&maxAge=86400)
 * __igneous__ - Open source game engine written in C++ [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/MissingBitStudios/igneous) ![MissingBitStudios/igneous](https://img.shields.io/github/stars/MissingBitStudios/igneous.svg?style=flat&label=Star&maxAge=86400)
-* __shiva__ - Modern Cross-Platform C++ Engine with modularity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Milerius/shiva) ![Milerius/shiva](https://img.shields.io/github/stars/Milerius/shiva.svg?style=flat&label=Star&maxAge=86400)
-* __Sparky__ - Cross-Platform High Performance 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)
-* __Usagi__ - Hierarchical component entity system based game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)
-* __Lumos__ - Cross-Platform C++ 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jmorton06/Lumos) ![jmorton06/Lumos](https://img.shields.io/github/stars/jmorton06/Lumos.svg?style=flat&label=Star&maxAge=86400)
-* __supernova__ - Game engine for 2D and 3D projects with ECS and data-oriented design [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/supernovaengine/supernova) ![supernovaengine/supernova](https://img.shields.io/github/stars/supernovaengine/supernova.svg?style=flat&label=Star&maxAge=86400)
 * __kengine__ - Game engine focused on ease-of-use, runtime extensibility and compile-time type safety [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)
+* __Lina Engine__ - Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/inanevin/LinaEngine) ![inanevin/LinaEngine](https://img.shields.io/github/stars/inanevin/LinaEngine.svg?style=flat&label=Star&maxAge=86400)
+* __Lumos__ - Cross-Platform C++ 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jmorton06/Lumos) ![jmorton06/Lumos](https://img.shields.io/github/stars/jmorton06/Lumos.svg?style=flat&label=Star&maxAge=86400)
 * __MxEngine__ - C++ open source 3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/asc-community/MxEngine) ![asc-community/MxEngine](https://img.shields.io/github/stars/asc-community/MxEngine.svg?style=flat&label=Star&maxAge=86400)
 * __nebula__ - Open-source and free-to-use modern C++ game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/gscept/nebula) ![gscept/nebula](https://img.shields.io/github/stars/gscept/nebula.svg?style=flat&label=Star&maxAge=86400)
-* __halley__ - A lightweight game engine written in modern C++ [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amzeratul/halley) ![amzeratul/halley](https://img.shields.io/github/stars/amzeratul/halley.svg?style=flat&label=Star&maxAge=86400)
 * __Nazara Engine__ - Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network and more [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/NazaraEngine/NazaraEngine) ![NazaraEngine/NazaraEngine](https://img.shields.io/github/stars/NazaraEngine/NazaraEngine.svg?style=flat&label=Star&maxAge=86400)
-* __Lina Engine__ - Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/inanevin/LinaEngine) ![inanevin/LinaEngine](https://img.shields.io/github/stars/inanevin/LinaEngine.svg?style=flat&label=Star&maxAge=86400)
+* __shiva__ - Modern Cross-Platform C++ Engine with modularity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Milerius/shiva) ![Milerius/shiva](https://img.shields.io/github/stars/Milerius/shiva.svg?style=flat&label=Star&maxAge=86400)
+* __Sparky__ - Cross-Platform High Performance 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)
+* __supernova__ - Game engine for 2D and 3D projects with ECS and data-oriented design [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/supernovaengine/supernova) ![supernovaengine/supernova](https://img.shields.io/github/stars/supernovaengine/supernova.svg?style=flat&label=Star&maxAge=86400)
+* __Usagi__ - Hierarchical component entity system based game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)
 
 #### Go
 
@@ -110,9 +113,14 @@
 
 #### Rust
 
+* __Ambient__ - The multiplayer game engine  [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/AmbientRun/Ambient) ![dbartolini/crown](https://img.shields.io/github/stars/AmbientRun/Ambient.svg?style=flat&label=Star&maxAge=86400)
 * __Amethyst__ - Data-oriented and data-driven game engine written in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amethyst/amethyst) ![amethyst/amethyst](https://img.shields.io/github/stars/amethyst/amethyst.svg?style=flat&label=Star&maxAge=86400)
 * __Bevy__ - A refreshingly simple data-driven game engine built in Rust [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bevyengine/bevy) ![bevyengine/bevy](https://img.shields.io/github/stars/bevyengine/bevy.svg?style=flat&label=Star&maxAge=86400)
 * __Bones__ - An easy-to-use game engine for making real games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/fishfolk/bones) ![fishfolk/bones](https://img.shields.io/github/stars/fishfolk/bones.svg?style=flat&label=Star&maxAge=86400)
+
+#### Zig
+
+* __mach__ - Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach) ![hexops/mach](https://img.shields.io/github/stars/hexops/mach.svg?style=flat&label=Star&maxAge=86400)
 
 #### Zig
 
