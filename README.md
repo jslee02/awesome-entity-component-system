@@ -121,10 +121,6 @@
 
 * __Engo__ - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/engo) ![EngoEngine/engo](https://img.shields.io/github/stars/EngoEngine/engo.svg?style=flat&label=Star&maxAge=86400)
 
-#### Go
-
-* __Engo__ - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/engo) ![EngoEngine/engo](https://img.shields.io/github/stars/EngoEngine/engo.svg?style=flat&label=Star&maxAge=86400)
-
 #### Rust
 
 * __Ambient__ - The multiplayer game engine  [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/AmbientRun/Ambient) ![dbartolini/crown](https://img.shields.io/github/stars/AmbientRun/Ambient.svg?style=flat&label=Star&maxAge=86400)
