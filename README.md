@@ -32,6 +32,8 @@
 * __ME.BECS__ - ECS for Unity with full game state automatic rollbacks [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/chromealex/ME.BECS) ![chromealex/ME.BECS](https://img.shields.io/github/stars/chromealex/ME.BECS.svg?style=flat&label=Star&maxAge=86400)
 * __Morpeh__ - ECS Framework for Unity Game Engine and .NET Platform [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/scellecs/morpeh) ![scellecs/morpeh](https://img.shields.io/github/stars/scellecs/morpeh.svg?style=flat&label=Star&maxAge=86400)
 * __Svelto.ECS__ - Lightweight data oriented entity component system framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)
+* __Fennecs__ - ... the tiny, tiny, high-energy Entity-Component System! [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/outfox/fennecs) ![outfox/fennecs](https://img.shields.io/github/stars/outfox/fennecs.svg?style=flat&label=Star&maxAge=86400)
+* __TinyEcs__ - A tiny bevy-like archetype-style ECS library for dotnet [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/andreakarasho/TinyEcs) ![andreakarasho/TinyEcs](https://img.shields.io/github/stars/andreakarasho/TinyEcs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Common Lisp
 
@@ -106,6 +108,14 @@
 * __Sparky__ - Cross-Platform High Performance 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/TheCherno/Sparky) ![TheCherno/Sparky](https://img.shields.io/github/stars/TheCherno/Sparky.svg?style=flat&label=Star&maxAge=86400)
 * __supernova__ - Game engine for 2D and 3D projects with ECS and data-oriented design [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/supernovaengine/supernova) ![supernovaengine/supernova](https://img.shields.io/github/stars/supernovaengine/supernova.svg?style=flat&label=Star&maxAge=86400)
 * __Usagi__ - Hierarchical component entity system based game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/vitei/Usagi) ![vitei/Usagi](https://img.shields.io/github/stars/vitei/Usagi.svg?style=flat&label=Star&maxAge=86400)
+* __Lumos__ - Cross-Platform C++ 2D/3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jmorton06/Lumos) ![jmorton06/Lumos](https://img.shields.io/github/stars/jmorton06/Lumos.svg?style=flat&label=Star&maxAge=86400)
+* __supernova__ - Game engine for 2D and 3D projects with ECS and data-oriented design [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/supernovaengine/supernova) ![supernovaengine/supernova](https://img.shields.io/github/stars/supernovaengine/supernova.svg?style=flat&label=Star&maxAge=86400)
+* __kengine__ - Game engine focused on ease-of-use, runtime extensibility and compile-time type safety [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/phisko/kengine) ![phisko/kengine](https://img.shields.io/github/stars/phisko/kengine.svg?style=flat&label=Star&maxAge=86400)
+* __MxEngine__ - C++ open source 3D game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/asc-community/MxEngine) ![asc-community/MxEngine](https://img.shields.io/github/stars/asc-community/MxEngine.svg?style=flat&label=Star&maxAge=86400)
+* __nebula__ - Open-source and free-to-use modern C++ game engine [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/gscept/nebula) ![gscept/nebula](https://img.shields.io/github/stars/gscept/nebula.svg?style=flat&label=Star&maxAge=86400)
+* __halley__ - A lightweight game engine written in modern C++ [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/amzeratul/halley) ![amzeratul/halley](https://img.shields.io/github/stars/amzeratul/halley.svg?style=flat&label=Star&maxAge=86400)
+* __Nazara Engine__ - Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network and more [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/NazaraEngine/NazaraEngine) ![NazaraEngine/NazaraEngine](https://img.shields.io/github/stars/NazaraEngine/NazaraEngine.svg?style=flat&label=Star&maxAge=86400)
+* __Lina Engine__ - Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/inanevin/LinaEngine) ![inanevin/LinaEngine](https://img.shields.io/github/stars/inanevin/LinaEngine.svg?style=flat&label=Star&maxAge=86400)
 
 #### Go
 
