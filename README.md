@@ -76,6 +76,10 @@
 
 * __Artemis-odb__ - A continuation of the popular Artemis ECS framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/junkdog/artemis-odb) ![junkdog/artemis-odb](https://img.shields.io/github/stars/junkdog/artemis-odb.svg?style=flat&label=Star&maxAge=86400)
 
+#### Kotlin
+
+* __Fleks__ -  Fast, lightweight, multi-platform entity component system in Kotlin [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Quillraven/Fleks) ![Quillraven/Fleks](https://img.shields.io/github/stars/Quillraven/Fleks.svg?style=flat&label=Star&maxAge=86400)
+
 #### JavaScript / Typescript
 
 * __becsy__ - A multithreaded Entity Component System (ECS) for TypeScript and JavaScript, inspired by ECSY and bitecs. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LastOliveGames/becsy) ![bitecs](https://img.shields.io/github/stars/LastOliveGames/becsy.svg?style=flat&label=Star&maxAge=86400)
