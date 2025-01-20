@@ -93,6 +93,10 @@
 * __mach-ecs__ - Entity Component System from first-principles designed for Zig [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach-ecs) ![hexops/mach-ecs](https://img.shields.io/github/stars/hexops/mach-ecs.svg?style=flat&label=Star&maxAge=86400)
 * __Zig ECS__ - A Zig port of the fantasic Entt [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/prime31/zig-ecs) ![prime31/zig-ecs](https://img.shields.io/github/stars/prime31/zig-ecs.svg?style=flat&label=Star&maxAge=86400)
 
+#### Haskell
+
+* __apecs__ - A fast, extensible, type driven Haskell ECS framework for games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jonascarpay/apecs) ![jonascarpay/apecs](https://img.shields.io/github/stars/jonascarpay/apecs.svg?style=flat&label=Star&maxAge=86400)
+
 ## Applications powered by ECS
 
 ### Game Engines
