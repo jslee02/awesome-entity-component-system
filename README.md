@@ -95,7 +95,7 @@
 
 #### Haskell
 
-* __apecs__ - a fast, extensible, type driven Haskell ECS framework for games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jonascarpay/apecs) ![jonascarpay/apecs](https://img.shields.io/github/stars/jonascarpay/apecs.svg?style=flat&label=Star&maxAge=86400)
+* __apecs__ - A fast, extensible, type driven Haskell ECS framework for games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jonascarpay/apecs) ![jonascarpay/apecs](https://img.shields.io/github/stars/jonascarpay/apecs.svg?style=flat&label=Star&maxAge=86400)
 
 ## Applications powered by ECS
 
