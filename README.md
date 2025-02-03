@@ -69,7 +69,9 @@
 
 #### Lua
 
-* __ECS__ Lua - A fast and easy to use ECS engine for game development [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/nidorx/ecs-lua) ![nidorx/ecs-lua](https://img.shields.io/github/stars/nidorx/ecs-lua.svg?style=flat&label=Star&maxAge=86400)
+* __Concord__ - A feature-complete ECS library [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Keyslam-Group/Concord) ![Keyslam-Group/Concord](https://img.shields.io/github/stars/Keyslam-Group/Concord.svg?style=flat&label=Star&maxAge=86400)
+* __ECS Lua__ - A fast and easy to use ECS engine for game development [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/nidorx/ecs-lua) ![nidorx/ecs-lua](https://img.shields.io/github/stars/nidorx/ecs-lua.svg?style=flat&label=Star&maxAge=86400)
+* __Nata__ - Entity management for Lua [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/tesselode/nata) ![tesselode/nata](https://img.shields.io/github/stars/tesselode/nata.svg?style=flat&label=Star&maxAge=86400)
 * __tiny-ecs__ - Entity Component System for Lua that's simple, flexible, and useful [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bakpakin/tiny-ecs) ![bakpakin/tiny-ecs](https://img.shields.io/github/stars/bakpakin/tiny-ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Java
@@ -162,6 +164,7 @@
 * [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark): Benchmarks of the main ECS Frameworks for: C#
 * [ECS C# Benchmark - Common uses-cases](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases): Benchmark many common use cases in the simplest and most performant variant
 * [CSharpECSComparison](https://github.com/Chillu1/CSharpECSComparison): Benchmarks of common ECS Frameworks for C#
+* [Lua ECS Library Benchmark](https://github.com/jeffzi/lua-ecs-benchmark): Benchmarks of common ECS Frameworks in Lua
 
 ### Blog Posts
 
