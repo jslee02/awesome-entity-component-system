@@ -65,7 +65,7 @@
 
 #### Go
 
-* __Arche__ - An archetype-based Entity Component System for Go [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/mlange-42/arche) ![mlange-42/arche](https://img.shields.io/github/stars/mlange-42/arche.svg?style=flat&label=Star&maxAge=86400)
+* __Ark__ - An archetype-based Entity Component System for Go [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/mlange-42/ark) ![mlange-42/ark](https://img.shields.io/github/stars/mlange-42/ark.svg?style=flat&label=Star&maxAge=86400)
 * __ecs__ - A Go-implementation of the Entity-Component-System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/ecs) ![EngoEngine/ecs](https://img.shields.io/github/stars/EngoEngine/ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Lua
