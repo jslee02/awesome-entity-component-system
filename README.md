@@ -21,6 +21,7 @@
 * __matter__ - C++17/20 ECS implementation [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Dreyri/matter) ![Dreyri/matter](https://img.shields.io/github/stars/Dreyri/matter.svg?style=flat&label=Star&maxAge=86400)
 * __mustache__ - A fast, modern C++ entity component system [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/kirillochnev/mustache) ![kirillochnev/mustache](https://img.shields.io/github/stars/kirillochnev/mustache.svg?style=flat&label=Star&maxAge=86400)
 * __pico_ecs__ - Single-header and cross-platform ECS [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/empyreanx/pico_headers) ![empyreanx/pico_headers](https://img.shields.io/github/stars/empyreanx/pico_headers.svg?style=flat&label=Star&maxAge=86400)
+* __WickedEngine's ECS__ - WickedEngine's ECS implementation [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/turanszkij/WickedEngine/blob/master/WickedEngine/wiECS.h) ![turanszkij/WickedEngine](https://img.shields.io/github/stars/turanszkij/WickedEngine.svg?style=flat&label=Star&maxAge=86400)
 
 #### C#
 
@@ -96,6 +97,9 @@
 
 * __mach-ecs__ - Entity Component System from first-principles designed for Zig [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach-ecs) ![hexops/mach-ecs](https://img.shields.io/github/stars/hexops/mach-ecs.svg?style=flat&label=Star&maxAge=86400)
 * __Zig ECS__ - A Zig port of the fantasic Entt [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/prime31/zig-ecs) ![prime31/zig-ecs](https://img.shields.io/github/stars/prime31/zig-ecs.svg?style=flat&label=Star&maxAge=86400)
+* __ZCS__ - An archetype based entity component system written in Zig [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Games-by-Mason/ZCS) ![Games-by-Mason/ZCS](https://img.shields.io/github/stars/Games-by-Mason/ZCS.svg?style=flat&label=Star&maxAge=86400)
+* __knoedel__ - Data oriented application framework written in Zig (ECS)  [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Lommix/knoedel) ![Lommix/knoedel](https://img.shields.io/github/stars/Lommix/knoedel.svg?style=flat&label=Star&maxAge=86400)
+* __Comptime ECS__ - Comptime-defined ECS implementation in Zig  [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Very-Blank/Ecs) ![Very-Blank/Ecs](https://img.shields.io/github/stars/Very-Blank/Ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Haskell
 
@@ -180,6 +184,7 @@
 * [Understand data-oriented design](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
 * [Unity ECS series](https://gametorrahod.com/tag/unity-ecs/)
 * [Seba's Lab](https://www.sebaslab.com/)
+* [WickedEngine's ECS implementation](https://wickedengine.net/2019/09/entity-component-system/)
 
 ### Talks & Slides
 
