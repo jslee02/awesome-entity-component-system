@@ -26,7 +26,9 @@
 
 * __Arch__ - A high-performance Archetype & Chunks Entity Component System for game development and data-oriented programming [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/genaray/Arch) ![genaray/Arch](https://img.shields.io/github/stars/genaray/Arch.svg?style=flat&label=Star&maxAge=86400)
 * __DefaultEcs__ - ECS for syntax and usage simplicity with maximum performance [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Doraku/DefaultEcs) ![Doraku/DefaultEcs](https://img.shields.io/github/stars/Doraku/DefaultEcs.svg?style=flat&label=Star&maxAge=86400)
+* __DragonECS__ - ECS for Unity and .NET [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/DCFApixels/DragonECS) ![DCFApixels/DragonECS](https://img.shields.io/github/stars/DCFApixels/DragonECS.svg?style=flat&label=Star&maxAge=86400)
 * __Entitas__ - The Entity Component System Framework for C# and Unity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sschmid/Entitas) ![sschmid/Entitas](https://img.shields.io/github/stars/sschmid/Entitas.svg?style=flat&label=Star&maxAge=86400)
+* __Frent__ - Data oriented ECF with an ECS api for C#, Godot, and Unity [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/itsBuggingMe/Frent) ![sschmid/Entitas](https://img.shields.io/github/stars/itsBuggingMe/Frent.svg?style=flat&label=Star&maxAge=86400)
 * __Friflo Engine ECS__ - ECS for .NET with focus on performance, cache locality and DX [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/friflo/Friflo.Json.Fliox/tree/main/Engine) ![friflo/Friflo.Json.Fliox](https://img.shields.io/github/stars/friflo/Friflo.Json.Fliox.svg?style=flat&label=Star&maxAge=86400)
 * __LeoEcsLite__ - Lightweight C# Entity Component System framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/LeoECSCommunity/ecslite) ![LeoECSCommunity/ecslite](https://img.shields.io/github/stars/LeoECSCommunity/ecslite.svg?style=flat&label=Star&maxAge=86400)
 * __ME.BECS__ - ECS for Unity with full game state automatic rollbacks [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/chromealex/ME.BECS) ![chromealex/ME.BECS](https://img.shields.io/github/stars/chromealex/ME.BECS.svg?style=flat&label=Star&maxAge=86400)
@@ -63,17 +65,24 @@
 
 #### Go
 
-* __Arche__ - An archetype-based Entity Component System for Go [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/mlange-42/arche) ![mlange-42/arche](https://img.shields.io/github/stars/mlange-42/arche.svg?style=flat&label=Star&maxAge=86400)
+* __Ark__ - An archetype-based Entity Component System for Go [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/mlange-42/ark) ![mlange-42/ark](https://img.shields.io/github/stars/mlange-42/ark.svg?style=flat&label=Star&maxAge=86400)
 * __ecs__ - A Go-implementation of the Entity-Component-System paradigm [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/EngoEngine/ecs) ![EngoEngine/ecs](https://img.shields.io/github/stars/EngoEngine/ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Lua
 
-* __ECS__ Lua - A fast and easy to use ECS engine for game development [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/nidorx/ecs-lua) ![nidorx/ecs-lua](https://img.shields.io/github/stars/nidorx/ecs-lua.svg?style=flat&label=Star&maxAge=86400)
+* __Concord__ - A feature-complete ECS library [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Keyslam-Group/Concord) ![Keyslam-Group/Concord](https://img.shields.io/github/stars/Keyslam-Group/Concord.svg?style=flat&label=Star&maxAge=86400)
+* __ECS Lua__ - A fast and easy to use ECS engine for game development [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/nidorx/ecs-lua) ![nidorx/ecs-lua](https://img.shields.io/github/stars/nidorx/ecs-lua.svg?style=flat&label=Star&maxAge=86400)
+* __evolved.lua__ - Evolved ECS (Entity-Component-System) for Lua [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/BlackMATov/evolved.lua) ![BlackMATov/evolved.lua](https://img.shields.io/github/stars/BlackMATov/evolved.lua.svg?style=flat&label=Star&maxAge=86400)
+* __Nata__ - Entity management for Lua [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/tesselode/nata) ![tesselode/nata](https://img.shields.io/github/stars/tesselode/nata.svg?style=flat&label=Star&maxAge=86400)
 * __tiny-ecs__ - Entity Component System for Lua that's simple, flexible, and useful [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/bakpakin/tiny-ecs) ![bakpakin/tiny-ecs](https://img.shields.io/github/stars/bakpakin/tiny-ecs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Java
 
 * __Artemis-odb__ - A continuation of the popular Artemis ECS framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/junkdog/artemis-odb) ![junkdog/artemis-odb](https://img.shields.io/github/stars/junkdog/artemis-odb.svg?style=flat&label=Star&maxAge=86400)
+
+#### Kotlin
+
+* __Fleks__ -  Fast, lightweight, multi-platform entity component system in Kotlin [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Quillraven/Fleks) ![Quillraven/Fleks](https://img.shields.io/github/stars/Quillraven/Fleks.svg?style=flat&label=Star&maxAge=86400)
 
 #### JavaScript / Typescript
 
@@ -87,6 +96,10 @@
 
 * __mach-ecs__ - Entity Component System from first-principles designed for Zig [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/hexops/mach-ecs) ![hexops/mach-ecs](https://img.shields.io/github/stars/hexops/mach-ecs.svg?style=flat&label=Star&maxAge=86400)
 * __Zig ECS__ - A Zig port of the fantasic Entt [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/prime31/zig-ecs) ![prime31/zig-ecs](https://img.shields.io/github/stars/prime31/zig-ecs.svg?style=flat&label=Star&maxAge=86400)
+
+#### Haskell
+
+* __apecs__ - A fast, extensible, type driven Haskell ECS framework for games [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/jonascarpay/apecs) ![jonascarpay/apecs](https://img.shields.io/github/stars/jonascarpay/apecs.svg?style=flat&label=Star&maxAge=86400)
 
 ## Applications powered by ECS
 
@@ -153,6 +166,7 @@
 * [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark): Benchmarks of the main ECS Frameworks for: C#
 * [ECS C# Benchmark - Common uses-cases](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases): Benchmark many common use cases in the simplest and most performant variant
 * [CSharpECSComparison](https://github.com/Chillu1/CSharpECSComparison): Benchmarks of common ECS Frameworks for C#
+* [Lua ECS Library Benchmark](https://github.com/jeffzi/lua-ecs-benchmark): Benchmarks of common ECS Frameworks in Lua
 
 ### Blog Posts
 
