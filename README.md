@@ -37,6 +37,8 @@
 * __Svelto.ECS__ - Lightweight data oriented entity component system framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/sebas77/Svelto.ECS) ![sebas77/Svelto.ECS](https://img.shields.io/github/stars/sebas77/Svelto.ECS.svg?style=flat&label=Star&maxAge=86400)
 * __Fennecs__ - ... the tiny, tiny, high-energy Entity-Component System! [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/outfox/fennecs) ![outfox/fennecs](https://img.shields.io/github/stars/outfox/fennecs.svg?style=flat&label=Star&maxAge=86400)
 * __TinyEcs__ - A tiny bevy-like archetype-style ECS library for dotnet [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/andreakarasho/TinyEcs) ![andreakarasho/TinyEcs](https://img.shields.io/github/stars/andreakarasho/TinyEcs.svg?style=flat&label=Star&maxAge=86400)
+* __Massive ECS__ - Bitset-based ECS with rollbacks. C# library and Unity package. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/nilpunch/massive-ecs) ![nilpunch/massive-ecs](https://img.shields.io/github/stars/nilpunch/massive-ecs.svg?style=flat&label=Star&maxAge=86400)
+* __Static ECS__ - C# Hierarchical Inverted Bitmap ECS framework [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/Felid-Force-Studios/StaticEcs) ![Felid-Force-Studios/StaticEcs](https://img.shields.io/github/stars/Felid-Force-Studios/StaticEcs.svg?style=flat&label=Star&maxAge=86400)
 
 #### Common Lisp
 
