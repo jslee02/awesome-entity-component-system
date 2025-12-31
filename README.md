@@ -85,7 +85,7 @@
 
 #### Julia
 
-* __Ark.jl__ - Ark.jl is an archetype-based Entity Component System (ECS) for Julia. It is a port of the Go ECS Ark. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/ark-ecs/Ark.jl) ![ark-ecs/Ark.jl](https://img.shields.io/github/stars/ark-ecs/Ark.jl.svg?style=flat&label=Star&maxAge=86400)
+* __Ark.jl__ - An archetype-based Entity Component System (ECS) for Julia. It is a port of the Go ECS Ark. [![GitHub](https://img.shields.io/badge/GitHub-grey)](https://github.com/ark-ecs/Ark.jl) ![ark-ecs/Ark.jl](https://img.shields.io/github/stars/ark-ecs/Ark.jl.svg?style=flat&label=Star&maxAge=86400)
 
 #### Kotlin
 
