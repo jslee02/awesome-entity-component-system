@@ -1,0 +1,10 @@
+max_concurrency = 16
+max_retries = 3
+timeout = 30
+accept = [200, 429]
+exclude = [
+  "img\\.shields\\.io",
+  "youtu\\.be",
+  "youtube\\.com",
+  "t-machine\\.org",
+]
