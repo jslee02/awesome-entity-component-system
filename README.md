@@ -259,7 +259,7 @@ _Other ECS-related resources._
 
 ## [Contributing](#contents)
 
-Contributions are very welcome! Please read the [contribution guidelines](https://github.com/jslee02/awesome-entity-component-system/blob/main/CONTRIBUTING.md) first. Also, please feel free to report any error.
+Contributions are very welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. Also, please feel free to report any error.
 
 ## [License](#contents)
 

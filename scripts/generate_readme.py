@@ -266,7 +266,7 @@ def generate_readme() -> str:
     lines.append("## [Contributing](#contents)")
     lines.append("")
     lines.append(
-        "Contributions are very welcome! Please read the [contribution guidelines](https://github.com/jslee02/awesome-entity-component-system/blob/main/CONTRIBUTING.md) first. Also, please feel free to report any error."
+        "Contributions are very welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. Also, please feel free to report any error."
     )
     lines.append("")
     lines.append("## [License](#contents)")
