@@ -222,6 +222,14 @@ def render_section(section_id: str, title: str, level: int, _kind: str) -> list[
             for entry in sort_entries(items):
                 lines.append(render_library_entry(entry))
             lines.append("")
+        known = set(subsections)
+        other = [e for key, es in grouped.items() for e in es if key not in known]
+        if other:
+            lines.append("#### Other")
+            lines.append("")
+            for entry in sort_entries(other):
+                lines.append(render_library_entry(entry))
+            lines.append("")
     else:
         for entry in entries:
             if section_id == "benchmarks":
