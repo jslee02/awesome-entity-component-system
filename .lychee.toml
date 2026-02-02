@@ -1,10 +1,16 @@
-max_concurrency = 16
 max_retries = 3
-timeout = 30
-accept = [200, 429]
+max_concurrency = 20
+timeout = 20
+retry_wait_time = 5
+user_agent = "Mozilla/5.0 (compatible; lychee-link-checker/0.21; +https://github.com/lycheeverse/lychee)"
+accept = [200, 403, 429]
+
 exclude = [
-  "img\\.shields\\.io",
-  "youtu\\.be",
-  "youtube\\.com",
-  "t-machine\\.org",
+  "^https://img\\.shields\\.io",
+  "^https://licensebuttons\\.net",
+  "^https?://youtu\\.be",
+  "^https?://youtube\\.com",
+  "^https?://www\\.youtube\\.com",
+  "^https?://t-machine\\.org",
+  "^https?://entity-systems\\.wikidot\\.com",
 ]
