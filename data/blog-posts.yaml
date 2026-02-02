@@ -1,0 +1,22 @@
+- name: Data-oriented design
+  url: http://gamesfromwithin.com/category/data-oriented-design
+- name: ECS back and forth
+  url: https://skypjack.github.io/2019-02-14-ecs-baf-part-1/
+- name: Let's build an Entity Component System from scratch
+  url: https://devlog.hexops.com/2022/lets-build-ecs-part-1/
+- name: Entity Systems are the future of MMOG development
+  url: https://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/
+- name: Building an ECS
+  url: https://ajmmertens.medium.com/building-an-ecs-1-where-are-my-entities-and-components-63d07c7da742
+- name: Systems Interaction in Entity-Component-System (events)
+  url: https://medium.com/@ben.rasooli/systems-interaction-in-entity-component-system-events-4a050153c8ac
+- name: Overview of ECS variants & definitions
+  url: https://gist.github.com/LearnCocos2D/77f0ced228292676689f
+- name: Understand data-oriented design
+  url: https://learn.unity.com/tutorial/part-1-understand-data-oriented-design
+- name: Unity ECS series
+  url: https://gametorrahod.com/tag/unity-dots/
+- name: "Seba's Lab"
+  url: https://www.sebaslab.com/
+- name: WickedEngine's ECS implementation
+  url: https://wickedengine.net/2019/09/entity-component-system/

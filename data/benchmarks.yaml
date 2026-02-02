@@ -1,0 +1,20 @@
+- name: ecs_benchmark
+  url: https://github.com/abeimler/ecs_benchmark
+  description: Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
+  github: abeimler/ecs_benchmark
+- name: ECS C# Benchmark
+  url: https://github.com/Doraku/Ecs.CSharp.Benchmark
+  description: "Benchmarks of the main ECS Frameworks for: C#"
+  github: Doraku/Ecs.CSharp.Benchmark
+- name: ECS C# Benchmark - Common uses-cases
+  url: https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases
+  description: Benchmark many common use cases in the simplest and most performant variant
+  github: friflo/ECS.CSharp.Benchmark-common-use-cases
+- name: CSharpECSComparison
+  url: https://github.com/Chillu1/CSharpECSComparison
+  description: Benchmarks of common ECS Frameworks for C#
+  github: Chillu1/CSharpECSComparison
+- name: Lua ECS Library Benchmark
+  url: https://github.com/jeffzi/lua-ecs-benchmark
+  description: Benchmarks of common ECS Frameworks in Lua
+  github: jeffzi/lua-ecs-benchmark

@@ -1,0 +1,21 @@
+- name: "itCppCon19: ECS back and forth"
+  url: https://youtu.be/WB5bRKKGRUk
+- name: "GDC 2018: Unity at GDC - A Data Oriented Approach to Using Component Systems"
+  url: https://youtu.be/p65Yt20pw0g
+- name: "Meeting C++ 2018: Data oriented design in practice"
+  url: https://youtu.be/NWMx1Q66c14
+- name: "CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”"
+  url: https://youtu.be/yy8jQgmhbAU
+- name: Data Oriented Design Resources
+  url: http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf
+- name: Data Oriented GUI in Rust
+  url: https://www.youtube.com/watch?v=4YTfxresvS8
+- name: Is There More to Game Architecture than ECS
+  url: https://www.youtube.com/watch?v=JxI3Eu5DPwE
+  description: Bob Nystrom (Roguelike Celebration 2018)
+- name: "Unite 2018: C# Job System + ECS usage and demo with Intel"
+  url: https://www.youtube.com/watch?v=fp1D45hhVEM
+- name: Codestar 2018 ECS - A Different Approach to Game Development
+  url: https://www.youtube.com/watch?v=lt4eL4RSx7k
+- name: 'CppCon 2014: Mike Acton "Data-Oriented Design and C++"'
+  url: https://youtu.be/rX0ItVEVjHc
