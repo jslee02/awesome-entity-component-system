@@ -1,0 +1,10 @@
+- name: bs::framework
+  description: Modern C++14 library for the development of real-time graphical applications
+  url: https://github.com/GameFoundry/bsf
+  github: GameFoundry/bsf
+  _subsection: C++
+- name: The Forge
+  description: Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2
+  url: https://github.com/ConfettiFX/The-Forge
+  github: ConfettiFX/The-Forge
+  _subsection: C++

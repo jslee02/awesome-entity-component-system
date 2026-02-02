@@ -1,0 +1,5 @@
+- name: edyn
+  description: A real-time physics engine organized as an ECS
+  url: https://github.com/xissburg/edyn
+  github: xissburg/edyn
+  _subsection: C++

@@ -1,0 +1,105 @@
+- name: crown
+  description: General purpose data-driven game engine
+  url: https://github.com/dbartolini/crown
+  github: dbartolini/crown
+  _subsection: C++
+- name: Engine
+  description: Basic cross-platform 3D game engine
+  url: https://github.com/Shervanator/Engine
+  github: Shervanator/Engine
+  _subsection: C++
+- name: halley
+  description: A lightweight game engine written in modern C++
+  url: https://github.com/amzeratul/halley
+  github: amzeratul/halley
+  _subsection: C++
+- name: igneous
+  description: Open source game engine written in C++
+  url: https://github.com/MissingBitStudios/igneous
+  github: MissingBitStudios/igneous
+  _subsection: C++
+- name: kengine
+  description: Game engine focused on ease-of-use, runtime extensibility and compile-time type safety
+  url: https://github.com/phisko/kengine
+  github: phisko/kengine
+  _subsection: C++
+- name: Lina Engine
+  description: Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games
+  url: https://github.com/inanevin/LinaEngine
+  github: inanevin/LinaEngine
+  _subsection: C++
+- name: Lumos
+  description: Cross-Platform C++ 2D/3D game engine
+  url: https://github.com/jmorton06/Lumos
+  github: jmorton06/Lumos
+  _subsection: C++
+- name: MxEngine
+  description: C++ open source 3D game engine
+  url: https://github.com/asc-community/MxEngine
+  github: asc-community/MxEngine
+  _subsection: C++
+- name: nebula
+  description: Open-source and free-to-use modern C++ game engine
+  url: https://github.com/gscept/nebula
+  github: gscept/nebula
+  _subsection: C++
+- name: Nazara Engine
+  description: Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network and more
+  url: https://github.com/NazaraEngine/NazaraEngine
+  github: NazaraEngine/NazaraEngine
+  _subsection: C++
+- name: shiva
+  description: Modern Cross-Platform C++ Engine with modularity
+  url: https://github.com/Milerius/shiva
+  github: Milerius/shiva
+  _subsection: C++
+- name: Sparky
+  description: Cross-Platform High Performance 2D/3D game engine
+  url: https://github.com/TheCherno/Sparky
+  github: TheCherno/Sparky
+  _subsection: C++
+- name: supernova
+  description: Game engine for 2D and 3D projects with ECS and data-oriented design
+  url: https://github.com/supernovaengine/supernova
+  github: supernovaengine/supernova
+  _subsection: C++
+- name: Usagi
+  description: Hierarchical component entity system based game engine
+  url: https://github.com/vitei/Usagi
+  github: vitei/Usagi
+  _subsection: C++
+- name: WickedEngine
+  description: 3D engine with modern graphics
+  url: https://github.com/turanszkij/WickedEngine
+  github: turanszkij/WickedEngine
+  _subsection: C++
+- name: Engo
+  description: A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm
+  url: https://github.com/EngoEngine/engo
+  github: EngoEngine/engo
+  _subsection: Go
+- name: Ambient
+  description: The multiplayer game engine
+  url: https://github.com/AmbientRun/Ambient
+  github: AmbientRun/Ambient
+  _subsection: Rust
+- name: Amethyst
+  description: Data-oriented and data-driven game engine written in Rust
+  url: https://github.com/amethyst/amethyst
+  github: amethyst/amethyst
+  _subsection: Rust
+- name: Bevy
+  description: A refreshingly simple data-driven game engine built in Rust
+  url: https://github.com/bevyengine/bevy
+  github: bevyengine/bevy
+  _subsection: Rust
+- name: Bones
+  description: An easy-to-use game engine for making real games
+  url: https://github.com/fishfolk/bones
+  github: fishfolk/bones
+  _subsection: Rust
+- name: mach
+  description: Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games, visualizations, and desktop/mobile GUI apps
+  url: https://github.com/hexops/mach
+  github: hexops/mach
+  _subsection: Zig
