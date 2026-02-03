@@ -1,0 +1,4 @@
+- name: Entity Systems Wiki
+  url: http://entity-systems.wikidot.com/
+- name: Entity Component Systems FAQ
+  url: https://github.com/SanderMertens/ecs-faq

@@ -1,0 +1,61 @@
+name: Suggest a Library
+description: Suggest an ECS library or resource to add to the list
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Library Name
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Project website or repository URL
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "ECS Libraries: C/C++"
+        - "ECS Libraries: C#"
+        - "ECS Libraries: Common Lisp"
+        - "ECS Libraries: Dart"
+        - "ECS Libraries: Elixir"
+        - "ECS Libraries: Python"
+        - "ECS Libraries: Rust"
+        - "ECS Libraries: Go"
+        - "ECS Libraries: Lua"
+        - "ECS Libraries: Java"
+        - "ECS Libraries: Julia"
+        - "ECS Libraries: Kotlin"
+        - "ECS Libraries: JavaScript / TypeScript"
+        - "ECS Libraries: Zig"
+        - "ECS Libraries: Haskell"
+        - "ECS Libraries: Other Language"
+        - "Game Engines"
+        - "Graphics Engines"
+        - "Physics Libraries"
+        - "Benchmarks"
+        - "Blog Posts"
+        - "Talks & Slides"
+        - "Books"
+        - "Tutorials"
+        - "Lists"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what this library does
+    validations:
+      required: true
