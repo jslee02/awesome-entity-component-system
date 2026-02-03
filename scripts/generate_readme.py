@@ -277,6 +277,14 @@ def generate_readme() -> str:
         "Contributions are very welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. Also, please feel free to report any error."
     )
     lines.append("")
+    lines.append("## [Star History](#contents)")
+    lines.append("")
+    lines.append(
+        "[![Star History Chart]"
+        "(https://api.star-history.com/svg?repos=jslee02/awesome-entity-component-system&type=Date)]"
+        "(https://star-history.com/#jslee02/awesome-entity-component-system)"
+    )
+    lines.append("")
     lines.append("## [License](#contents)")
     lines.append("")
     lines.append(

@@ -261,6 +261,10 @@ _Other ECS-related resources._
 
 Contributions are very welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. Also, please feel free to report any error.
 
+## [Star History](#contents)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jslee02/awesome-entity-component-system&type=Date)](https://star-history.com/#jslee02/awesome-entity-component-system)
+
 ## [License](#contents)
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
