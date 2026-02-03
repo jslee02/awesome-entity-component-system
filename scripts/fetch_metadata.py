@@ -106,26 +106,7 @@ def update_entries(entries: list[Entry], headers: dict[str, str]) -> bool:
         except (HTTPError, URLError, KeyError, ValueError) as e:
             print(f"WARNING: Failed to fetch {github}: {e}", file=sys.stderr)
             continue
-        meta_store = entry.get("_meta")
-        existing_meta: EntryMeta = {}
-        if isinstance(meta_store, dict):
-            stored_stars = meta_store.get("stars")
-            if isinstance(stored_stars, int):
-                existing_meta["stars"] = stored_stars
-            stored_last_commit = meta_store.get("last_commit")
-            if isinstance(stored_last_commit, str):
-                existing_meta["last_commit"] = stored_last_commit
-            stored_archived = meta_store.get("archived")
-            if isinstance(stored_archived, bool):
-                existing_meta["archived"] = stored_archived
-            stored_license = meta_store.get("license")
-            if isinstance(stored_license, str):
-                existing_meta["license"] = stored_license
-            stored_language = meta_store.get("language")
-            if isinstance(stored_language, str):
-                existing_meta["language"] = stored_language
-        existing_meta.update(meta)
-        entry["_meta"] = existing_meta
+        entry["_meta"] = meta
         updated = True
         time.sleep(0.5 if headers.get("Authorization") else 2)
     return updated
