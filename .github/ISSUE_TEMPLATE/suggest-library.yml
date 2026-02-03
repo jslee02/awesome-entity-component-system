@@ -1,5 +1,5 @@
 name: Suggest a Library
-description: Suggest an ECS library or resource to add to the list
+description: Suggest an ECS library, game engine, or tool to add to the list
 title: "[Suggestion] "
 labels: ["suggestion"]
 body:
@@ -50,12 +50,6 @@ body:
         - "Graphics Engines"
         - "Physics Libraries"
         - "Benchmarks"
-        - "Blog Posts"
-        - "Talks & Slides"
-        - "Books"
-        - "Tutorials"
-        - "Lists"
-        - "Other"
         - "New Category"
     validations:
       required: true
