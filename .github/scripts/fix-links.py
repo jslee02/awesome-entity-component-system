@@ -79,7 +79,7 @@ def apply_fixes(fixes: dict[str, str], root: Path) -> dict[str, list[tuple[str, 
     pattern = _build_replacement_pattern(fixes)
     changes: dict[str, list[tuple[str, str]]] = {}
     for md_file in sorted(root.rglob("*.md")):
-        if any(part.startswith(".") for part in md_file.parts):
+        if any(part.startswith(".") and part != ".github" for part in md_file.parts):
             continue
         if "lychee" in md_file.parts:
             continue
