@@ -3,166 +3,362 @@
   url: https://github.com/miguelmartin75/anax
   github: miguelmartin75/anax
   _subsection: C/C++
+  _meta:
+    stars: 463
+    last_commit: '2021-03-11'
+    archived: true
+    license: MIT
+    language: C++
 - name: ECS
   description: C++ single-header entity component system library
   url: https://github.com/redxdev/ECS
   github: redxdev/ECS
   _subsection: C/C++
+  _meta:
+    stars: 480
+    last_commit: '2019-11-16'
+    archived: true
+    license: MIT
+    language: C++
 - name: ecs.hpp
   description: A single header C++14 entity component system library
   url: https://github.com/BlackMATov/ecs.hpp
   github: BlackMATov/ecs.hpp
   _subsection: C/C++
+  _meta:
+    stars: 40
+    last_commit: '2023-01-07'
+    archived: false
+    license: MIT
+    language: C++
 - name: ecst
-  description: Experimental C++14 multithreaded compile-time entity-compnent-system library
+  description: Experimental C++14 multithreaded compile-time entity-compnent-system
+    library
   url: https://github.com/vittorioromeo/ecst
   github: vittorioromeo/ecst
   _subsection: C/C++
+  _meta:
+    stars: 490
+    last_commit: '2018-11-01'
+    archived: false
+    language: C++
 - name: EntityFu
   description: A simple, fast entity component system written in C++
   url: https://github.com/NatWeiss/EntityFu
   github: NatWeiss/EntityFu
   _subsection: C/C++
+  _meta:
+    stars: 86
+    last_commit: '2016-07-04'
+    archived: false
+    license: MIT
+    language: C++
 - name: EntityPlus
   description: C++14 entity component system
   url: https://github.com/Yelnats321/EntityPlus
   github: Yelnats321/EntityPlus
   _subsection: C/C++
+  _meta:
+    stars: 191
+    last_commit: '2020-08-22'
+    archived: false
+    license: BSL-1.0
+    language: C++
 - name: EntityX
   description: Fast, type-safe C++ entity component system
   url: https://github.com/alecthomas/entityx
   github: alecthomas/entityx
   _subsection: C/C++
+  _meta:
+    stars: 2321
+    last_commit: '2025-08-23'
+    archived: false
+    license: MIT
+    language: C++
 - name: entt
   description: Fast and reliable entity-component system
   url: https://github.com/skypjack/entt
   github: skypjack/entt
   _subsection: C/C++
+  _meta:
+    stars: 12227
+    last_commit: '2026-02-02'
+    archived: false
+    license: MIT
+    language: C++
 - name: Flecs
   description: A Multithreaded Entity Component System written for C89 & C99
   url: https://github.com/SanderMertens/flecs
   github: SanderMertens/flecs
   _subsection: C/C++
+  _meta:
+    stars: 7983
+    last_commit: '2026-01-31'
+    archived: false
+    language: C
 - name: Gaia-ECS
   description: Fast and type-safe C++17 archetype-based entity component system
   url: https://github.com/richardbiely/gaia-ecs
   github: richardbiely/gaia-ecs
   _subsection: C/C++
+  _meta:
+    stars: 116
+    last_commit: '2025-12-28'
+    archived: false
+    license: MIT
+    language: C++
 - name: Ginseng
   description: An ESC library designed for use in games
   url: https://github.com/apples/ginseng
   github: apples/ginseng
   _subsection: C/C++
+  _meta:
+    stars: 55
+    last_commit: '2021-12-21'
+    archived: false
+    license: MIT
+    language: C++
 - name: goomy
   description: A tiny, experimental ECS framework
   url: https://github.com/vberlier/goomy
   github: vberlier/goomy
   _subsection: C/C++
+  _meta:
+    stars: 14
+    last_commit: '2019-04-28'
+    archived: false
+    license: MIT
+    language: C++
 - name: Kengine
   description: Game engine with an Entity-Component-System (ECS) architecture
   url: https://github.com/phisko/kengine
   github: phisko/kengine
   _subsection: C/C++
+  _meta:
+    stars: 616
+    last_commit: '2023-03-10'
+    archived: false
+    license: MIT
+    language: C++
 - name: matter
   description: C++17/20 ECS implementation
   url: https://github.com/frengels/matter
   github: frengels/matter
   _subsection: C/C++
+  _meta:
+    stars: 21
+    last_commit: '2019-10-03'
+    archived: false
+    language: C++
 - name: mustache
   description: A fast, modern C++ entity component system
   url: https://github.com/kirillochnev/mustache
   github: kirillochnev/mustache
   _subsection: C/C++
+  _meta:
+    stars: 68
+    last_commit: '2026-01-20'
+    archived: false
+    license: MIT
+    language: C++
 - name: pico_ecs
   description: Single-header and cross-platform ECS
   url: https://github.com/empyreanx/pico_headers
   github: empyreanx/pico_headers
   _subsection: C/C++
-- name: "WickedEngine's ECS"
+  _meta:
+    stars: 479
+    last_commit: '2026-01-23'
+    archived: false
+    language: C
+- name: WickedEngine's ECS
   description: WickedEngine's ECS implementation
   url: https://github.com/turanszkij/WickedEngine/blob/master/WickedEngine/wiECS.h
   github: turanszkij/WickedEngine
   _subsection: C/C++
+  _meta:
+    stars: 6826
+    last_commit: '2026-02-02'
+    archived: false
+    license: MIT
+    language: C
 - name: Arch
-  description: A high-performance Archetype & Chunks Entity Component System for game development and data-oriented programming
+  description: A high-performance Archetype & Chunks Entity Component System for game
+    development and data-oriented programming
   url: https://github.com/genaray/Arch
   github: genaray/Arch
   _subsection: C#
+  _meta:
+    stars: 1572
+    last_commit: '2025-11-18'
+    archived: false
+    license: Apache-2.0
+    language: C#
 - name: DefaultEcs
   description: ECS for syntax and usage simplicity with maximum performance
   url: https://github.com/Doraku/DefaultEcs
   github: Doraku/DefaultEcs
   _subsection: C#
+  _meta:
+    stars: 746
+    last_commit: '2023-01-31'
+    archived: false
+    license: MIT-0
+    language: C#
 - name: DragonECS
   description: ECS for Unity and .NET
   url: https://github.com/DCFApixels/DragonECS
   github: DCFApixels/DragonECS
   _subsection: C#
+  _meta:
+    stars: 291
+    last_commit: '2025-08-26'
+    archived: false
+    license: MIT
+    language: C#
 - name: Entitas
   description: The Entity Component System Framework for C# and Unity
   url: https://github.com/sschmid/Entitas
   github: sschmid/Entitas
   _subsection: C#
+  _meta:
+    stars: 7616
+    last_commit: '2023-07-28'
+    archived: false
+    license: MIT
+    language: C#
 - name: Frent
   description: Data oriented ECF with an ECS api for C#, Godot, and Unity
   url: https://github.com/itsBuggingMe/Frent
   github: itsBuggingMe/Frent
   _subsection: C#
+  _meta:
+    stars: 154
+    last_commit: '2026-01-10'
+    archived: false
+    license: MIT
+    language: C#
 - name: Friflo Engine ECS
   description: ECS for .NET with focus on performance, cache locality and DX
   url: https://github.com/friflo/Friflo.Engine.ECS
   github: friflo/Friflo.Engine.ECS
   _subsection: C#
+  _meta:
+    stars: 525
+    last_commit: '2025-12-29'
+    archived: false
+    license: MIT
+    language: C#
 - name: LeoEcsLite
   description: Lightweight C# Entity Component System framework
   url: https://github.com/LeoECSCommunity/ecslite
   github: LeoECSCommunity/ecslite
   _subsection: C#
+  _meta:
+    stars: 60
+    last_commit: '2022-04-13'
+    archived: false
+    license: MIT
+    language: C#
 - name: ME.BECS
   description: ECS for Unity with full game state automatic rollbacks
   url: https://github.com/chromealex/ME.BECS
   github: chromealex/ME.BECS
   _subsection: C#
+  _meta:
+    stars: 241
+    last_commit: '2026-01-07'
+    archived: false
+    license: MIT
+    language: C#
 - name: Morpeh
   description: ECS Framework for Unity Game Engine and .NET Platform
   url: https://github.com/scellecs/morpeh
   github: scellecs/morpeh
   _subsection: C#
+  _meta:
+    stars: 630
+    last_commit: '2025-07-28'
+    archived: false
+    license: MIT
+    language: C#
 - name: Svelto.ECS
   description: Lightweight data oriented entity component system framework
   url: https://github.com/sebas77/Svelto.ECS
   github: sebas77/Svelto.ECS
   _subsection: C#
+  _meta:
+    stars: 1352
+    last_commit: '2025-05-01'
+    archived: false
+    license: MIT
+    language: C#
 - name: Fennecs
-  description: "... the tiny, tiny, high-energy Entity-Component System!"
+  description: '... the tiny, tiny, high-energy Entity-Component System!'
   url: https://github.com/outfox/fennecs
   github: outfox/fennecs
   _subsection: C#
+  _meta:
+    stars: 407
+    last_commit: '2026-01-13'
+    archived: false
+    license: MIT
+    language: C#
 - name: TinyEcs
   description: A tiny bevy-like archetype-style ECS library for dotnet
   url: https://github.com/andreakarasho/TinyEcs
   github: andreakarasho/TinyEcs
   _subsection: C#
+  _meta:
+    stars: 134
+    last_commit: '2025-10-17'
+    archived: false
+    license: MIT
+    language: C#
 - name: Massive ECS
   description: Bitset-based ECS with rollbacks. C# library and Unity package.
   url: https://github.com/nilpunch/massive-ecs
   github: nilpunch/massive-ecs
   _subsection: C#
+  _meta:
+    stars: 171
+    last_commit: '2026-01-23'
+    archived: false
+    license: MIT
+    language: C#
 - name: Static ECS
   description: C# Hierarchical Inverted Bitmap ECS framework
   url: https://github.com/Felid-Force-Studios/StaticEcs
   github: Felid-Force-Studios/StaticEcs
   _subsection: C#
+  _meta:
+    stars: 136
+    last_commit: '2025-11-28'
+    archived: false
+    license: MIT
+    language: C#
 - name: beast
   description: Basic Entity/Aspect/System Toolkit
   url: https://github.com/sjl/beast
   github: sjl/beast
   _subsection: Common Lisp
+  _meta:
+    stars: 30
+    last_commit: '2021-08-29'
+    archived: false
+    license: MIT
+    language: Common Lisp
 - name: cl-ecs
-  description: An implementation of the Entity-Component-System pattern mostly used in game development
+  description: An implementation of the Entity-Component-System pattern mostly used
+    in game development
   url: https://github.com/bit-phlippers/cl-ecs
   github: bit-phlippers/cl-ecs
   _subsection: Common Lisp
+  _meta:
+    stars: 8
+    last_commit: '2016-05-23'
+    archived: false
+    language: Common Lisp
 - name: cl-fast-ecs
   description: Blazingly fast Entity-Component-System microframework
   url: https://gitlab.com/lockie/cl-fast-ecs
@@ -173,143 +369,316 @@
   url: https://github.com/QiXi/fast_ecs
   github: QiXi/fast_ecs
   _subsection: Dart
+  _meta:
+    stars: 17
+    last_commit: '2021-12-11'
+    archived: false
+    license: MIT
+    language: Dart
 - name: ECSx
   description: An ECS framework for Elixir
   url: https://github.com/ecsx-framework/ECSx
   github: ecsx-framework/ECSx
   _subsection: Elixir
+  _meta:
+    stars: 258
+    last_commit: '2025-01-25'
+    archived: false
+    license: GPL-3.0
+    language: Elixir
 - name: esper
   description: A lightweight Entity System for Python
   url: https://github.com/benmoran56/esper
   github: benmoran56/esper
   _subsection: Python
+  _meta:
+    stars: 669
+    last_commit: '2026-02-01'
+    archived: false
+    license: MIT
+    language: Python
 - name: shipyard
   description: Entity Component System written in Rust
   url: https://github.com/leudz/shipyard
   github: leudz/shipyard
   _subsection: Rust
+  _meta:
+    stars: 834
+    last_commit: '2026-01-26'
+    archived: false
+    language: Rust
 - name: specs
   description: Parallel entity component system written in Rust
   url: https://github.com/amethyst/specs
   github: amethyst/specs
   _subsection: Rust
+  _meta:
+    stars: 2593
+    last_commit: '2024-06-07'
+    archived: false
+    license: Apache-2.0
+    language: Rust
 - name: legion
   description: High performance Rust ECS library
   url: https://github.com/amethyst/legion
   github: amethyst/legion
   _subsection: Rust
+  _meta:
+    stars: 1702
+    last_commit: '2021-10-03'
+    archived: false
+    license: MIT
+    language: Rust
 - name: bevy_ecs
-  description: Simple to use, ergonomic, fast, massively parallel, opinionated, and featureful written in Rust
+  description: Simple to use, ergonomic, fast, massively parallel, opinionated, and
+    featureful written in Rust
   url: https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs
   github: bevyengine/bevy
   _subsection: Rust
+  _meta:
+    stars: 44451
+    last_commit: '2026-02-02'
+    archived: false
+    license: Apache-2.0
+    language: Rust
 - name: hecs
   description: High-performance, minimalist entity-component-system
   url: https://github.com/Ralith/hecs
   github: Ralith/hecs
   _subsection: Rust
+  _meta:
+    stars: 1227
+    last_commit: '2026-01-18'
+    archived: false
+    license: Apache-2.0
+    language: Rust
 - name: Ark
   description: An archetype-based Entity Component System for Go
   url: https://github.com/mlange-42/ark
   github: mlange-42/ark
   _subsection: Go
+  _meta:
+    stars: 209
+    last_commit: '2026-01-20'
+    archived: false
+    license: Apache-2.0
+    language: Go
 - name: ecs
   description: A Go-implementation of the Entity-Component-System paradigm
   url: https://github.com/EngoEngine/ecs
   github: EngoEngine/ecs
   _subsection: Go
+  _meta:
+    stars: 331
+    last_commit: '2023-12-21'
+    archived: false
+    license: MIT
+    language: Go
 - name: Concord
   description: A feature-complete ECS library
   url: https://github.com/Keyslam-Group/Concord
   github: Keyslam-Group/Concord
   _subsection: Lua
+  _meta:
+    stars: 302
+    last_commit: '2024-06-30'
+    archived: false
+    license: MIT
+    language: Lua
 - name: ECS Lua
   description: A fast and easy to use ECS engine for game development
   url: https://github.com/nidorx/ecs-lua
   github: nidorx/ecs-lua
   _subsection: Lua
+  _meta:
+    stars: 224
+    last_commit: '2021-10-22'
+    archived: false
+    license: MIT
+    language: Lua
 - name: evolved.lua
   description: Evolved ECS (Entity-Component-System) for Lua
   url: https://github.com/BlackMATov/evolved.lua
   github: BlackMATov/evolved.lua
   _subsection: Lua
+  _meta:
+    stars: 171
+    last_commit: '2026-02-02'
+    archived: false
+    license: MIT
+    language: Lua
 - name: Nata
   description: Entity management for Lua
   url: https://github.com/tesselode/nata
   github: tesselode/nata
   _subsection: Lua
+  _meta:
+    stars: 51
+    last_commit: '2020-04-19'
+    archived: false
+    license: MIT
+    language: Lua
 - name: tiny-ecs
   description: Entity Component System for Lua that's simple, flexible, and useful
   url: https://github.com/bakpakin/tiny-ecs
   github: bakpakin/tiny-ecs
   _subsection: Lua
+  _meta:
+    stars: 774
+    last_commit: '2020-11-03'
+    archived: false
+    license: MIT
+    language: Lua
 - name: Artemis-odb
   description: A continuation of the popular Artemis ECS framework
   url: https://github.com/junkdog/artemis-odb
   github: junkdog/artemis-odb
   _subsection: Java
+  _meta:
+    stars: 825
+    last_commit: '2021-07-20'
+    archived: false
+    license: BSD-2-Clause
+    language: Java
 - name: Ark.jl
-  description: An archetype-based Entity Component System (ECS) for Julia. It is a port of the Go ECS Ark.
+  description: An archetype-based Entity Component System (ECS) for Julia. It is a
+    port of the Go ECS Ark.
   url: https://github.com/ark-ecs/Ark.jl
   github: ark-ecs/Ark.jl
   _subsection: Julia
+  _meta:
+    stars: 52
+    last_commit: '2026-01-30'
+    archived: false
+    license: Apache-2.0
+    language: Julia
 - name: Fleks
   description: Fast, lightweight, multi-platform entity component system in Kotlin
   url: https://github.com/Quillraven/Fleks
   github: Quillraven/Fleks
   _subsection: Kotlin
+  _meta:
+    stars: 243
+    last_commit: '2025-12-18'
+    archived: false
+    license: MIT
+    language: Kotlin
 - name: becsy
-  description: A multithreaded Entity Component System (ECS) for TypeScript and JavaScript, inspired by ECSY and bitecs.
+  description: A multithreaded Entity Component System (ECS) for TypeScript and JavaScript,
+    inspired by ECSY and bitecs.
   url: https://github.com/LastOliveGames/becsy
   github: LastOliveGames/becsy
   _subsection: JavaScript / TypeScript
+  _meta:
+    stars: 284
+    last_commit: '2025-05-20'
+    archived: false
+    license: MIT
+    language: TypeScript
 - name: bitECS
   description: Functional, minimal, data-oriented, ultra-high performance ECS library
   url: https://github.com/NateTheGreatt/bitECS
   github: NateTheGreatt/bitECS
   _subsection: JavaScript / TypeScript
+  _meta:
+    stars: 1290
+    last_commit: '2025-12-06'
+    archived: false
+    license: MPL-2.0
+    language: TypeScript
 - name: ECSY
   description: Entity Component System for javascript
   url: https://github.com/ecsyjs/ecsy
   github: ecsyjs/ecsy
   _subsection: JavaScript / TypeScript
+  _meta:
+    stars: 1148
+    last_commit: '2025-04-13'
+    archived: true
+    license: MIT
+    language: JavaScript
 - name: miniplex
-  description: The gentle game entity manager, focused on ease of use and developer experience.
+  description: The gentle game entity manager, focused on ease of use and developer
+    experience.
   url: https://github.com/hmans/miniplex
   github: hmans/miniplex
   _subsection: JavaScript / TypeScript
+  _meta:
+    stars: 977
+    last_commit: '2023-10-14'
+    archived: false
+    license: MIT
+    language: TypeScript
 - name: Thyseus
   description: An archetypal Entity Component System, built entirely in Typescript
   url: https://github.com/JaimeGensler/thyseus
   github: JaimeGensler/thyseus
   _subsection: JavaScript / TypeScript
+  _meta:
+    stars: 86
+    last_commit: '2024-05-06'
+    archived: false
+    license: MIT
+    language: TypeScript
 - name: mach-ecs
   description: Entity Component System from first-principles designed for Zig
   url: https://github.com/hexops-graveyard/mach-ecs
   github: hexops-graveyard/mach-ecs
   _subsection: Zig
+  _meta:
+    stars: 35
+    last_commit: '2024-04-21'
+    archived: false
 - name: Zig ECS
   description: A Zig port of the fantasic Entt
   url: https://github.com/prime31/zig-ecs
   github: prime31/zig-ecs
   _subsection: Zig
+  _meta:
+    stars: 390
+    last_commit: '2025-08-26'
+    archived: false
+    license: MIT
+    language: Zig
 - name: ZCS
   description: An archetype based entity component system written in Zig
   url: https://github.com/Games-by-Mason/ZCS
   github: Games-by-Mason/ZCS
   _subsection: Zig
+  _meta:
+    stars: 145
+    last_commit: '2025-12-16'
+    archived: false
+    license: MIT
+    language: Zig
 - name: knoedel
   description: Data oriented application framework written in Zig (ECS)
   url: https://github.com/Lommix/knoedel
   github: Lommix/knoedel
   _subsection: Zig
+  _meta:
+    stars: 27
+    last_commit: '2026-01-20'
+    archived: false
+    license: MIT
+    language: Zig
 - name: Comptime ECS
   description: Comptime-defined ECS implementation in Zig
   url: https://github.com/Very-Blank/Ecs
   github: Very-Blank/Ecs
   _subsection: Zig
+  _meta:
+    stars: 4
+    last_commit: '2025-11-23'
+    archived: false
+    language: Zig
 - name: apecs
   description: A fast, extensible, type driven Haskell ECS framework for games
   url: https://github.com/jonascarpay/apecs
   github: jonascarpay/apecs
   _subsection: Haskell
+  _meta:
+    stars: 407
+    last_commit: '2025-12-25'
+    archived: false
+    language: Haskell

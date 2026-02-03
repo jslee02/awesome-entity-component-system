@@ -127,7 +127,7 @@ def update_entries(entries: list[Entry], headers: dict[str, str]) -> bool:
         existing_meta.update(meta)
         entry["_meta"] = existing_meta
         updated = True
-        time.sleep(2)
+        time.sleep(0.5 if headers.get("Authorization") else 2)
     return updated
 
 
