@@ -3,6 +3,9 @@ name: Evaluate Submission
 on:
   issues:
     types: [labeled]
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch:
 
 jobs:
   evaluate:
@@ -131,3 +134,79 @@ jobs:
               issue_number: context.issue.number,
               labels: ['needs-review']
             });
+
+  re-evaluate:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Re-evaluate incubator issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'incubator',
+              state: 'open',
+              per_page: 50,
+            });
+
+            for (const issue of issues.data) {
+              const body = issue.body || '';
+              const ghMatch = body.match(/### GitHub Repository\s*\n\s*\n?\s*([a-zA-Z0-9._-]+\/[a-zA-Z0-9._-]+)/);
+              const urlMatch = body.match(/github\.com\/([a-zA-Z0-9._-]+\/[a-zA-Z0-9._-]+)/);
+              const repo = ghMatch ? ghMatch[1] : urlMatch ? urlMatch[1] : null;
+              if (!repo) continue;
+
+              let result;
+              try {
+                const json = execSync(
+                  `python3 scripts/evaluate_entry.py --data-dir data/ --json "${repo}"`,
+                  { encoding: 'utf8', timeout: 30000 }
+                );
+                result = JSON.parse(json);
+              } catch (e) {
+                continue;
+              }
+
+              const rec = result.recommendation || 'error';
+              if (rec === 'accept' || rec === 'likely_accept') {
+                const report = execSync(
+                  `python3 scripts/evaluate_entry.py --data-dir data/ "${repo}"`,
+                  { encoding: 'utf8', timeout: 30000 }
+                );
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: '♻️ **Monthly re-evaluation** — this project now qualifies!\n\n' + report,
+                });
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ['accepted'],
+                });
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  name: 'incubator',
+                }).catch(() => {});
+              }
+            }
