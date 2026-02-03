@@ -56,10 +56,13 @@ def fetch_repo_metadata(owner_repo: str) -> dict | None:
         meta["last_commit"] = data["pushed_at"][:10]
     if data.get("archived") is True:
         meta["archived"] = True
-    if data.get("license") and data["license"].get("spdx_id"):
-        spdx = data["license"]["spdx_id"]
-        if spdx != "NOASSERTION":
+    if data.get("license"):
+        lic = data["license"]
+        spdx = lic.get("spdx_id")
+        if spdx and spdx != "NOASSERTION":
             meta["license"] = spdx
+        elif lic.get("name"):
+            meta["license"] = lic["name"]
     if data.get("language"):
         meta["language"] = data["language"]
     return meta
