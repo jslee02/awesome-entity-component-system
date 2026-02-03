@@ -192,11 +192,27 @@ def render_resource_entry(entry: Entry) -> str:
     return line
 
 
-def sort_entries(entries: list[Entry]) -> list[Entry]:
+def sort_entries(entries: list[Entry], sort_key: str = "name") -> list[Entry]:
+    if sort_key == "none":
+        return entries
+    if sort_key == "stars":
+        return sorted(
+            entries,
+            key=lambda e: (e.get("_meta") or {}).get("stars") or 0,
+            reverse=True,
+        )
+    if sort_key == "last_commit":
+        return sorted(
+            entries,
+            key=lambda e: (e.get("_meta") or {}).get("last_commit") or "",
+            reverse=True,
+        )
     return sorted(entries, key=lambda e: (e.get("name") or "").lower())
 
 
-def render_section(section_id: str, title: str, level: int, _kind: str) -> list[str]:
+def render_section(
+    section_id: str, title: str, level: int, _kind: str, sort_key: str = "name"
+) -> list[str]:
     lines: list[str] = []
     heading = "#" * level
     lines.append(f"{heading} [{title}](#contents)")
@@ -206,7 +222,8 @@ def render_section(section_id: str, title: str, level: int, _kind: str) -> list[
         lines.append(f"_{description}_")
     lines.append("")
     entries = sort_entries(
-        load_yaml(Path(__file__).parent.parent / "data" / f"{section_id}.yaml")
+        load_yaml(Path(__file__).parent.parent / "data" / f"{section_id}.yaml"),
+        sort_key,
     )
     subsections = SUBSECTION_ORDER.get(section_id)
     if subsections:
@@ -219,7 +236,7 @@ def render_section(section_id: str, title: str, level: int, _kind: str) -> list[
                 continue
             lines.append(f"#### {subsection}")
             lines.append("")
-            for entry in sort_entries(items):
+            for entry in sort_entries(items, sort_key):
                 lines.append(render_library_entry(entry))
             lines.append("")
         known = set(subsections)
@@ -227,7 +244,7 @@ def render_section(section_id: str, title: str, level: int, _kind: str) -> list[
         if other:
             lines.append("#### Other")
             lines.append("")
-            for entry in sort_entries(other):
+            for entry in sort_entries(other, sort_key):
                 lines.append(render_library_entry(entry))
             lines.append("")
     else:
@@ -240,7 +257,7 @@ def render_section(section_id: str, title: str, level: int, _kind: str) -> list[
     return lines
 
 
-def generate_readme() -> str:
+def generate_readme(sort_key: str = "name") -> str:
     lines: list[str] = []
     lines.append("# Awesome ECS")
     lines.append("")
@@ -269,7 +286,7 @@ def generate_readme() -> str:
             lines.append("## [Other Resources](#contents)")
             lines.append("")
             inserted_resources = True
-        lines.extend(render_section(section_id, title, level, kind))
+        lines.extend(render_section(section_id, title, level, kind, sort_key))
 
     lines.append("## [Contributing](#contents)")
     lines.append("")
@@ -294,10 +311,16 @@ def main() -> int:
         default=None,
         help="Output file path (default: README.md in repo root)",
     )
+    parser.add_argument(
+        "--sort",
+        choices=["name", "stars", "last_commit", "none"],
+        default="name",
+        help="Sort entries within each section (default: name)",
+    )
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parent.parent
-    readme = generate_readme()
+    readme = generate_readme(sort_key=args.sort)
 
     output_path = Path(args.output) if args.output else repo_root / "README.md"
     _ = output_path.write_text(readme, encoding="utf-8")
