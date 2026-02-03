@@ -1,0 +1,48 @@
+name: Suggest a Resource
+description: Suggest a blog post, talk, book, tutorial, or other ECS resource
+title: "[Resource] "
+labels: ["suggestion", "resource"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource Title
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Direct link to the resource
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Blog Posts
+        - "Talks & Slides"
+        - Books
+        - Tutorials
+        - Lists
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what this resource covers (optional for blog posts and talks)
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Related to ECS, data-oriented design, or the entity-component-system pattern
+        - label: Publicly accessible (not behind a paywall, or at least has a free summary)
+        - label: Not a duplicate of an existing entry
