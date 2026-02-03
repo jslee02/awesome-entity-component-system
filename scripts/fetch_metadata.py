@@ -15,7 +15,8 @@ from pathlib import Path
 import yaml
 
 API_BASE = "https://api.github.com"
-RATE_LIMIT_PAUSE = 0.5
+RATE_LIMIT_PAUSE_AUTH = 0.5
+RATE_LIMIT_PAUSE_NOAUTH = 2
 
 
 def _github_headers() -> dict[str, str]:
@@ -64,7 +65,9 @@ def fetch_repo_metadata(owner_repo: str) -> dict | None:
     return meta
 
 
-def process_yaml_file(yaml_path: Path, dry_run: bool = False) -> tuple[int, int]:
+def process_yaml_file(
+    yaml_path: Path, *, dry_run: bool = False, authenticated: bool = False
+) -> tuple[int, int]:
     with open(yaml_path, encoding="utf-8") as f:
         entries = yaml.safe_load(f)
     if not isinstance(entries, list):
@@ -88,7 +91,8 @@ def process_yaml_file(yaml_path: Path, dry_run: bool = False) -> tuple[int, int]
         else:
             print("skipped")
 
-        time.sleep(RATE_LIMIT_PAUSE)
+        pause = RATE_LIMIT_PAUSE_AUTH if authenticated else RATE_LIMIT_PAUSE_NOAUTH
+        time.sleep(pause)
 
     if not dry_run and updated > 0:
         with open(yaml_path, "w", encoding="utf-8") as f:
@@ -133,7 +137,9 @@ def main() -> int:
 
     for yaml_file in yaml_files:
         print(f"\n{yaml_file.name}:")
-        total, updated = process_yaml_file(yaml_file, dry_run=args.dry_run)
+        total, updated = process_yaml_file(
+            yaml_file, dry_run=args.dry_run, authenticated=bool(token)
+        )
         grand_total += total
         grand_updated += updated
 
