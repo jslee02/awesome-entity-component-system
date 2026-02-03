@@ -1,138 +1,146 @@
 #!/usr/bin/env python3
-"""Fetch GitHub metadata for entries with a github field."""
+"""Fetch GitHub metadata for all entries in data/*.yaml and update _meta fields."""
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import sys
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
-from typing import TypedDict, cast
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
 
 import yaml
 
-
-class EntryMeta(TypedDict, total=False):
-    stars: int
-    last_commit: str
-    archived: bool
-    license: str
-    language: str
+API_BASE = "https://api.github.com"
+RATE_LIMIT_PAUSE = 0.5
 
 
-class Entry(TypedDict, total=False):
-    name: str
-    url: str
-    github: str
-    gitlab: str
-    description: str
-    archived: bool
-    _meta: EntryMeta
-    _subsection: str
+def _github_headers() -> dict[str, str]:
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "awesome-ecs-metadata-bot",
+    }
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
 
 
-def load_yaml(path: Path) -> list[Entry]:
-    with path.open() as f:
-        data = cast(object, yaml.safe_load(f))
-        if not isinstance(data, list):
-            return []
-        return cast(list[Entry], data)
+def fetch_repo_metadata(owner_repo: str) -> dict | None:
+    url = f"{API_BASE}/repos/{owner_repo}"
+    req = urllib.request.Request(url, headers=_github_headers())
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            print(f"  WARN: {owner_repo} — 404 Not Found", file=sys.stderr)
+        elif e.code == 403:
+            print(f"  WARN: {owner_repo} — 403 rate limited", file=sys.stderr)
+        else:
+            print(f"  WARN: {owner_repo} — HTTP {e.code}", file=sys.stderr)
+        return None
+    except (urllib.error.URLError, TimeoutError) as e:
+        print(f"  WARN: {owner_repo} — {e}", file=sys.stderr)
+        return None
 
-
-def dump_yaml(path: Path, data: list[Entry]) -> None:
-    with path.open("w") as f:
-        yaml.safe_dump(data, f, sort_keys=False, default_flow_style=False)
-
-
-def request_json(url: str, headers: dict[str, str]) -> object:
-    request = Request(url, headers=headers)
-    with urlopen(request) as response:
-        body = cast(bytes, response.read())
-        text = body.decode("utf-8")
-        return json.loads(text)
-
-
-def fetch_repo_metadata(owner_repo: str, headers: dict[str, str]) -> EntryMeta:
-    repo_url = f"https://api.github.com/repos/{owner_repo}"
-    repo_data = request_json(repo_url, headers)
-    repo = repo_data if isinstance(repo_data, dict) else {}
-    commits_url = f"{repo_url}/commits?per_page=1"
-    commits = request_json(commits_url, headers)
-    last_commit = None
-    if isinstance(commits, list) and commits:
-        commit = commits[0]
-        if isinstance(commit, dict):
-            commit_info = commit.get("commit")
-            if isinstance(commit_info, dict):
-                committer = commit_info.get("committer")
-                if isinstance(committer, dict):
-                    date_value = committer.get("date")
-                    if isinstance(date_value, str):
-                        last_commit = date_value[:10]
-    license_info = repo.get("license") if isinstance(repo, dict) else None
-    if not isinstance(license_info, dict):
-        license_info = {}
-    license_id = license_info.get("spdx_id") or license_info.get("name")
-    if license_id == "NOASSERTION":
-        license_id = None
-    meta: EntryMeta = {}
-    stars = repo.get("stargazers_count") if isinstance(repo, dict) else None
-    if isinstance(stars, int):
-        meta["stars"] = stars
-    if isinstance(last_commit, str):
-        meta["last_commit"] = last_commit
-    archived = repo.get("archived") if isinstance(repo, dict) else None
-    if isinstance(archived, bool):
-        meta["archived"] = archived
-    if isinstance(license_id, str):
-        meta["license"] = license_id
-    language = repo.get("language") if isinstance(repo, dict) else None
-    if isinstance(language, str):
-        meta["language"] = language
+    meta: dict = {}
+    if "stargazers_count" in data:
+        meta["stars"] = data["stargazers_count"]
+    if data.get("pushed_at"):
+        meta["last_commit"] = data["pushed_at"][:10]
+    if data.get("archived") is True:
+        meta["archived"] = True
+    if data.get("license") and data["license"].get("spdx_id"):
+        spdx = data["license"]["spdx_id"]
+        if spdx != "NOASSERTION":
+            meta["license"] = spdx
+    if data.get("language"):
+        meta["language"] = data["language"]
     return meta
 
 
-def update_entries(entries: list[Entry], headers: dict[str, str]) -> bool:
-    updated = False
+def process_yaml_file(yaml_path: Path, dry_run: bool = False) -> tuple[int, int]:
+    with open(yaml_path, encoding="utf-8") as f:
+        entries = yaml.safe_load(f)
+    if not isinstance(entries, list):
+        return 0, 0
+
+    updated = 0
+    total = 0
     for entry in entries:
         github = entry.get("github")
-        if not github or not isinstance(github, str):
+        if not github:
             continue
-        try:
-            meta = fetch_repo_metadata(github, headers)
-        except (HTTPError, URLError, KeyError, ValueError) as e:
-            print(f"WARNING: Failed to fetch {github}: {e}", file=sys.stderr)
-            continue
-        entry["_meta"] = meta
-        updated = True
-        time.sleep(0.5 if headers.get("Authorization") else 2)
-    return updated
+        total += 1
+        print(f"  {github}...", end=" ", flush=True)
+
+        meta = fetch_repo_metadata(github)
+        if meta:
+            entry["_meta"] = meta
+            updated += 1
+            stars = meta.get("stars", "?")
+            print(f"★ {stars}")
+        else:
+            print("skipped")
+
+        time.sleep(RATE_LIMIT_PAUSE)
+
+    if not dry_run and updated > 0:
+        with open(yaml_path, "w", encoding="utf-8") as f:
+            yaml.dump(
+                entries,
+                f,
+                default_flow_style=False,
+                allow_unicode=True,
+                sort_keys=False,
+                width=120,
+            )
+
+    return total, updated
 
 
 def main() -> int:
-    root = Path(__file__).parent.parent
-    data_dir = root / "data"
+    parser = argparse.ArgumentParser(
+        description="Fetch GitHub metadata for YAML entries"
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Print metadata without writing"
+    )
+    args = parser.parse_args()
+
+    repo_root = Path(__file__).resolve().parent.parent
+    data_dir = repo_root / "data"
+
+    if not data_dir.exists():
+        print(f"ERROR: {data_dir} not found", file=sys.stderr)
+        return 1
+
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if not token:
+        print(
+            "WARNING: No GITHUB_TOKEN set — rate limit is 60 req/hr",
+            file=sys.stderr,
+        )
+
     yaml_files = sorted(data_dir.glob("*.yaml"))
-    if not yaml_files:
-        print(f"WARNING: No YAML files in {data_dir}")
-        return 0
-    headers = {
-        "User-Agent": "awesome-ecs-metadata-bot",
-        "Accept": "application/vnd.github+json",
-    }
-    token = os.getenv("GITHUB_TOKEN")
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-    for path in yaml_files:
-        entries = load_yaml(path)
-        if not entries:
-            continue
-        if update_entries(entries, headers):
-            dump_yaml(path, entries)
-            print(f"Updated {path.name}")
+    grand_total = 0
+    grand_updated = 0
+
+    for yaml_file in yaml_files:
+        print(f"\n{yaml_file.name}:")
+        total, updated = process_yaml_file(yaml_file, dry_run=args.dry_run)
+        grand_total += total
+        grand_updated += updated
+
+    print(f"\nDone: {grand_updated}/{grand_total} entries updated")
+    if args.dry_run:
+        print("(dry run — no files written)")
+
     return 0
 
 
