@@ -5,19 +5,17 @@
   _subsection: C++
   _meta:
     stars: 1760
-    last_commit: '2019-10-26'
-    archived: false
+    last_commit: '2020-03-10'
     license: MIT
     language: C++
 - name: The Forge
-  description: Cross-Platform Rendering Framework with support for PC Windows, Linux,
-    Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2
+  description: Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX,
+    PS4, PS5, Switch, Quest 2
   url: https://github.com/ConfettiFX/The-Forge
   github: ConfettiFX/The-Forge
   _subsection: C++
   _meta:
-    stars: 5451
+    stars: 5456
     last_commit: '2025-07-03'
-    archived: false
     license: Apache-2.0
     language: C++
