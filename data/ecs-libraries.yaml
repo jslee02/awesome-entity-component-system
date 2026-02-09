@@ -16,7 +16,7 @@
   _subsection: C/C++
   _meta:
     stars: 480
-    last_commit: '2019-11-16'
+    last_commit: '2020-08-19'
     archived: true
     license: MIT
     language: C++
@@ -28,19 +28,17 @@
   _meta:
     stars: 40
     last_commit: '2023-01-07'
-    archived: false
     license: MIT
     language: C++
 - name: ecst
-  description: Experimental C++14 multithreaded compile-time entity-compnent-system
-    library
+  description: Experimental C++14 multithreaded compile-time entity-compnent-system library
   url: https://github.com/vittorioromeo/ecst
   github: vittorioromeo/ecst
   _subsection: C/C++
   _meta:
     stars: 490
-    last_commit: '2018-11-01'
-    archived: false
+    last_commit: '2019-09-03'
+    license: Other
     language: C++
 - name: EntityFu
   description: A simple, fast entity component system written in C++
@@ -50,7 +48,6 @@
   _meta:
     stars: 86
     last_commit: '2016-07-04'
-    archived: false
     license: MIT
     language: C++
 - name: EntityPlus
@@ -61,7 +58,6 @@
   _meta:
     stars: 191
     last_commit: '2020-08-22'
-    archived: false
     license: BSL-1.0
     language: C++
 - name: EntityX
@@ -70,9 +66,8 @@
   github: alecthomas/entityx
   _subsection: C/C++
   _meta:
-    stars: 2321
+    stars: 2323
     last_commit: '2025-08-23'
-    archived: false
     license: MIT
     language: C++
 - name: entt
@@ -81,9 +76,8 @@
   github: skypjack/entt
   _subsection: C/C++
   _meta:
-    stars: 12227
-    last_commit: '2026-02-02'
-    archived: false
+    stars: 12254
+    last_commit: '2026-02-06'
     license: MIT
     language: C++
 - name: Flecs
@@ -92,9 +86,9 @@
   github: SanderMertens/flecs
   _subsection: C/C++
   _meta:
-    stars: 7983
-    last_commit: '2026-01-31'
-    archived: false
+    stars: 7997
+    last_commit: '2026-02-08'
+    license: Other
     language: C
 - name: Gaia-ECS
   description: Fast and type-safe C++17 archetype-based entity component system
@@ -103,8 +97,7 @@
   _subsection: C/C++
   _meta:
     stars: 116
-    last_commit: '2025-12-28'
-    archived: false
+    last_commit: '2026-02-08'
     license: MIT
     language: C++
 - name: Ginseng
@@ -115,7 +108,6 @@
   _meta:
     stars: 55
     last_commit: '2021-12-21'
-    archived: false
     license: MIT
     language: C++
 - name: goomy
@@ -126,7 +118,6 @@
   _meta:
     stars: 14
     last_commit: '2019-04-28'
-    archived: false
     license: MIT
     language: C++
 - name: Kengine
@@ -137,7 +128,6 @@
   _meta:
     stars: 616
     last_commit: '2023-03-10'
-    archived: false
     license: MIT
     language: C++
 - name: matter
@@ -148,7 +138,6 @@
   _meta:
     stars: 21
     last_commit: '2019-10-03'
-    archived: false
     language: C++
 - name: mustache
   description: A fast, modern C++ entity component system
@@ -158,7 +147,6 @@
   _meta:
     stars: 68
     last_commit: '2026-01-20'
-    archived: false
     license: MIT
     language: C++
 - name: pico_ecs
@@ -167,9 +155,8 @@
   github: empyreanx/pico_headers
   _subsection: C/C++
   _meta:
-    stars: 479
-    last_commit: '2026-01-23'
-    archived: false
+    stars: 484
+    last_commit: '2026-02-04'
     language: C
 - name: WickedEngine's ECS
   description: WickedEngine's ECS implementation
@@ -177,21 +164,18 @@
   github: turanszkij/WickedEngine
   _subsection: C/C++
   _meta:
-    stars: 6826
-    last_commit: '2026-02-02'
-    archived: false
+    stars: 6838
+    last_commit: '2026-02-08'
     license: MIT
     language: C
 - name: Arch
-  description: A high-performance Archetype & Chunks Entity Component System for game
-    development and data-oriented programming
+  description: A high-performance Archetype & Chunks Entity Component System for game development and data-oriented programming
   url: https://github.com/genaray/Arch
   github: genaray/Arch
   _subsection: C#
   _meta:
-    stars: 1572
+    stars: 1580
     last_commit: '2025-11-18'
-    archived: false
     license: Apache-2.0
     language: C#
 - name: DefaultEcs
@@ -201,8 +185,7 @@
   _subsection: C#
   _meta:
     stars: 746
-    last_commit: '2023-01-31'
-    archived: false
+    last_commit: '2024-03-01'
     license: MIT-0
     language: C#
 - name: DragonECS
@@ -212,8 +195,7 @@
   _subsection: C#
   _meta:
     stars: 291
-    last_commit: '2025-08-26'
-    archived: false
+    last_commit: '2025-10-13'
     license: MIT
     language: C#
 - name: Entitas
@@ -222,9 +204,8 @@
   github: sschmid/Entitas
   _subsection: C#
   _meta:
-    stars: 7616
-    last_commit: '2023-07-28'
-    archived: false
+    stars: 7618
+    last_commit: '2023-12-30'
     license: MIT
     language: C#
 - name: Frent
@@ -235,7 +216,6 @@
   _meta:
     stars: 154
     last_commit: '2026-01-10'
-    archived: false
     license: MIT
     language: C#
 - name: Friflo Engine ECS
@@ -244,9 +224,8 @@
   github: friflo/Friflo.Engine.ECS
   _subsection: C#
   _meta:
-    stars: 525
-    last_commit: '2025-12-29'
-    archived: false
+    stars: 530
+    last_commit: '2026-02-05'
     license: MIT
     language: C#
 - name: LeoEcsLite
@@ -256,8 +235,7 @@
   _subsection: C#
   _meta:
     stars: 60
-    last_commit: '2022-04-13'
-    archived: false
+    last_commit: '2022-07-15'
     license: MIT
     language: C#
 - name: ME.BECS
@@ -266,9 +244,8 @@
   github: chromealex/ME.BECS
   _subsection: C#
   _meta:
-    stars: 241
-    last_commit: '2026-01-07'
-    archived: false
+    stars: 242
+    last_commit: '2026-02-05'
     license: MIT
     language: C#
 - name: Morpeh
@@ -277,9 +254,8 @@
   github: scellecs/morpeh
   _subsection: C#
   _meta:
-    stars: 630
-    last_commit: '2025-07-28'
-    archived: false
+    stars: 631
+    last_commit: '2026-01-07'
     license: MIT
     language: C#
 - name: Svelto.ECS
@@ -288,9 +264,8 @@
   github: sebas77/Svelto.ECS
   _subsection: C#
   _meta:
-    stars: 1352
+    stars: 1353
     last_commit: '2025-05-01'
-    archived: false
     license: MIT
     language: C#
 - name: Fennecs
@@ -299,9 +274,8 @@
   github: outfox/fennecs
   _subsection: C#
   _meta:
-    stars: 407
+    stars: 410
     last_commit: '2026-01-13'
-    archived: false
     license: MIT
     language: C#
 - name: TinyEcs
@@ -310,9 +284,8 @@
   github: andreakarasho/TinyEcs
   _subsection: C#
   _meta:
-    stars: 134
-    last_commit: '2025-10-17'
-    archived: false
+    stars: 135
+    last_commit: '2026-02-03'
     license: MIT
     language: C#
 - name: Massive ECS
@@ -321,9 +294,8 @@
   github: nilpunch/massive-ecs
   _subsection: C#
   _meta:
-    stars: 171
-    last_commit: '2026-01-23'
-    archived: false
+    stars: 181
+    last_commit: '2026-02-04'
     license: MIT
     language: C#
 - name: Static ECS
@@ -332,9 +304,8 @@
   github: Felid-Force-Studios/StaticEcs
   _subsection: C#
   _meta:
-    stars: 136
-    last_commit: '2025-11-28'
-    archived: false
+    stars: 142
+    last_commit: '2026-02-05'
     license: MIT
     language: C#
 - name: beast
@@ -345,19 +316,16 @@
   _meta:
     stars: 30
     last_commit: '2021-08-29'
-    archived: false
     license: MIT
     language: Common Lisp
 - name: cl-ecs
-  description: An implementation of the Entity-Component-System pattern mostly used
-    in game development
+  description: An implementation of the Entity-Component-System pattern mostly used in game development
   url: https://github.com/bit-phlippers/cl-ecs
   github: bit-phlippers/cl-ecs
   _subsection: Common Lisp
   _meta:
     stars: 8
     last_commit: '2016-05-23'
-    archived: false
     language: Common Lisp
 - name: cl-fast-ecs
   description: Blazingly fast Entity-Component-System microframework
@@ -372,7 +340,6 @@
   _meta:
     stars: 17
     last_commit: '2021-12-11'
-    archived: false
     license: MIT
     language: Dart
 - name: ECSx
@@ -381,9 +348,8 @@
   github: ecsx-framework/ECSx
   _subsection: Elixir
   _meta:
-    stars: 258
+    stars: 257
     last_commit: '2025-01-25'
-    archived: false
     license: GPL-3.0
     language: Elixir
 - name: esper
@@ -392,9 +358,8 @@
   github: benmoran56/esper
   _subsection: Python
   _meta:
-    stars: 669
+    stars: 670
     last_commit: '2026-02-01'
-    archived: false
     license: MIT
     language: Python
 - name: shipyard
@@ -405,7 +370,7 @@
   _meta:
     stars: 834
     last_commit: '2026-01-26'
-    archived: false
+    license: Other
     language: Rust
 - name: specs
   description: Parallel entity component system written in Rust
@@ -413,9 +378,8 @@
   github: amethyst/specs
   _subsection: Rust
   _meta:
-    stars: 2593
+    stars: 2592
     last_commit: '2024-06-07'
-    archived: false
     license: Apache-2.0
     language: Rust
 - name: legion
@@ -424,21 +388,18 @@
   github: amethyst/legion
   _subsection: Rust
   _meta:
-    stars: 1702
-    last_commit: '2021-10-03'
-    archived: false
+    stars: 1703
+    last_commit: '2021-12-30'
     license: MIT
     language: Rust
 - name: bevy_ecs
-  description: Simple to use, ergonomic, fast, massively parallel, opinionated, and
-    featureful written in Rust
+  description: Simple to use, ergonomic, fast, massively parallel, opinionated, and featureful written in Rust
   url: https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 44451
-    last_commit: '2026-02-02'
-    archived: false
+    stars: 44548
+    last_commit: '2026-02-09'
     license: Apache-2.0
     language: Rust
 - name: hecs
@@ -447,9 +408,8 @@
   github: Ralith/hecs
   _subsection: Rust
   _meta:
-    stars: 1227
+    stars: 1232
     last_commit: '2026-01-18'
-    archived: false
     license: Apache-2.0
     language: Rust
 - name: Ark
@@ -458,9 +418,8 @@
   github: mlange-42/ark
   _subsection: Go
   _meta:
-    stars: 209
+    stars: 210
     last_commit: '2026-01-20'
-    archived: false
     license: Apache-2.0
     language: Go
 - name: ecs
@@ -471,7 +430,6 @@
   _meta:
     stars: 331
     last_commit: '2023-12-21'
-    archived: false
     license: MIT
     language: Go
 - name: Concord
@@ -481,8 +439,7 @@
   _subsection: Lua
   _meta:
     stars: 302
-    last_commit: '2024-06-30'
-    archived: false
+    last_commit: '2026-01-11'
     license: MIT
     language: Lua
 - name: ECS Lua
@@ -492,8 +449,7 @@
   _subsection: Lua
   _meta:
     stars: 224
-    last_commit: '2021-10-22'
-    archived: false
+    last_commit: '2024-06-24'
     license: MIT
     language: Lua
 - name: evolved.lua
@@ -503,8 +459,7 @@
   _subsection: Lua
   _meta:
     stars: 171
-    last_commit: '2026-02-02'
-    archived: false
+    last_commit: '2026-02-09'
     license: MIT
     language: Lua
 - name: Nata
@@ -514,8 +469,7 @@
   _subsection: Lua
   _meta:
     stars: 51
-    last_commit: '2020-04-19'
-    archived: false
+    last_commit: '2021-01-20'
     license: MIT
     language: Lua
 - name: tiny-ecs
@@ -524,9 +478,8 @@
   github: bakpakin/tiny-ecs
   _subsection: Lua
   _meta:
-    stars: 774
-    last_commit: '2020-11-03'
-    archived: false
+    stars: 775
+    last_commit: '2023-03-15'
     license: MIT
     language: Lua
 - name: Artemis-odb
@@ -536,20 +489,17 @@
   _subsection: Java
   _meta:
     stars: 825
-    last_commit: '2021-07-20'
-    archived: false
+    last_commit: '2023-04-14'
     license: BSD-2-Clause
     language: Java
 - name: Ark.jl
-  description: An archetype-based Entity Component System (ECS) for Julia. It is a
-    port of the Go ECS Ark.
+  description: An archetype-based Entity Component System (ECS) for Julia. It is a port of the Go ECS Ark.
   url: https://github.com/ark-ecs/Ark.jl
   github: ark-ecs/Ark.jl
   _subsection: Julia
   _meta:
-    stars: 52
-    last_commit: '2026-01-30'
-    archived: false
+    stars: 54
+    last_commit: '2026-02-08'
     license: Apache-2.0
     language: Julia
 - name: Fleks
@@ -560,19 +510,16 @@
   _meta:
     stars: 243
     last_commit: '2025-12-18'
-    archived: false
     license: MIT
     language: Kotlin
 - name: becsy
-  description: A multithreaded Entity Component System (ECS) for TypeScript and JavaScript,
-    inspired by ECSY and bitecs.
+  description: A multithreaded Entity Component System (ECS) for TypeScript and JavaScript, inspired by ECSY and bitecs.
   url: https://github.com/LastOliveGames/becsy
   github: LastOliveGames/becsy
   _subsection: JavaScript / TypeScript
   _meta:
     stars: 284
-    last_commit: '2025-05-20'
-    archived: false
+    last_commit: '2025-10-02'
     license: MIT
     language: TypeScript
 - name: bitECS
@@ -581,9 +528,8 @@
   github: NateTheGreatt/bitECS
   _subsection: JavaScript / TypeScript
   _meta:
-    stars: 1290
+    stars: 1299
     last_commit: '2025-12-06'
-    archived: false
     license: MPL-2.0
     language: TypeScript
 - name: ECSY
@@ -598,15 +544,13 @@
     license: MIT
     language: JavaScript
 - name: miniplex
-  description: The gentle game entity manager, focused on ease of use and developer
-    experience.
+  description: The gentle game entity manager, focused on ease of use and developer experience.
   url: https://github.com/hmans/miniplex
   github: hmans/miniplex
   _subsection: JavaScript / TypeScript
   _meta:
-    stars: 977
-    last_commit: '2023-10-14'
-    archived: false
+    stars: 979
+    last_commit: '2023-11-09'
     license: MIT
     language: TypeScript
 - name: Thyseus
@@ -617,7 +561,6 @@
   _meta:
     stars: 86
     last_commit: '2024-05-06'
-    archived: false
     license: MIT
     language: TypeScript
 - name: mach-ecs
@@ -628,16 +571,14 @@
   _meta:
     stars: 35
     last_commit: '2024-04-21'
-    archived: false
 - name: Zig ECS
   description: A Zig port of the fantasic Entt
   url: https://github.com/prime31/zig-ecs
   github: prime31/zig-ecs
   _subsection: Zig
   _meta:
-    stars: 390
+    stars: 392
     last_commit: '2025-08-26'
-    archived: false
     license: MIT
     language: Zig
 - name: ZCS
@@ -648,7 +589,6 @@
   _meta:
     stars: 145
     last_commit: '2025-12-16'
-    archived: false
     license: MIT
     language: Zig
 - name: knoedel
@@ -659,7 +599,6 @@
   _meta:
     stars: 27
     last_commit: '2026-01-20'
-    archived: false
     license: MIT
     language: Zig
 - name: Comptime ECS
@@ -670,7 +609,6 @@
   _meta:
     stars: 4
     last_commit: '2025-11-23'
-    archived: false
     language: Zig
 - name: apecs
   description: A fast, extensible, type driven Haskell ECS framework for games
@@ -679,6 +617,5 @@
   _subsection: Haskell
   _meta:
     stars: 407
-    last_commit: '2025-12-25'
-    archived: false
+    last_commit: '2025-12-26'
     language: Haskell

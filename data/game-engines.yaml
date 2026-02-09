@@ -5,8 +5,8 @@
   _subsection: C++
   _meta:
     stars: 27
-    last_commit: '2026-01-26'
-    archived: false
+    last_commit: '2026-02-08'
+    license: Other
     language: C++
 - name: Engine
   description: Basic cross-platform 3D game engine
@@ -15,8 +15,7 @@
   _subsection: C++
   _meta:
     stars: 301
-    last_commit: '2018-03-03'
-    archived: false
+    last_commit: '2018-08-04'
     license: GPL-3.0
     language: C++
 - name: halley
@@ -26,8 +25,7 @@
   _subsection: C++
   _meta:
     stars: 3797
-    last_commit: '2026-02-02'
-    archived: false
+    last_commit: '2026-02-07'
     license: Apache-2.0
     language: C++
 - name: igneous
@@ -37,32 +35,28 @@
   _subsection: C++
   _meta:
     stars: 51
-    last_commit: '2019-10-04'
-    archived: false
+    last_commit: '2020-10-03'
     license: CC-BY-4.0
     language: C++
 - name: kengine
-  description: Game engine focused on ease-of-use, runtime extensibility and compile-time
-    type safety
+  description: Game engine focused on ease-of-use, runtime extensibility and compile-time type safety
   url: https://github.com/phisko/kengine
   github: phisko/kengine
   _subsection: C++
   _meta:
     stars: 616
     last_commit: '2023-03-10'
-    archived: false
     license: MIT
     language: C++
 - name: Lina Engine
-  description: Modular, tiny and fast C++ game engine, aimed to develop 3D desktop
-    games
+  description: Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games
   url: https://github.com/inanevin/LinaEngine
   github: inanevin/LinaEngine
   _subsection: C++
   _meta:
-    stars: 889
+    stars: 890
     last_commit: '2025-10-08'
-    archived: false
+    license: Other
     language: C++
 - name: Lumos
   description: Cross-Platform C++ 2D/3D game engine
@@ -70,9 +64,8 @@
   github: jmorton06/Lumos
   _subsection: C++
   _meta:
-    stars: 1472
+    stars: 1475
     last_commit: '2026-01-22'
-    archived: false
     license: MIT
     language: C++
 - name: MxEngine
@@ -81,9 +74,8 @@
   github: asc-community/MxEngine
   _subsection: C++
   _meta:
-    stars: 1217
-    last_commit: '2024-03-28'
-    archived: false
+    stars: 1219
+    last_commit: '2024-04-06'
     license: BSD-3-Clause
     language: C++
 - name: nebula
@@ -92,20 +84,19 @@
   github: gscept/nebula
   _subsection: C++
   _meta:
-    stars: 1049
-    last_commit: '2026-01-31'
-    archived: false
+    stars: 1050
+    last_commit: '2026-02-07'
+    license: Other
     language: C++
 - name: Nazara Engine
-  description: Cross-platform framework aimed at real-time applications requiring
-    audio, 2D and 3D real-time rendering, network and more
+  description: Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network
+    and more
   url: https://github.com/NazaraEngine/NazaraEngine
   github: NazaraEngine/NazaraEngine
   _subsection: C++
   _meta:
-    stars: 809
-    last_commit: '2026-01-30'
-    archived: false
+    stars: 811
+    last_commit: '2026-02-05'
     license: MIT
     language: C++
 - name: shiva
@@ -126,8 +117,7 @@
   _subsection: C++
   _meta:
     stars: 1182
-    last_commit: '2016-12-12'
-    archived: false
+    last_commit: '2020-03-21'
     license: Apache-2.0
     language: C++
 - name: supernova
@@ -137,8 +127,7 @@
   _subsection: C++
   _meta:
     stars: 376
-    last_commit: '2026-02-02'
-    archived: false
+    last_commit: '2026-02-08'
     license: MIT
     language: C++
 - name: Usagi
@@ -148,8 +137,7 @@
   _subsection: C++
   _meta:
     stars: 53
-    last_commit: '2022-02-10'
-    archived: false
+    last_commit: '2025-01-14'
     license: MIT
     language: C++
 - name: WickedEngine
@@ -158,21 +146,18 @@
   github: turanszkij/WickedEngine
   _subsection: C++
   _meta:
-    stars: 6826
-    last_commit: '2026-02-02'
-    archived: false
+    stars: 6838
+    last_commit: '2026-02-08'
     license: MIT
     language: C
 - name: Engo
-  description: A cross-platform game engine written in Go following an interpretation
-    of the Entity Component System paradigm
+  description: A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm
   url: https://github.com/EngoEngine/engo
   github: EngoEngine/engo
   _subsection: Go
   _meta:
     stars: 1815
-    last_commit: '2024-07-12'
-    archived: false
+    last_commit: '2025-08-28'
     license: MIT
     language: Go
 - name: Ambient
@@ -181,9 +166,8 @@
   github: AmbientRun/Ambient
   _subsection: Rust
   _meta:
-    stars: 3896
+    stars: 3894
     last_commit: '2025-01-07'
-    archived: false
     license: Apache-2.0
     language: Rust
 - name: Amethyst
@@ -192,9 +176,10 @@
   github: amethyst/amethyst
   _subsection: Rust
   _meta:
-    stars: 8033
+    stars: 8034
     last_commit: '2021-12-06'
     archived: true
+    license: Other
     language: Rust
 - name: Bevy
   description: A refreshingly simple data-driven game engine built in Rust
@@ -202,9 +187,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 44451
-    last_commit: '2026-02-02'
-    archived: false
+    stars: 44548
+    last_commit: '2026-02-09'
     license: Apache-2.0
     language: Rust
 - name: Bones
@@ -213,19 +197,18 @@
   github: fishfolk/bones
   _subsection: Rust
   _meta:
-    stars: 289
+    stars: 290
     last_commit: '2026-01-29'
-    archived: false
+    license: Other
     language: Rust
 - name: mach
-  description: Game engine & graphics toolkit for building high-performance, truly
-    cross-platform, robust & modular games, visualizations, and desktop/mobile GUI
-    apps
+  description: Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games,
+    visualizations, and desktop/mobile GUI apps
   url: https://github.com/hexops/mach
   github: hexops/mach
   _subsection: Zig
   _meta:
-    stars: 4561
+    stars: 4574
     last_commit: '2025-11-25'
-    archived: false
+    license: Other
     language: Zig
