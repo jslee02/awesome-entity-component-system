@@ -5,7 +5,7 @@
   _subsection: C++
   _meta:
     stars: 27
-    last_commit: '2026-02-08'
+    last_commit: '2026-02-15'
     license: Other
     language: C++
 - name: Engine
@@ -24,8 +24,8 @@
   github: amzeratul/halley
   _subsection: C++
   _meta:
-    stars: 3797
-    last_commit: '2026-02-07'
+    stars: 3801
+    last_commit: '2026-02-12'
     license: Apache-2.0
     language: C++
 - name: igneous
@@ -64,7 +64,7 @@
   github: jmorton06/Lumos
   _subsection: C++
   _meta:
-    stars: 1475
+    stars: 1476
     last_commit: '2026-01-22'
     license: MIT
     language: C++
@@ -84,8 +84,8 @@
   github: gscept/nebula
   _subsection: C++
   _meta:
-    stars: 1050
-    last_commit: '2026-02-07'
+    stars: 1052
+    last_commit: '2026-02-15'
     license: Other
     language: C++
 - name: Nazara Engine
@@ -95,8 +95,8 @@
   github: NazaraEngine/NazaraEngine
   _subsection: C++
   _meta:
-    stars: 811
-    last_commit: '2026-02-05'
+    stars: 812
+    last_commit: '2026-02-09'
     license: MIT
     language: C++
 - name: shiva
@@ -127,7 +127,7 @@
   _subsection: C++
   _meta:
     stars: 376
-    last_commit: '2026-02-08'
+    last_commit: '2026-02-12'
     license: MIT
     language: C++
 - name: Usagi
@@ -146,8 +146,8 @@
   github: turanszkij/WickedEngine
   _subsection: C++
   _meta:
-    stars: 6838
-    last_commit: '2026-02-08'
+    stars: 6877
+    last_commit: '2026-02-15'
     license: MIT
     language: C
 - name: Engo
@@ -166,7 +166,7 @@
   github: AmbientRun/Ambient
   _subsection: Rust
   _meta:
-    stars: 3894
+    stars: 3897
     last_commit: '2025-01-07'
     license: Apache-2.0
     language: Rust
@@ -187,8 +187,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 44548
-    last_commit: '2026-02-09'
+    stars: 44640
+    last_commit: '2026-02-15'
     license: Apache-2.0
     language: Rust
 - name: Bones
@@ -197,7 +197,7 @@
   github: fishfolk/bones
   _subsection: Rust
   _meta:
-    stars: 290
+    stars: 292
     last_commit: '2026-01-29'
     license: Other
     language: Rust
@@ -208,7 +208,7 @@
   github: hexops/mach
   _subsection: Zig
   _meta:
-    stars: 4574
+    stars: 4593
     last_commit: '2025-11-25'
     license: Other
     language: Zig
