@@ -39,6 +39,6 @@
   github: jeffzi/lua-ecs-benchmark
   _meta:
     stars: 6
-    last_commit: '2026-01-26'
+    last_commit: '2026-02-15'
     license: MIT
     language: Lua
