@@ -4,7 +4,7 @@
   github: GameFoundry/bsf
   _subsection: C++
   _meta:
-    stars: 1761
+    stars: 1762
     last_commit: '2020-03-10'
     license: MIT
     language: C++
@@ -15,7 +15,7 @@
   github: ConfettiFX/The-Forge
   _subsection: C++
   _meta:
-    stars: 5464
+    stars: 5469
     last_commit: '2025-07-03'
     license: Apache-2.0
     language: C++
