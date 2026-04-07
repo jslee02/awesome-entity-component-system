@@ -563,6 +563,16 @@
     last_commit: '2024-05-06'
     license: MIT
     language: TypeScript
+- name: Woven-ECS
+  description: A multithreaded ECS framework for TypeScript aimed at collaborative browser applications
+  url: https://woven-ecs.dev/
+  github: WillH0lt/woven-ecs
+  _subsection: JavaScript / TypeScript
+  _meta:
+    stars: 7
+    last_commit: '2026-03-22'
+    license: MIT
+    language: TypeScript
 - name: mach-ecs
   description: Entity Component System from first-principles designed for Zig
   url: https://github.com/hexops-graveyard/mach-ecs
