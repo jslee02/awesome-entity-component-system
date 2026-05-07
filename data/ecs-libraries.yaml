@@ -16,7 +16,7 @@
   _subsection: C/C++
   _meta:
     stars: 483
-    last_commit: '2020-08-19'
+    last_commit: '2019-11-16'
     archived: true
     license: MIT
     language: C++
@@ -36,8 +36,8 @@
   github: vittorioromeo/ecst
   _subsection: C/C++
   _meta:
-    stars: 491
-    last_commit: '2019-09-03'
+    stars: 492
+    last_commit: '2018-11-01'
     license: Other
     language: C++
 - name: EntityFu
@@ -66,7 +66,7 @@
   github: alecthomas/entityx
   _subsection: C/C++
   _meta:
-    stars: 2328
+    stars: 2332
     last_commit: '2025-08-23'
     license: MIT
     language: C++
@@ -76,8 +76,8 @@
   github: skypjack/entt
   _subsection: C/C++
   _meta:
-    stars: 12486
-    last_commit: '2026-04-02'
+    stars: 12612
+    last_commit: '2026-03-27'
     license: MIT
     language: C++
 - name: Flecs
@@ -86,8 +86,8 @@
   github: SanderMertens/flecs
   _subsection: C/C++
   _meta:
-    stars: 8172
-    last_commit: '2026-04-04'
+    stars: 8247
+    last_commit: '2026-05-03'
     license: Other
     language: C
 - name: Gaia-ECS
@@ -96,8 +96,8 @@
   github: richardbiely/gaia-ecs
   _subsection: C/C++
   _meta:
-    stars: 124
-    last_commit: '2026-03-31'
+    stars: 126
+    last_commit: '2026-05-01'
     license: MIT
     language: C++
 - name: Ginseng
@@ -155,8 +155,8 @@
   github: empyreanx/pico_headers
   _subsection: C/C++
   _meta:
-    stars: 519
-    last_commit: '2026-04-06'
+    stars: 526
+    last_commit: '2026-04-28'
     language: C
 - name: WickedEngine's ECS
   description: WickedEngine's ECS implementation
@@ -164,8 +164,8 @@
   github: turanszkij/WickedEngine
   _subsection: C/C++
   _meta:
-    stars: 6967
-    last_commit: '2026-03-26'
+    stars: 7019
+    last_commit: '2026-04-25'
     license: MIT
     language: C
 - name: Arch
@@ -174,7 +174,7 @@
   github: genaray/Arch
   _subsection: C#
   _meta:
-    stars: 1652
+    stars: 1690
     last_commit: '2025-11-18'
     license: Apache-2.0
     language: C#
@@ -184,8 +184,8 @@
   github: Doraku/DefaultEcs
   _subsection: C#
   _meta:
-    stars: 753
-    last_commit: '2024-03-01'
+    stars: 754
+    last_commit: '2023-01-31'
     license: MIT-0
     language: C#
 - name: DragonECS
@@ -194,8 +194,8 @@
   github: DCFApixels/DragonECS
   _subsection: C#
   _meta:
-    stars: 303
-    last_commit: '2026-04-01'
+    stars: 324
+    last_commit: '2026-04-21'
     license: MIT
     language: C#
 - name: Entitas
@@ -204,8 +204,8 @@
   github: sschmid/Entitas
   _subsection: C#
   _meta:
-    stars: 7632
-    last_commit: '2023-12-30'
+    stars: 7628
+    last_commit: '2023-07-28'
     license: MIT
     language: C#
 - name: Frent
@@ -214,8 +214,8 @@
   github: itsBuggingMe/Frent
   _subsection: C#
   _meta:
-    stars: 162
-    last_commit: '2026-04-04'
+    stars: 165
+    last_commit: '2026-04-07'
     license: MIT
     language: C#
 - name: Friflo Engine ECS
@@ -224,8 +224,8 @@
   github: friflo/Friflo.Engine.ECS
   _subsection: C#
   _meta:
-    stars: 591
-    last_commit: '2026-04-05'
+    stars: 620
+    last_commit: '2026-05-01'
     license: MIT
     language: C#
 - name: LeoEcsLite
@@ -234,8 +234,8 @@
   github: LeoECSCommunity/ecslite
   _subsection: C#
   _meta:
-    stars: 60
-    last_commit: '2022-07-15'
+    stars: 62
+    last_commit: '2022-04-13'
     license: MIT
     language: C#
 - name: ME.BECS
@@ -244,8 +244,8 @@
   github: chromealex/ME.BECS
   _subsection: C#
   _meta:
-    stars: 247
-    last_commit: '2026-04-04'
+    stars: 249
+    last_commit: '2026-05-03'
     license: MIT
     language: C#
 - name: Morpeh
@@ -254,8 +254,8 @@
   github: scellecs/morpeh
   _subsection: C#
   _meta:
-    stars: 642
-    last_commit: '2026-01-07'
+    stars: 641
+    last_commit: '2025-07-28'
     license: MIT
     language: C#
 - name: Svelto.ECS
@@ -264,7 +264,7 @@
   github: sebas77/Svelto.ECS
   _subsection: C#
   _meta:
-    stars: 1359
+    stars: 1360
     last_commit: '2025-05-01'
     license: MIT
     language: C#
@@ -274,8 +274,8 @@
   github: outfox/fennecs
   _subsection: C#
   _meta:
-    stars: 427
-    last_commit: '2026-03-11'
+    stars: 433
+    last_commit: '2026-05-01'
     license: MIT
     language: C#
 - name: TinyEcs
@@ -284,8 +284,8 @@
   github: andreakarasho/TinyEcs
   _subsection: C#
   _meta:
-    stars: 139
-    last_commit: '2026-02-03'
+    stars: 142
+    last_commit: '2025-10-17'
     license: MIT
     language: C#
 - name: Massive ECS
@@ -294,7 +294,7 @@
   github: nilpunch/massive-ecs
   _subsection: C#
   _meta:
-    stars: 200
+    stars: 207
     last_commit: '2026-04-01'
     license: MIT
     language: C#
@@ -304,8 +304,8 @@
   github: Felid-Force-Studios/StaticEcs
   _subsection: C#
   _meta:
-    stars: 150
-    last_commit: '2026-04-05'
+    stars: 174
+    last_commit: '2026-05-03'
     license: MIT
     language: C#
 - name: beast
@@ -348,7 +348,7 @@
   github: ecsx-framework/ECSx
   _subsection: Elixir
   _meta:
-    stars: 263
+    stars: 264
     last_commit: '2025-01-25'
     license: GPL-3.0
     language: Elixir
@@ -358,7 +358,7 @@
   github: benmoran56/esper
   _subsection: Python
   _meta:
-    stars: 682
+    stars: 687
     last_commit: '2026-02-01'
     license: MIT
     language: Python
@@ -368,8 +368,8 @@
   github: leudz/shipyard
   _subsection: Rust
   _meta:
-    stars: 843
-    last_commit: '2026-03-02'
+    stars: 853
+    last_commit: '2026-04-28'
     license: Other
     language: Rust
 - name: specs
@@ -378,7 +378,7 @@
   github: amethyst/specs
   _subsection: Rust
   _meta:
-    stars: 2605
+    stars: 2604
     last_commit: '2024-06-07'
     license: Apache-2.0
     language: Rust
@@ -388,8 +388,8 @@
   github: amethyst/legion
   _subsection: Rust
   _meta:
-    stars: 1705
-    last_commit: '2021-12-30'
+    stars: 1709
+    last_commit: '2021-10-03'
     license: MIT
     language: Rust
 - name: bevy_ecs
@@ -398,8 +398,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 45453
-    last_commit: '2026-04-06'
+    stars: 45885
+    last_commit: '2026-05-04'
     license: Apache-2.0
     language: Rust
 - name: hecs
@@ -408,8 +408,8 @@
   github: Ralith/hecs
   _subsection: Rust
   _meta:
-    stars: 1270
-    last_commit: '2026-03-05'
+    stars: 1287
+    last_commit: '2026-04-12'
     license: Apache-2.0
     language: Rust
 - name: Ark
@@ -418,8 +418,8 @@
   github: mlange-42/ark
   _subsection: Go
   _meta:
-    stars: 232
-    last_commit: '2026-04-01'
+    stars: 249
+    last_commit: '2026-04-30'
     license: Apache-2.0
     language: Go
 - name: ecs
@@ -438,8 +438,8 @@
   github: Keyslam-Group/Concord
   _subsection: Lua
   _meta:
-    stars: 312
-    last_commit: '2026-01-11'
+    stars: 314
+    last_commit: '2024-06-30'
     license: MIT
     language: Lua
 - name: ECS Lua
@@ -448,8 +448,8 @@
   github: nidorx/ecs-lua
   _subsection: Lua
   _meta:
-    stars: 229
-    last_commit: '2024-06-24'
+    stars: 228
+    last_commit: '2021-10-22'
     license: MIT
     language: Lua
 - name: evolved.lua
@@ -458,7 +458,7 @@
   github: BlackMATov/evolved.lua
   _subsection: Lua
   _meta:
-    stars: 198
+    stars: 205
     last_commit: '2026-03-30'
     license: MIT
     language: Lua
@@ -469,7 +469,7 @@
   _subsection: Lua
   _meta:
     stars: 51
-    last_commit: '2021-01-20'
+    last_commit: '2020-04-19'
     license: MIT
     language: Lua
 - name: tiny-ecs
@@ -478,8 +478,8 @@
   github: bakpakin/tiny-ecs
   _subsection: Lua
   _meta:
-    stars: 777
-    last_commit: '2023-03-15'
+    stars: 779
+    last_commit: '2020-11-03'
     license: MIT
     language: Lua
 - name: Artemis-odb
@@ -488,8 +488,8 @@
   github: junkdog/artemis-odb
   _subsection: Java
   _meta:
-    stars: 830
-    last_commit: '2023-04-14'
+    stars: 831
+    last_commit: '2021-07-20'
     license: BSD-2-Clause
     language: Java
 - name: Ark.jl
@@ -498,8 +498,8 @@
   github: ark-ecs/Ark.jl
   _subsection: Julia
   _meta:
-    stars: 71
-    last_commit: '2026-04-05'
+    stars: 74
+    last_commit: '2026-05-02'
     license: Apache-2.0
     language: Julia
 - name: Fleks
@@ -508,8 +508,8 @@
   github: Quillraven/Fleks
   _subsection: Kotlin
   _meta:
-    stars: 250
-    last_commit: '2026-03-24'
+    stars: 255
+    last_commit: '2026-04-17'
     license: MIT
     language: Kotlin
 - name: becsy
@@ -518,8 +518,8 @@
   github: LastOliveGames/becsy
   _subsection: JavaScript / TypeScript
   _meta:
-    stars: 295
-    last_commit: '2025-10-02'
+    stars: 296
+    last_commit: '2025-05-20'
     license: MIT
     language: TypeScript
 - name: bitECS
@@ -528,7 +528,7 @@
   github: NateTheGreatt/bitECS
   _subsection: JavaScript / TypeScript
   _meta:
-    stars: 1375
+    stars: 1406
     last_commit: '2025-12-06'
     license: MPL-2.0
     language: TypeScript
@@ -549,7 +549,7 @@
   github: hmans/miniplex
   _subsection: JavaScript / TypeScript
   _meta:
-    stars: 997
+    stars: 1009
     last_commit: '2026-04-05'
     license: MIT
     language: TypeScript
@@ -569,8 +569,8 @@
   github: WillH0lt/woven-ecs
   _subsection: JavaScript / TypeScript
   _meta:
-    stars: 7
-    last_commit: '2026-03-22'
+    stars: 8
+    last_commit: '2026-04-28'
     license: MIT
     language: TypeScript
 - name: mach-ecs
@@ -587,7 +587,7 @@
   github: prime31/zig-ecs
   _subsection: Zig
   _meta:
-    stars: 404
+    stars: 411
     last_commit: '2026-04-04'
     license: MIT
     language: Zig
@@ -597,7 +597,7 @@
   github: Games-by-Mason/ZCS
   _subsection: Zig
   _meta:
-    stars: 147
+    stars: 149
     last_commit: '2025-12-16'
     license: MIT
     language: Zig
@@ -607,8 +607,8 @@
   github: Lommix/knoedel
   _subsection: Zig
   _meta:
-    stars: 32
-    last_commit: '2026-03-31'
+    stars: 33
+    last_commit: '2026-04-26'
     license: MIT
     language: Zig
 - name: Comptime ECS
@@ -626,6 +626,6 @@
   github: jonascarpay/apecs
   _subsection: Haskell
   _meta:
-    stars: 413
-    last_commit: '2026-04-03'
+    stars: 414
+    last_commit: '2026-05-01'
     language: Haskell

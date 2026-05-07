@@ -4,8 +4,8 @@
   github: GameFoundry/bsf
   _subsection: C++
   _meta:
-    stars: 1763
-    last_commit: '2020-03-10'
+    stars: 1765
+    last_commit: '2019-10-26'
     license: MIT
     language: C++
 - name: The Forge
@@ -15,7 +15,7 @@
   github: ConfettiFX/The-Forge
   _subsection: C++
   _meta:
-    stars: 5503
+    stars: 5525
     last_commit: '2025-07-03'
     license: Apache-2.0
     language: C++
