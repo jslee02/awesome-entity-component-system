@@ -1,0 +1,10 @@
+name: Protect README
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+
+jobs:
+  check-readme:
+    uses: jslee02/awesome-list-infra/.github/workflows/protect-readme.yml@main
