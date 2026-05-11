@@ -12,7 +12,7 @@
   description: 'Benchmarks of the main ECS Frameworks for: C#'
   github: Doraku/Ecs.CSharp.Benchmark
   _meta:
-    stars: 176
+    stars: 177
     last_commit: '2026-04-25'
     license: MIT-0
     language: C#
@@ -21,7 +21,7 @@
   description: Benchmark many common use cases in the simplest and most performant variant
   github: friflo/ECS.CSharp.Benchmark-common-use-cases
   _meta:
-    stars: 44
+    stars: 45
     last_commit: '2026-02-02'
     license: MIT
     language: C#
