@@ -5,7 +5,7 @@
   _subsection: C++
   _meta:
     stars: 28
-    last_commit: '2026-02-04'
+    last_commit: '2026-05-21'
     license: Other
     language: C++
 - name: Engine
@@ -24,8 +24,8 @@
   github: amzeratul/halley
   _subsection: C++
   _meta:
-    stars: 3825
-    last_commit: '2026-05-14'
+    stars: 3831
+    last_commit: '2026-06-01'
     license: Apache-2.0
     language: C++
 - name: igneous
@@ -44,7 +44,7 @@
   github: phisko/kengine
   _subsection: C++
   _meta:
-    stars: 617
+    stars: 618
     last_commit: '2023-03-10'
     license: MIT
     language: C++
@@ -54,7 +54,7 @@
   github: inanevin/LinaEngine
   _subsection: C++
   _meta:
-    stars: 895
+    stars: 897
     last_commit: '2025-10-08'
     license: Other
     language: C++
@@ -64,7 +64,7 @@
   github: jmorton06/Lumos
   _subsection: C++
   _meta:
-    stars: 1589
+    stars: 1592
     last_commit: '2026-03-30'
     license: MIT
     language: C++
@@ -84,8 +84,8 @@
   github: gscept/nebula
   _subsection: C++
   _meta:
-    stars: 1073
-    last_commit: '2026-05-15'
+    stars: 1075
+    last_commit: '2026-05-31'
     license: Other
     language: C++
 - name: Nazara Engine
@@ -95,7 +95,7 @@
   github: NazaraEngine/NazaraEngine
   _subsection: C++
   _meta:
-    stars: 824
+    stars: 825
     last_commit: '2026-05-16'
     license: MIT
     language: C++
@@ -116,7 +116,7 @@
   github: TheCherno/Sparky
   _subsection: C++
   _meta:
-    stars: 1182
+    stars: 1184
     last_commit: '2016-12-12'
     license: Apache-2.0
     language: C++
@@ -126,8 +126,8 @@
   github: supernovaengine/supernova
   _subsection: C++
   _meta:
-    stars: 395
-    last_commit: '2026-05-16'
+    stars: 401
+    last_commit: '2026-06-01'
     license: MIT
     language: C++
 - name: Usagi
@@ -136,7 +136,7 @@
   github: vitei/Usagi
   _subsection: C++
   _meta:
-    stars: 53
+    stars: 56
     last_commit: '2022-02-10'
     license: MIT
     language: C++
@@ -146,8 +146,8 @@
   github: turanszkij/WickedEngine
   _subsection: C++
   _meta:
-    stars: 7047
-    last_commit: '2026-05-17'
+    stars: 7070
+    last_commit: '2026-06-01'
     license: MIT
     language: C
 - name: Engo
@@ -156,7 +156,7 @@
   github: EngoEngine/engo
   _subsection: Go
   _meta:
-    stars: 1819
+    stars: 1818
     last_commit: '2024-07-12'
     license: MIT
     language: Go
@@ -166,7 +166,7 @@
   github: AmbientRun/Ambient
   _subsection: Rust
   _meta:
-    stars: 3900
+    stars: 3899
     last_commit: '2025-01-07'
     license: Apache-2.0
     language: Rust
@@ -176,7 +176,7 @@
   github: amethyst/amethyst
   _subsection: Rust
   _meta:
-    stars: 8023
+    stars: 8019
     last_commit: '2021-12-06'
     archived: true
     license: Other
@@ -187,8 +187,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 46118
-    last_commit: '2026-05-17'
+    stars: 46378
+    last_commit: '2026-06-01'
     license: Apache-2.0
     language: Rust
 - name: Bones
@@ -208,7 +208,7 @@
   github: hexops/mach
   _subsection: Zig
   _meta:
-    stars: 4734
-    last_commit: '2026-05-10'
+    stars: 4746
+    last_commit: '2026-05-23'
     license: Other
     language: Zig
