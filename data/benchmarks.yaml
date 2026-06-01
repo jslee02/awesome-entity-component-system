@@ -3,7 +3,7 @@
   description: Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
   github: abeimler/ecs_benchmark
   _meta:
-    stars: 297
+    stars: 298
     last_commit: '2024-08-16'
     license: MIT
     language: C++
@@ -12,7 +12,7 @@
   description: 'Benchmarks of the main ECS Frameworks for: C#'
   github: Doraku/Ecs.CSharp.Benchmark
   _meta:
-    stars: 177
+    stars: 178
     last_commit: '2026-04-25'
     license: MIT-0
     language: C#
@@ -21,7 +21,7 @@
   description: Benchmark many common use cases in the simplest and most performant variant
   github: friflo/ECS.CSharp.Benchmark-common-use-cases
   _meta:
-    stars: 45
+    stars: 47
     last_commit: '2026-02-02'
     license: MIT
     language: C#
