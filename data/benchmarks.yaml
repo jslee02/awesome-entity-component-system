@@ -12,7 +12,7 @@
   description: 'Benchmarks of the main ECS Frameworks for: C#'
   github: Doraku/Ecs.CSharp.Benchmark
   _meta:
-    stars: 178
+    stars: 179
     last_commit: '2026-04-25'
     license: MIT-0
     language: C#
