@@ -24,8 +24,8 @@
   github: amzeratul/halley
   _subsection: C++
   _meta:
-    stars: 3834
-    last_commit: '2026-06-04'
+    stars: 3842
+    last_commit: '2026-06-19'
     license: Apache-2.0
     language: C++
 - name: igneous
@@ -84,7 +84,7 @@
   github: gscept/nebula
   _subsection: C++
   _meta:
-    stars: 1074
+    stars: 1073
     last_commit: '2026-05-31'
     license: Other
     language: C++
@@ -95,8 +95,8 @@
   github: NazaraEngine/NazaraEngine
   _subsection: C++
   _meta:
-    stars: 828
-    last_commit: '2026-06-05'
+    stars: 831
+    last_commit: '2026-06-12'
     license: MIT
     language: C++
 - name: shiva
@@ -126,8 +126,8 @@
   github: supernovaengine/supernova
   _subsection: C++
   _meta:
-    stars: 405
-    last_commit: '2026-06-08'
+    stars: 420
+    last_commit: '2026-06-22'
     license: MIT
     language: C++
 - name: Usagi
@@ -146,8 +146,8 @@
   github: turanszkij/WickedEngine
   _subsection: C++
   _meta:
-    stars: 7091
-    last_commit: '2026-06-08'
+    stars: 7101
+    last_commit: '2026-06-22'
     license: MIT
     language: C
 - name: Engo
@@ -156,7 +156,7 @@
   github: EngoEngine/engo
   _subsection: Go
   _meta:
-    stars: 1817
+    stars: 1815
     last_commit: '2024-07-12'
     license: MIT
     language: Go
@@ -176,7 +176,7 @@
   github: amethyst/amethyst
   _subsection: Rust
   _meta:
-    stars: 8020
+    stars: 8024
     last_commit: '2021-12-06'
     archived: true
     license: Other
@@ -187,8 +187,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 46529
-    last_commit: '2026-06-07'
+    stars: 46785
+    last_commit: '2026-06-21'
     license: Apache-2.0
     language: Rust
 - name: Bones
@@ -197,7 +197,7 @@
   github: fishfolk/bones
   _subsection: Rust
   _meta:
-    stars: 298
+    stars: 299
     last_commit: '2026-04-24'
     license: Other
     language: Rust
@@ -208,7 +208,7 @@
   github: hexops/mach
   _subsection: Zig
   _meta:
-    stars: 4761
+    stars: 4775
     last_commit: '2026-05-23'
     license: Other
     language: Zig
