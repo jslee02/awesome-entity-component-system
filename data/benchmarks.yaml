@@ -3,7 +3,7 @@
   description: Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
   github: abeimler/ecs_benchmark
   _meta:
-    stars: 299
+    stars: 300
     last_commit: '2024-08-16'
     license: MIT
     language: C++
