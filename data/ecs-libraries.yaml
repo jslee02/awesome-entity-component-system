@@ -362,6 +362,16 @@
     last_commit: '2026-05-14'
     license: MIT
     language: Python
+- name: punyecs
+  description: A simple ECS designed around querying Python object attributes.
+  url: https://github.com/Modular-Game-Components/punyecs
+  github: Modular-Game-Components/punyecs
+  _subsection: Python
+  _meta:
+    stars: 3
+    license: Apache-2.0
+    last_commit: '2026-06-29'
+    language: Python
 - name: shipyard
   description: Entity Component System written in Rust
   url: https://github.com/leudz/shipyard
