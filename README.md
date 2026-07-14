@@ -79,6 +79,7 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 #### Python
 
 * 🟢 [esper](https://github.com/benmoran56/esper) - A lightweight Entity System for Python. [⭐ 693](https://github.com/benmoran56/esper)
+* 🟢 [punyecs](https://github.com/Modular-Game-Components/punyecs) - A simple ECS designed around querying Python object attributes. [⭐ 3](https://github.com/Modular-Game-Components/punyecs)
 
 #### Rust
 
@@ -95,7 +96,7 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 
 #### Lua
 
-* 🟡 [Concord](https://github.com/Keyslam-Group/Concord) - A feature-complete ECS library. [⭐ 317](https://github.com/Keyslam-Group/Concord)
+* 🔴 [Concord](https://github.com/Keyslam-Group/Concord) - A feature-complete ECS library. [⭐ 317](https://github.com/Keyslam-Group/Concord)
 * 🔴 [ECS Lua](https://github.com/nidorx/ecs-lua) - A fast and easy to use ECS engine for game development. [⭐ 231](https://github.com/nidorx/ecs-lua)
 * 🟢 [evolved.lua](https://github.com/BlackMATov/evolved.lua) - Evolved ECS (Entity-Component-System) for Lua. [⭐ 214](https://github.com/BlackMATov/evolved.lua)
 * 🔴 [Nata](https://github.com/tesselode/nata) - Entity management for Lua. [⭐ 51](https://github.com/tesselode/nata)
@@ -160,7 +161,7 @@ _Game engines built on ECS architecture._
 
 #### Go
 
-* 🟡 [Engo](https://github.com/EngoEngine/engo) - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm. [⭐ 1.8k](https://github.com/EngoEngine/engo)
+* 🔴 [Engo](https://github.com/EngoEngine/engo) - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm. [⭐ 1.8k](https://github.com/EngoEngine/engo)
 
 #### Rust
 
@@ -180,7 +181,7 @@ _Graphics and rendering engines using ECS._
 #### C++
 
 * 🟢 [bs::framework](https://github.com/GameFoundry/bsf) - Modern C++14 library for the development of real-time graphical applications. [⭐ 1.9k](https://github.com/GameFoundry/bsf)
-* 🟢 [The Forge](https://github.com/ConfettiFX/The-Forge) - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2. [⭐ 5.6k](https://github.com/ConfettiFX/The-Forge)
+* 🟡 [The Forge](https://github.com/ConfettiFX/The-Forge) - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2. [⭐ 5.6k](https://github.com/ConfettiFX/The-Forge)
 
 ### [Physics Libraries](#contents)
 
