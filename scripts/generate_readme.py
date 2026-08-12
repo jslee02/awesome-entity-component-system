@@ -298,8 +298,8 @@ def generate_readme(sort_key: str = "name") -> str:
     lines.append("")
     lines.append(
         "[![Star History Chart]"
-        "(https://api.star-history.com/svg?repos=jslee02/awesome-entity-component-system&type=Date)]"
-        "(https://star-history.com/#jslee02/awesome-entity-component-system)"
+        "(https://star-history.dera.page/svg?repos=jslee02/awesome-entity-component-system&type=Date)]"
+        "(https://star-history.dera.page/#jslee02/awesome-entity-component-system)"
     )
     lines.append("")
     lines.append("## [License](#contents)")

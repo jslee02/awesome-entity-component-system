@@ -264,7 +264,7 @@ Contributions are very welcome! Please read the [contribution guidelines](CONTRI
 
 ## [Star History](#contents)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jslee02/awesome-entity-component-system&type=Date)](https://star-history.com/#jslee02/awesome-entity-component-system)
+[![Star History Chart](https://star-history.dera.page/svg?repos=jslee02/awesome-entity-component-system&type=Date)](https://star-history.dera.page/#jslee02/awesome-entity-component-system)
 
 ## [License](#contents)
 
