@@ -4,8 +4,8 @@
   github: dbartolini/crown
   _subsection: C++
   _meta:
-    stars: 28
-    last_commit: '2026-06-01'
+    stars: 30
+    last_commit: '2026-08-26'
     license: Other
     language: C++
 - name: Engine
@@ -14,7 +14,7 @@
   github: Shervanator/Engine
   _subsection: C++
   _meta:
-    stars: 299
+    stars: 301
     last_commit: '2018-03-03'
     license: GPL-3.0
     language: C++
@@ -24,10 +24,10 @@
   github: amzeratul/halley
   _subsection: C++
   _meta:
-    stars: 3842
-    last_commit: '2026-06-19'
+    stars: 3858
+    last_commit: '2026-09-03'
     license: Apache-2.0
-    language: C++
+    language: C
 - name: igneous
   description: Open source game engine written in C++
   url: https://github.com/MissingBitStudios/igneous
@@ -44,7 +44,7 @@
   github: phisko/kengine
   _subsection: C++
   _meta:
-    stars: 617
+    stars: 616
     last_commit: '2023-03-10'
     license: MIT
     language: C++
@@ -54,7 +54,7 @@
   github: inanevin/LinaEngine
   _subsection: C++
   _meta:
-    stars: 898
+    stars: 902
     last_commit: '2025-10-08'
     license: Other
     language: C++
@@ -64,7 +64,7 @@
   github: jmorton06/Lumos
   _subsection: C++
   _meta:
-    stars: 1593
+    stars: 1598
     last_commit: '2026-03-30'
     license: MIT
     language: C++
@@ -74,7 +74,7 @@
   github: asc-community/MxEngine
   _subsection: C++
   _meta:
-    stars: 1228
+    stars: 1235
     last_commit: '2024-03-28'
     license: BSD-3-Clause
     language: C++
@@ -84,8 +84,8 @@
   github: gscept/nebula
   _subsection: C++
   _meta:
-    stars: 1073
-    last_commit: '2026-05-31'
+    stars: 1095
+    last_commit: '2026-09-04'
     license: Other
     language: C++
 - name: Nazara Engine
@@ -95,8 +95,8 @@
   github: NazaraEngine/NazaraEngine
   _subsection: C++
   _meta:
-    stars: 831
-    last_commit: '2026-06-12'
+    stars: 838
+    last_commit: '2026-09-04'
     license: MIT
     language: C++
 - name: shiva
@@ -116,7 +116,7 @@
   github: TheCherno/Sparky
   _subsection: C++
   _meta:
-    stars: 1184
+    stars: 1191
     last_commit: '2016-12-12'
     license: Apache-2.0
     language: C++
@@ -126,8 +126,8 @@
   github: supernovaengine/supernova
   _subsection: C++
   _meta:
-    stars: 420
-    last_commit: '2026-06-22'
+    stars: 787
+    last_commit: '2026-09-06'
     license: MIT
     language: C++
 - name: Usagi
@@ -136,7 +136,7 @@
   github: vitei/Usagi
   _subsection: C++
   _meta:
-    stars: 56
+    stars: 57
     last_commit: '2022-02-10'
     license: MIT
     language: C++
@@ -146,17 +146,17 @@
   github: turanszkij/WickedEngine
   _subsection: C++
   _meta:
-    stars: 7101
-    last_commit: '2026-06-22'
+    stars: 7219
+    last_commit: '2026-08-31'
     license: MIT
-    language: C
+    language: C++
 - name: Engo
   description: A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm
   url: https://github.com/EngoEngine/engo
   github: EngoEngine/engo
   _subsection: Go
   _meta:
-    stars: 1815
+    stars: 1820
     last_commit: '2024-07-12'
     license: MIT
     language: Go
@@ -166,7 +166,7 @@
   github: AmbientRun/Ambient
   _subsection: Rust
   _meta:
-    stars: 3900
+    stars: 3909
     last_commit: '2025-01-07'
     license: Apache-2.0
     language: Rust
@@ -176,7 +176,7 @@
   github: amethyst/amethyst
   _subsection: Rust
   _meta:
-    stars: 8024
+    stars: 8027
     last_commit: '2021-12-06'
     archived: true
     license: Other
@@ -187,8 +187,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 46785
-    last_commit: '2026-06-21'
+    stars: 48076
+    last_commit: '2026-09-06'
     license: Apache-2.0
     language: Rust
 - name: Bones
@@ -197,7 +197,7 @@
   github: fishfolk/bones
   _subsection: Rust
   _meta:
-    stars: 299
+    stars: 310
     last_commit: '2026-04-24'
     license: Other
     language: Rust
@@ -208,7 +208,7 @@
   github: hexops/mach
   _subsection: Zig
   _meta:
-    stars: 4775
+    stars: 4836
     last_commit: '2026-05-23'
     license: Other
     language: Zig
