@@ -492,6 +492,36 @@
     last_commit: '2021-07-20'
     license: BSD-2-Clause
     language: Java
+- name: ashley
+  description: A Java entity system inspired by Ash & Artemis
+  url: https://github.com/libgdx/ashley
+  github: libgdx/ashley
+  _subsection: Java
+  _meta:
+    stars: 929
+    last_commit: '2023-04-18'
+    license: Apache-2.0
+    language: Java
+- name: dominion-ecs
+  description: Insanely fast ECS (Entity Component System) for Java
+  url: https://github.com/dominion-dev/dominion-ecs-java
+  github: dominion-dev/dominion-ecs-java
+  _subsection: Java
+  _meta:
+    stars: 397
+    last_commit: '2023-11-28'
+    license: MIT
+    language: Java
+- name: flecs-java
+  description: Java wrapper for Flecs using FFM, A fast entity component system (ECS)
+  url: https://github.com/elebras1/flecs-java
+  github: elebras1/flecs-java
+  _subsection: Java
+  _meta:
+    stars: 14
+    last_commit: '2026-09-09'
+    license: MIT
+    language: Java
 - name: Ark.jl
   description: An archetype-based Entity Component System (ECS) for Julia. It is a port of the Go ECS Ark.
   url: https://github.com/ark-ecs/Ark.jl
