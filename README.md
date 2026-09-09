@@ -33,7 +33,7 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 * 🔴 [ecst](https://github.com/vittorioromeo/ecst) - Experimental C++14 multithreaded compile-time entity-compnent-system library. [⭐ 491](https://github.com/vittorioromeo/ecst)
 * 🔴 [EntityFu](https://github.com/NatWeiss/EntityFu) - A simple, fast entity component system written in C++. [⭐ 86](https://github.com/NatWeiss/EntityFu)
 * 🔴 [EntityPlus](https://github.com/Yelnats321/EntityPlus) - C++14 entity component system. [⭐ 191](https://github.com/Yelnats321/EntityPlus)
-* 🟢 [EntityX](https://github.com/alecthomas/entityx) - Fast, type-safe C++ entity component system. [⭐ 2.3k](https://github.com/alecthomas/entityx)
+* 🟡 [EntityX](https://github.com/alecthomas/entityx) - Fast, type-safe C++ entity component system. [⭐ 2.3k](https://github.com/alecthomas/entityx)
 * 🟢 [entt](https://github.com/skypjack/entt) - Fast and reliable entity-component system. [⭐ 12.8k](https://github.com/skypjack/entt)
 * 🟢 [Flecs](https://github.com/SanderMertens/flecs) - A Multithreaded Entity Component System written for C89 & C99. [⭐ 8.4k](https://github.com/SanderMertens/flecs)
 * 🟢 [Gaia-ECS](https://github.com/richardbiely/gaia-ecs) - Fast and type-safe C++17 archetype-based entity component system. [⭐ 129](https://github.com/richardbiely/gaia-ecs)
@@ -57,7 +57,7 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 * 🔴 [LeoEcsLite](https://github.com/LeoECSCommunity/ecslite) - Lightweight C# Entity Component System framework. [⭐ 62](https://github.com/LeoECSCommunity/ecslite)
 * 🟢 [Massive ECS](https://github.com/nilpunch/massive-ecs) - Bitset-based ECS with rollbacks. C# library and Unity package. [⭐ 211](https://github.com/nilpunch/massive-ecs)
 * 🟢 [ME.BECS](https://github.com/chromealex/ME.BECS) - ECS for Unity with full game state automatic rollbacks. [⭐ 249](https://github.com/chromealex/ME.BECS)
-* 🟢 [Morpeh](https://github.com/scellecs/morpeh) - ECS Framework for Unity Game Engine and .NET Platform. [⭐ 647](https://github.com/scellecs/morpeh)
+* 🟡 [Morpeh](https://github.com/scellecs/morpeh) - ECS Framework for Unity Game Engine and .NET Platform. [⭐ 647](https://github.com/scellecs/morpeh)
 * 🟢 [Static ECS](https://github.com/Felid-Force-Studios/StaticEcs) - C# Hierarchical Inverted Bitmap ECS framework. [⭐ 183](https://github.com/Felid-Force-Studios/StaticEcs)
 * 🟡 [Svelto.ECS](https://github.com/sebas77/Svelto.ECS) - Lightweight data oriented entity component system framework. [⭐ 1.4k](https://github.com/sebas77/Svelto.ECS)
 * 🟢 [TinyEcs](https://github.com/andreakarasho/TinyEcs) - A tiny bevy-like archetype-style ECS library for dotnet. [⭐ 148](https://github.com/andreakarasho/TinyEcs)
@@ -95,7 +95,7 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 
 #### Lua
 
-* 🟡 [Concord](https://github.com/Keyslam-Group/Concord) - A feature-complete ECS library. [⭐ 317](https://github.com/Keyslam-Group/Concord)
+* 🔴 [Concord](https://github.com/Keyslam-Group/Concord) - A feature-complete ECS library. [⭐ 317](https://github.com/Keyslam-Group/Concord)
 * 🔴 [ECS Lua](https://github.com/nidorx/ecs-lua) - A fast and easy to use ECS engine for game development. [⭐ 231](https://github.com/nidorx/ecs-lua)
 * 🟢 [evolved.lua](https://github.com/BlackMATov/evolved.lua) - Evolved ECS (Entity-Component-System) for Lua. [⭐ 214](https://github.com/BlackMATov/evolved.lua)
 * 🔴 [Nata](https://github.com/tesselode/nata) - Entity management for Lua. [⭐ 51](https://github.com/tesselode/nata)
@@ -104,6 +104,9 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 #### Java
 
 * 🔴 [Artemis-odb](https://github.com/junkdog/artemis-odb) - A continuation of the popular Artemis ECS framework. [⭐ 832](https://github.com/junkdog/artemis-odb)
+* 🔴 [ashley](https://github.com/libgdx/ashley) - A Java entity system inspired by Ash & Artemis. [⭐ 929](https://github.com/libgdx/ashley)
+* 🔴 [dominion-ecs](https://github.com/dominion-dev/dominion-ecs-java) - Insanely fast ECS (Entity Component System) for Java. [⭐ 397](https://github.com/dominion-dev/dominion-ecs-java)
+* 🟢 [flecs-java](https://github.com/elebras1/flecs-java) - Java wrapper for Flecs using FFM, A fast entity component system (ECS). [⭐ 14](https://github.com/elebras1/flecs-java)
 
 #### Julia
 
@@ -160,7 +163,7 @@ _Game engines built on ECS architecture._
 
 #### Go
 
-* 🟡 [Engo](https://github.com/EngoEngine/engo) - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm. [⭐ 1.8k](https://github.com/EngoEngine/engo)
+* 🔴 [Engo](https://github.com/EngoEngine/engo) - A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm. [⭐ 1.8k](https://github.com/EngoEngine/engo)
 
 #### Rust
 
@@ -180,7 +183,7 @@ _Graphics and rendering engines using ECS._
 #### C++
 
 * 🟢 [bs::framework](https://github.com/GameFoundry/bsf) - Modern C++14 library for the development of real-time graphical applications. [⭐ 1.9k](https://github.com/GameFoundry/bsf)
-* 🟢 [The Forge](https://github.com/ConfettiFX/The-Forge) - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2. [⭐ 5.6k](https://github.com/ConfettiFX/The-Forge)
+* 🟡 [The Forge](https://github.com/ConfettiFX/The-Forge) - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2. [⭐ 5.6k](https://github.com/ConfettiFX/The-Forge)
 
 ### [Physics Libraries](#contents)
 
@@ -199,7 +202,7 @@ _Performance benchmarks comparing ECS frameworks._
 * 🔴 [CSharpECSComparison](https://github.com/Chillu1/CSharpECSComparison) - Benchmarks of common ECS Frameworks for C#. [⭐ 53](https://github.com/Chillu1/CSharpECSComparison)
 * 🟢 [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark) - Benchmarks of the main ECS Frameworks for: C#. [⭐ 178](https://github.com/Doraku/Ecs.CSharp.Benchmark)
 * 🟢 [ECS C# Benchmark - Common uses-cases](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases) - Benchmark many common use cases in the simplest and most performant variant. [⭐ 48](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases)
-* 🟡 [ecs_benchmark](https://github.com/abeimler/ecs_benchmark) - Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++. [⭐ 299](https://github.com/abeimler/ecs_benchmark)
+* 🔴 [ecs_benchmark](https://github.com/abeimler/ecs_benchmark) - Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++. [⭐ 299](https://github.com/abeimler/ecs_benchmark)
 * 🟢 [Lua ECS Library Benchmark](https://github.com/jeffzi/lua-ecs-benchmark) - Benchmarks of common ECS Frameworks in Lua. [⭐ 9](https://github.com/jeffzi/lua-ecs-benchmark)
 
 ### [Blog Posts](#contents)
