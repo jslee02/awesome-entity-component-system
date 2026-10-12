@@ -7,7 +7,7 @@
   "properties": {
     "name": { "type": "string", "description": "Display name" },
     "url": { "type": "string", "format": "uri", "description": "Homepage or primary URL" },
-    "github": { "type": "string", "pattern": "^[^/]+/[^/]+$", "description": "GitHub owner/repo" },
+    "github": { "type": "string", "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[A-Za-z0-9._-]+$", "description": "GitHub owner/repo" },
     "gitlab": { "type": "string", "description": "GitLab path" },
     "description": { "type": "string", "description": "One-line description" },
     "archived": { "type": "boolean", "description": "Whether the project is archived" },
@@ -15,11 +15,13 @@
       "type": "object",
       "description": "Auto-populated metadata from GitHub API",
       "properties": {
+        "id": { "type": "integer", "description": "GitHub repository ID; stable across renames" },
         "stars": { "type": "integer" },
         "last_commit": { "type": "string", "format": "date" },
         "archived": { "type": "boolean" },
         "license": { "type": "string" },
-        "language": { "type": "string" }
+        "language": { "type": "string" },
+        "gone_since": { "type": "string", "format": "date" }
       }
     },
     "_subsection": { "type": "string", "description": "Subsection grouping key (language name)" }
