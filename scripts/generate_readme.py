@@ -347,7 +347,7 @@ def generate_readme(data_dir: Path | None = None) -> str:
     lines.append("## [License](#contents)")
     lines.append("")
     lines.append(
-        "[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)"
+        "[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)"
     )
     lines.append("")
     return "\n".join(lines)
