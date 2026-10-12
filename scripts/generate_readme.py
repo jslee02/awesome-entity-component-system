@@ -148,14 +148,12 @@ def activity_emoji(entry: Entry, as_of: date, folded: bool = False) -> str:
     return ""
 
 
+REPO_HOSTS = (("github", "https://github.com/"), ("gitlab", "https://gitlab.com/"),
+              ("bitbucket", "https://bitbucket.org/"), ("code_url", ""))
+
+
 def repo_url(entry: Entry) -> str | None:
-    github = entry.get("github")
-    if github:
-        return f"https://github.com/{github}"
-    gitlab = entry.get("gitlab")
-    if gitlab:
-        return f"https://gitlab.com/{gitlab}"
-    return None
+    return next((prefix + entry[key] for key, prefix in REPO_HOSTS if entry.get(key)), None)
 
 
 def render_repo_link(entry: Entry) -> str | None:
@@ -166,9 +164,8 @@ def render_repo_link(entry: Entry) -> str | None:
     stars = meta.get("stars")
     if isinstance(stars, int):
         return f"[⭐ {format_stars(stars)}]({repo})"
-    if entry.get("github"):
-        return f"[[github]({repo})]"
-    return f"[[gitlab]({repo})]"
+    label = next(key for key, _ in REPO_HOSTS if entry.get(key))
+    return f"[[{'code' if label == 'code_url' else label}]({repo})]"
 
 
 def render_library_entry(entry: Entry, as_of: date, folded: bool = False) -> str:
@@ -195,13 +192,19 @@ def render_library_entry(entry: Entry, as_of: date, folded: bool = False) -> str
 
 def render_resource_entry(entry: Entry) -> str:
     name = entry.get("name", "")
-    url = entry.get("url")
+    url = entry.get("url") or repo_url(entry)
     description = entry.get("description")
     name_part = f"[{name}]({url})" if url else name
     line = f"* {name_part}"
     if description:
         line = f"{line} - {description}"
     return line
+
+
+def language_subsection(entry: Entry, subsections: list[str]) -> str:
+    """The subsection named for the repository's language ("C++" goes under "C/C++"), or ""."""
+    language = (entry.get("_meta") or {}).get("language") or ""
+    return next((sub for sub in subsections if language in {part.strip() for part in sub.split("/")}), "")
 
 
 def sort_entries(entries: list[Entry]) -> list[Entry]:
@@ -237,7 +240,7 @@ def render_section(
     if subsections:
         grouped: dict[str, list[Entry]] = {}
         for entry in entries:
-            grouped.setdefault(entry.get("_subsection") or "", []).append(entry)
+            grouped.setdefault(entry.get("_subsection") or language_subsection(entry, subsections), []).append(entry)
         for subsection in subsections:
             items = grouped.get(subsection, [])
             if not items:

@@ -9,6 +9,8 @@
     "url": { "type": "string", "format": "uri", "description": "Homepage or primary URL" },
     "github": { "type": "string", "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[A-Za-z0-9._-]+$", "description": "GitHub owner/repo" },
     "gitlab": { "type": "string", "description": "GitLab path" },
+    "bitbucket": { "type": "string", "description": "Bitbucket path" },
+    "code_url": { "type": "string", "format": "uri", "description": "Non-GitHub/GitLab source code URL (e.g., direct download)" },
     "description": { "type": "string", "description": "One-line description" },
     "archived": { "type": "boolean", "description": "Whether the project is archived" },
     "_meta": {

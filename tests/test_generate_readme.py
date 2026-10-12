@@ -73,5 +73,26 @@ class GenerateReadmeTest(unittest.TestCase):
         self.assertIn("_Performance benchmarks comparing ECS frameworks._\n\n* Alpha\n* 💀 Zulu", readme)
 
 
+class TriageEntryTest(unittest.TestCase):
+    """Entries as the shared suggestion triage writes them."""
+
+    def test_language_picks_the_subsection(self):
+        subsections = generator.SUBSECTION_ORDER["ecs-libraries"]
+        rust = {"name": "X", "github": "o/x", "_meta": {"language": "Rust"}}
+        cpp = {"name": "Y", "github": "o/y", "_meta": {"language": "C++"}}
+        self.assertEqual(generator.language_subsection(rust, subsections), "Rust")
+        self.assertEqual(generator.language_subsection(cpp, subsections), "C/C++")
+        self.assertEqual(generator.language_subsection({"name": "Z"}, subsections), "")
+
+    def test_repository_links_for_every_host(self):
+        self.assertEqual(generator.repo_url({"bitbucket": "w/r"}), "https://bitbucket.org/w/r")
+        self.assertEqual(generator.repo_url({"code_url": "https://x.example/r.zip"}), "https://x.example/r.zip")
+        self.assertEqual(generator.render_repo_link({"name": "R", "bitbucket": "w/r"}), "[[bitbucket](https://bitbucket.org/w/r)]")
+
+    def test_resource_without_a_website_links_its_repository(self):
+        entry = {"name": "Tutorial", "github": "o/tutorial", "description": "Learn ECS."}
+        self.assertEqual(generator.render_resource_entry(entry), "* [Tutorial](https://github.com/o/tutorial) - Learn ECS.")
+
+
 if __name__ == "__main__":
     unittest.main()
