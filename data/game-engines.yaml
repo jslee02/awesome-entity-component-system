@@ -5,7 +5,7 @@
   _subsection: C++
   _meta:
     stars: 30
-    last_commit: '2026-08-26'
+    last_commit: '2026-10-06'
     license: Other
     language: C++
 - name: Engine
@@ -24,8 +24,8 @@
   github: amzeratul/halley
   _subsection: C++
   _meta:
-    stars: 3862
-    last_commit: '2026-10-05'
+    stars: 3865
+    last_commit: '2026-10-12'
     license: Apache-2.0
     language: C
 - name: igneous
@@ -74,7 +74,7 @@
   github: asc-community/MxEngine
   _subsection: C++
   _meta:
-    stars: 1232
+    stars: 1230
     last_commit: '2024-03-28'
     license: BSD-3-Clause
     language: C++
@@ -85,7 +85,7 @@
   _subsection: C++
   _meta:
     stars: 1100
-    last_commit: '2026-09-30'
+    last_commit: '2026-10-11'
     license: Other
     language: C++
 - name: Nazara Engine
@@ -95,8 +95,8 @@
   github: NazaraEngine/NazaraEngine
   _subsection: C++
   _meta:
-    stars: 845
-    last_commit: '2026-10-04'
+    stars: 843
+    last_commit: '2026-10-06'
     license: MIT
     language: C++
 - name: shiva
@@ -105,7 +105,7 @@
   github: Milerius/shiva
   _subsection: C++
   _meta:
-    stars: 159
+    stars: 160
     last_commit: '2019-09-14'
     archived: true
     license: MIT
@@ -126,8 +126,8 @@
   github: supernovaengine/supernova
   _subsection: C++
   _meta:
-    stars: 858
-    last_commit: '2026-10-04'
+    stars: 866
+    last_commit: '2026-10-12'
     license: MIT
     language: C++
 - name: Usagi
@@ -146,8 +146,8 @@
   github: turanszkij/WickedEngine
   _subsection: C++
   _meta:
-    stars: 7269
-    last_commit: '2026-10-05'
+    stars: 7284
+    last_commit: '2026-10-12'
     license: MIT
     language: C++
 - name: Engo
@@ -156,7 +156,7 @@
   github: EngoEngine/engo
   _subsection: Go
   _meta:
-    stars: 1822
+    stars: 1823
     last_commit: '2024-07-12'
     license: MIT
     language: Go
@@ -187,8 +187,8 @@
   github: bevyengine/bevy
   _subsection: Rust
   _meta:
-    stars: 48622
-    last_commit: '2026-10-05'
+    stars: 48923
+    last_commit: '2026-10-11'
     license: Apache-2.0
     language: Rust
 - name: Bones
@@ -197,7 +197,7 @@
   github: fishfolk/bones
   _subsection: Rust
   _meta:
-    stars: 313
+    stars: 314
     last_commit: '2026-04-24'
     license: Other
     language: Rust
@@ -208,7 +208,7 @@
   github: hexops/mach
   _subsection: Zig
   _meta:
-    stars: 4845
+    stars: 4847
     last_commit: '2026-05-23'
     license: Other
     language: Zig
