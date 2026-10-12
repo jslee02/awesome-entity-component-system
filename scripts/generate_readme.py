@@ -45,6 +45,10 @@ SECTIONS = [
     ("etc", "ETC", 3, "resource", None),
 ]
 
+# Non-software categories, reviewed by hand by the shared suggestion triage even when they link
+# a GitHub repository.
+MANUAL_REVIEW = {"blog-posts", "talks", "books", "tutorials", "etc"}
+
 SECTION_DESCRIPTIONS = {
     "ecs-libraries": "Libraries and frameworks implementing the Entity-Component-System pattern.",
     "game-engines": "Game engines built on ECS architecture.",

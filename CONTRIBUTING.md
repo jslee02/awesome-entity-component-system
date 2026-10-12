@@ -41,8 +41,10 @@ When a suggestion passes, a maintainer reviews the generated PR for scope and ca
 - **Not on GitHub** (GitLab, commercial tools, books, talks, blog posts, and other resources
   without a GitHub repository): reviewed by a maintainer, who looks for use and relevance in
   the ECS community. Fill in **Evidence of use** (independent users or customers, citations,
-  third-party tutorials); without it, the bot asks for it first. Anything with a GitHub
-  repository, including benchmarks, tutorials, and curated lists, goes through the gates above.
+  third-party tutorials); without it, the bot asks for it first. Books, talks, blog posts,
+  tutorials, and ETC entries are always reviewed this way, even when they link a GitHub
+  repository; libraries, engines, benchmarks, and lists with a GitHub repository go through
+  the gates above.
 - **Maintainer picks**: a maintainer may add a resource outside these gates and says why in the PR. This is rare.
 
 **Why these signals:** AI tools make a polished README, docs, tests, and steady commits
