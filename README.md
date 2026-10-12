@@ -17,7 +17,7 @@ A curated list of Entity-Component-System (ECS) libraries and resources.
   * [Books](#books)
   * [Tutorials](#tutorials)
   * [Lists](#lists)
-  * [ETC](#etc)
+  * [References](#references)
 * [Contributing](#contributing)
 
 > **Legend**: 🟢 commit within 1 yr · 🟡 commit within 3 yr · 💀 archived · ⭐ GitHub stars as of 2026-10-12. Software entries are ordered by stars; inactive entries (archived, or no commits for 3+ years) are folded at the end of each software category. Other resources keep their existing order.
@@ -258,9 +258,9 @@ _Related curated lists._
 
 * [Entity Component System & Data Oriented Design](https://github.com/dbartolini/data-oriented-design)
 
-### [ETC](#contents)
+### [References](#contents)
 
-_Other ECS-related resources._
+_Wikis, FAQs, glossaries, and other reference material on ECS._
 
 * [Entity Component Systems FAQ](https://github.com/SanderMertens/ecs-faq)
 * [Entity Systems Wiki](http://entity-systems.wikidot.com/)

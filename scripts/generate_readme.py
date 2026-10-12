@@ -42,12 +42,12 @@ SECTIONS = [
     ("books", "Books", 3, "resource", None),
     ("tutorials", "Tutorials", 3, "resource", None),
     ("lists", "Lists", 3, "resource", None),
-    ("etc", "ETC", 3, "resource", None),
+    ("references", "References", 3, "resource", None),
 ]
 
 # Non-software categories, reviewed by hand by the shared suggestion triage even when they link
 # a GitHub repository.
-MANUAL_REVIEW = {"blog-posts", "talks", "books", "tutorials", "etc"}
+MANUAL_REVIEW = {"blog-posts", "talks", "books", "tutorials", "references"}
 
 SECTION_DESCRIPTIONS = {
     "ecs-libraries": "Libraries and frameworks implementing the Entity-Component-System pattern.",
@@ -60,7 +60,7 @@ SECTION_DESCRIPTIONS = {
     "books": "Books on ECS and data-oriented design.",
     "tutorials": "Tutorial series for learning ECS.",
     "lists": "Related curated lists.",
-    "etc": "Other ECS-related resources.",
+    "references": "Wikis, FAQs, glossaries, and other reference material on ECS.",
 }
 
 SUBSECTION_ORDER = {

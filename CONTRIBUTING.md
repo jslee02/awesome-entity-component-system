@@ -42,7 +42,7 @@ When a suggestion passes, a maintainer reviews the generated PR for scope and ca
   without a GitHub repository): reviewed by a maintainer, who looks for use and relevance in
   the ECS community. Fill in **Evidence of use** (independent users or customers, citations,
   third-party tutorials); without it, the bot asks for it first. Books, talks, blog posts,
-  tutorials, and ETC entries are always reviewed this way, even when they link a GitHub
+  tutorials, and references are always reviewed this way, even when they link a GitHub
   repository; libraries, engines, benchmarks, and lists with a GitHub repository go through
   the gates above.
 - **Maintainer picks**: a maintainer may add a resource outside these gates and says why in the PR. This is rare.
@@ -82,7 +82,7 @@ application's purpose for engines and the resource's format for learning materia
 | Books | Books about ECS architecture and data-oriented design | `data/books.yaml` |
 | Tutorials | Guides and tutorial series for learning and implementing ECS | `data/tutorials.yaml` |
 | Lists | Related curated lists of ECS libraries and resources | `data/lists.yaml` |
-| ETC | Other ECS resources, including papers, that do not fit a category above | `data/etc.yaml` |
+| References | Wikis, FAQs, glossaries, papers, and other reference material on ECS | `data/references.yaml` |
 
 ## Entry Conventions
 

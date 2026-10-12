@@ -59,7 +59,7 @@ body:
         - Books
         - Tutorials
         - Lists
-        - ETC
+        - References
         - Not sure
     validations:
       required: true
