@@ -136,5 +136,14 @@ class ManualReviewGoneTest(unittest.TestCase):
             self.assertEqual(yaml.safe_load(path.read_text(encoding="utf-8")), [])
 
 
+class RepositoryUrlTest(unittest.TestCase):
+    def test_urls_into_the_repository_however_written(self):
+        for url in ("https://github.com/a/code#readme", "https://github.com/a/code?tab=readme-ov-file",
+                    "http://www.github.com/A/Code.git", "https://github.com/a/code/blob/main/x.pdf"):
+            self.assertTrue(fetch_metadata.in_repository(url, "a/code"), url)
+        for url in ("https://github.com/a/code2", "https://arxiv.org/abs/1", ""):
+            self.assertFalse(fetch_metadata.in_repository(url, "a/code"), url)
+
+
 if __name__ == "__main__":
     unittest.main()
