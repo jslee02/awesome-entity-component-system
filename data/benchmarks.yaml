@@ -7,6 +7,7 @@
     last_commit: '2024-08-16'
     license: MIT
     language: C++
+    id: 72794321
 - name: ECS C# Benchmark
   url: https://github.com/Doraku/Ecs.CSharp.Benchmark
   description: 'Benchmarks of the main ECS Frameworks for: C#'
@@ -16,6 +17,7 @@
     last_commit: '2026-04-25'
     license: MIT-0
     language: C#
+    id: 368691365
 - name: ECS C# Benchmark - Common uses-cases
   url: https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases
   description: Benchmark many common use cases in the simplest and most performant variant
@@ -25,6 +27,7 @@
     last_commit: '2026-02-02'
     license: MIT
     language: C#
+    id: 826384667
 - name: CSharpECSComparison
   url: https://github.com/Chillu1/CSharpECSComparison
   description: Benchmarks of common ECS Frameworks for C#
@@ -33,6 +36,7 @@
     stars: 53
     last_commit: '2023-07-18'
     license: MIT-0
+    id: 454955077
 - name: Lua ECS Library Benchmark
   url: https://github.com/jeffzi/lua-ecs-benchmark
   description: Benchmarks of common ECS Frameworks in Lua
@@ -42,3 +46,4 @@
     last_commit: '2026-03-15'
     license: MIT
     language: Lua
+    id: 713624275

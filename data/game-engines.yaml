@@ -8,6 +8,7 @@
     last_commit: '2026-10-06'
     license: Other
     language: C++
+    id: 911381276
 - name: Engine
   description: Basic cross-platform 3D game engine
   url: https://github.com/Shervanator/Engine
@@ -18,6 +19,7 @@
     last_commit: '2018-03-03'
     license: GPL-3.0
     language: C++
+    id: 18516055
 - name: halley
   description: A lightweight game engine written in modern C++
   url: https://github.com/amzeratul/halley
@@ -28,6 +30,7 @@
     last_commit: '2026-10-12'
     license: Apache-2.0
     language: C
+    id: 43295328
 - name: igneous
   description: Open source game engine written in C++
   url: https://github.com/MissingBitStudios/igneous
@@ -38,6 +41,7 @@
     last_commit: '2019-10-04'
     license: CC-BY-4.0
     language: C++
+    id: 158773133
 - name: kengine
   description: Game engine focused on ease-of-use, runtime extensibility and compile-time type safety
   url: https://github.com/phisko/kengine
@@ -48,6 +52,7 @@
     last_commit: '2023-03-10'
     license: MIT
     language: C++
+    id: 89867048
 - name: Lina Engine
   description: Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games
   url: https://github.com/inanevin/LinaEngine
@@ -58,6 +63,7 @@
     last_commit: '2025-10-08'
     license: Other
     language: C++
+    id: 150962669
 - name: Lumos
   description: Cross-Platform C++ 2D/3D game engine
   url: https://github.com/jmorton06/Lumos
@@ -68,6 +74,7 @@
     last_commit: '2026-03-30'
     license: MIT
     language: C++
+    id: 164933352
 - name: MxEngine
   description: C++ open source 3D game engine
   url: https://github.com/asc-community/MxEngine
@@ -78,6 +85,7 @@
     last_commit: '2024-03-28'
     license: BSD-3-Clause
     language: C++
+    id: 228222817
 - name: nebula
   description: Open-source and free-to-use modern C++ game engine
   url: https://github.com/gscept/nebula
@@ -88,6 +96,7 @@
     last_commit: '2026-10-11'
     license: Other
     language: C++
+    id: 164856783
 - name: Nazara Engine
   description: Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network
     and more
@@ -99,6 +108,7 @@
     last_commit: '2026-10-06'
     license: MIT
     language: C++
+    id: 4192801
 - name: shiva
   description: Modern Cross-Platform C++ Engine with modularity
   url: https://github.com/Milerius/shiva
@@ -110,6 +120,7 @@
     archived: true
     license: MIT
     language: C++
+    id: 131817435
 - name: Sparky
   description: Cross-Platform High Performance 2D/3D game engine
   url: https://github.com/TheCherno/Sparky
@@ -120,6 +131,7 @@
     last_commit: '2016-12-12'
     license: Apache-2.0
     language: C++
+    id: 32199327
 - name: supernova
   description: Game engine for 2D and 3D projects with ECS and data-oriented design
   url: https://github.com/supernovaengine/supernova
@@ -130,6 +142,7 @@
     last_commit: '2026-10-12'
     license: MIT
     language: C++
+    id: 64516740
 - name: Usagi
   description: Hierarchical component entity system based game engine
   url: https://github.com/vitei/Usagi
@@ -140,6 +153,7 @@
     last_commit: '2022-02-10'
     license: MIT
     language: C++
+    id: 130516976
 - name: WickedEngine
   description: 3D engine with modern graphics
   url: https://github.com/turanszkij/WickedEngine
@@ -150,6 +164,7 @@
     last_commit: '2026-10-12'
     license: MIT
     language: C++
+    id: 37770961
 - name: Engo
   description: A cross-platform game engine written in Go following an interpretation of the Entity Component System paradigm
   url: https://github.com/EngoEngine/engo
@@ -160,6 +175,7 @@
     last_commit: '2024-07-12'
     license: MIT
     language: Go
+    id: 26521386
 - name: Ambient
   description: The multiplayer game engine
   url: https://github.com/AmbientRun/Ambient
@@ -170,6 +186,7 @@
     last_commit: '2025-01-07'
     license: Apache-2.0
     language: Rust
+    id: 579990612
 - name: Amethyst
   description: Data-oriented and data-driven game engine written in Rust
   url: https://github.com/amethyst/amethyst
@@ -181,6 +198,7 @@
     archived: true
     license: Other
     language: Rust
+    id: 48364554
 - name: Bevy
   description: A refreshingly simple data-driven game engine built in Rust
   url: https://github.com/bevyengine/bevy
@@ -191,6 +209,7 @@
     last_commit: '2026-10-11'
     license: Apache-2.0
     language: Rust
+    id: 234798675
 - name: Bones
   description: An easy-to-use game engine for making real games
   url: https://github.com/fishfolk/bones
@@ -201,6 +220,7 @@
     last_commit: '2026-04-24'
     license: Other
     language: Rust
+    id: 581287098
 - name: mach
   description: Game engine & graphics toolkit for building high-performance, truly cross-platform, robust & modular games,
     visualizations, and desktop/mobile GUI apps
@@ -212,3 +232,4 @@
     last_commit: '2026-05-23'
     license: Other
     language: Zig
+    id: 382912430
