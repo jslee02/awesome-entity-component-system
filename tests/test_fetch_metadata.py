@@ -13,7 +13,6 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import fetch_metadata  # noqa: E402
-from generate_readme import is_inactive  # noqa: E402
 
 
 class GoneRepoTest(unittest.TestCase):
@@ -61,14 +60,14 @@ class GoneRepoTest(unittest.TestCase):
                 self.assertNotIn("last_commit", refreshed[0]["_meta"])
                 self.assertNotIn("_commit_lookup_failed", refreshed[0]["_meta"])
 
-    def test_failed_commit_lookup_keeps_legacy_date_for_the_same_repository(self):
+    def test_failed_commit_lookup_does_not_keep_legacy_date_after_a_manual_correction(self):
         entries = [{"name": "X", "github": "a/x", "_meta": {"last_commit": "2022-01-02"}}]
-        for full_name in ("a/x", "A/X"):
+        entries[0]["github"] = "new/x"
+        for full_name in ("new/x", "New/X"):
             with self.subTest(full_name=full_name):
                 refreshed = self.refresh(entries, date(2026, 10, 19),
-                                         {"a/x": ({"id": 1, "_commit_lookup_failed": True}, full_name)})
-                self.assertEqual(refreshed[0]["_meta"], {"id": 1, "last_commit": "2022-01-02"})
-                self.assertTrue(is_inactive(refreshed[0], date(2026, 10, 19)))
+                                         {"new/x": ({"id": 2, "_commit_lookup_failed": True}, full_name)})
+                self.assertEqual(refreshed[0]["_meta"], {"id": 2})
 
     def test_failed_commit_lookup_does_not_keep_legacy_date_after_a_rename(self):
         entries = [{"name": "X", "github": "a/x", "_meta": {"last_commit": "2022-01-02"}}]
