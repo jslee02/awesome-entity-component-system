@@ -1,12 +1,17 @@
 name: Suggest a Resource
-description: Suggest a blog post, talk, book, tutorial, or other ECS resource
-title: "[Resource] "
-labels: ["suggestion", "resource"]
+description: Suggest an ECS library, engine, benchmark, or learning resource for the list
+title: "[Suggestion] "
+labels: ["suggestion"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Automation checks every suggestion against the [acceptance bar](https://github.com/jslee02/awesome-entity-component-system/blob/main/CONTRIBUTING.md#acceptance-bar): for GitHub projects, at least 6 months old (or 1,000+ stars), 100+ stars, 3+ outside people who opened issues or PRs, a commit within 12 months, and a license. Please keep one open suggestion at a time.
+
   - type: input
     id: name
     attributes:
-      label: Resource Title
+      label: Resource Name
     validations:
       required: true
 
@@ -14,35 +19,82 @@ body:
     id: url
     attributes:
       label: URL
-      description: Direct link to the resource
+      description: Project website, or the repository URL if there is no website
     validations:
       required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub Repository
+      description: "GitHub `owner/repo` (e.g., `skypjack/entt`). Leave blank for projects not on GitHub."
+      placeholder: owner/repo
+
+  - type: input
+    id: alt_repo
+    attributes:
+      label: Alternative Repository
+      description: GitLab, Bitbucket, or other source URL, if not on GitHub
+      placeholder: https://gitlab.com/org/project
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence of use
+      description: "Required for non-software resources and projects not on GitHub, including commercial tools: show use in the ECS community, for example independent users or customers, citations, or third-party tutorials."
 
   - type: dropdown
     id: category
     attributes:
       label: Category
+      description: "Pick by what the resource mainly does; ECS library languages are grouped within ECS Libraries. See the [category definitions](https://github.com/jslee02/awesome-entity-component-system/blob/main/CONTRIBUTING.md#categories)."
       options:
+        - ECS Libraries
+        - Game Engines
+        - Graphics Engines
+        - Physics Libraries
+        - Benchmarks
         - Blog Posts
-        - "Talks & Slides"
+        - Talks & Slides
         - Books
         - Tutorials
         - Lists
-        - Other
+        - References
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: "One neutral sentence, 100 characters or fewer, e.g. `C++ library implementing the entity-component-system pattern.`"
     validations:
       required: true
 
   - type: textarea
-    id: description
+    id: why
     attributes:
-      label: Description
-      description: Brief description of what this resource covers (optional for blog posts and talks)
+      label: Why should it be included?
+      description: Optional. What gap does it fill, and who uses it?
+
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Suggesting your own project is welcome; we just ask you to say so.
+      options:
+        - I am an author or maintainer
+        - I contribute to it
+        - I use it
+        - No affiliation
+    validations:
+      required: true
 
   - type: checkboxes
-    id: checklist
+    id: attestation
     attributes:
-      label: Checklist
+      label: Confirmation
       options:
-        - label: Related to ECS, data-oriented design, or the entity-component-system pattern
-        - label: Publicly accessible (not behind a paywall, or at least has a free summary)
-        - label: Not a duplicate of an existing entry
+        - label: I am a person, and I wrote or reviewed this suggestion myself.
+          required: true
