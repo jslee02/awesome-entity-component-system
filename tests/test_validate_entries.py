@@ -14,7 +14,9 @@ class DroppedDataTest(unittest.TestCase):
     def check(self, files: dict[str, str]) -> bool:
         with tempfile.TemporaryDirectory() as tmp:
             for name, text in files.items():
-                (Path(tmp) / name).write_text(text, encoding="utf-8")
+                path = Path(tmp) / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(text, encoding="utf-8")
             return validate_entries.validate_entries(tmp)
 
     def test_valid_category(self):
@@ -24,7 +26,10 @@ class DroppedDataTest(unittest.TestCase):
         self.assertFalse(self.check({"ecs-libraries.yaml": "name: Tool\ngithub: o/r\n"}))  # missing "- "
 
     def test_file_that_is_not_a_category(self):
-        self.assertFalse(self.check({"ecs-library.yaml": "- name: Tool\n  github: o/r\n"}))
+        for name in ("ecs-library.yaml", "ecs-libraries.yml", "ecs-library.yml",
+                     "nested/ecs-libraries.yaml", "nested/ecs-libraries.yml"):
+            with self.subTest(name=name):
+                self.assertFalse(self.check({name: "- name: Tool\n  github: o/r\n"}))
 
     def test_github_path_pattern(self):
         self.assertTrue(self.check({"ecs-libraries.yaml": "- name: Tool\n  github: owner-name/repo._-\n"}))
