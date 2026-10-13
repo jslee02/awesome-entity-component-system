@@ -230,7 +230,7 @@ def render_section(
         lines.append(f"_{description}_")
     lines.append("")
     if kind == "resource":
-        for entry in sorted(entries, key=lambda e: e["name"].lower()):
+        for entry in entries:
             lines.append(
                 render_library_entry(entry, as_of)
                 if section_id == "benchmarks"

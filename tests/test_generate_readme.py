@@ -69,8 +69,8 @@ class GenerateReadmeTest(unittest.TestCase):
         self.assertIn("* Old · last commit 2020", readme)
         self.assertIn("* 💀 Archived", readme)
         self.assertEqual(readme.count("<details>"), 1)
-        self.assertIn("_Books on ECS and data-oriented design._\n\n* Alpha\n* Zulu", readme)
-        self.assertIn("_Performance benchmarks comparing ECS frameworks._\n\n* Alpha\n* 💀 Zulu", readme)
+        self.assertIn("_Books on ECS and data-oriented design._\n\n* Zulu\n* Alpha", readme)
+        self.assertIn("_Performance benchmarks comparing ECS frameworks._\n\n* 💀 Zulu\n* Alpha", readme)
 
 
 class TriageEntryTest(unittest.TestCase):

@@ -203,42 +203,42 @@ _Physics simulation libraries organized as ECS._
 
 _Performance benchmarks comparing ECS frameworks._
 
-* [CSharpECSComparison](https://github.com/Chillu1/CSharpECSComparison) - Benchmarks of common ECS Frameworks for C#. [⭐ 53](https://github.com/Chillu1/CSharpECSComparison)
+* 🟡 [ecs_benchmark](https://github.com/abeimler/ecs_benchmark) - Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++. [⭐ 308](https://github.com/abeimler/ecs_benchmark)
 * 🟢 [ECS C# Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark) - Benchmarks of the main ECS Frameworks for: C#. [⭐ 181](https://github.com/Doraku/Ecs.CSharp.Benchmark)
 * 🟢 [ECS C# Benchmark - Common uses-cases](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases) - Benchmark many common use cases in the simplest and most performant variant. [⭐ 48](https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases)
-* 🟡 [ecs_benchmark](https://github.com/abeimler/ecs_benchmark) - Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++. [⭐ 308](https://github.com/abeimler/ecs_benchmark)
+* [CSharpECSComparison](https://github.com/Chillu1/CSharpECSComparison) - Benchmarks of common ECS Frameworks for C#. [⭐ 53](https://github.com/Chillu1/CSharpECSComparison)
 * 🟢 [Lua ECS Library Benchmark](https://github.com/jeffzi/lua-ecs-benchmark) - Benchmarks of common ECS Frameworks in Lua. [⭐ 9](https://github.com/jeffzi/lua-ecs-benchmark)
 
 ### [Blog Posts](#contents)
 
 _Articles and blog posts about ECS and data-oriented design._
 
-* [Building an ECS](https://ajmmertens.medium.com/building-an-ecs-1-where-are-my-entities-and-components-63d07c7da742)
 * [Data-oriented design](http://gamesfromwithin.com/category/data-oriented-design)
 * [ECS back and forth](https://skypjack.github.io/2019-02-14-ecs-baf-part-1/)
-* [Entity Systems are the future of MMOG development](https://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/)
 * [Let's build an Entity Component System from scratch](https://devlog.hexops.com/2022/lets-build-ecs-part-1/)
-* [Overview of ECS variants & definitions](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
-* [Seba's Lab](https://www.sebaslab.com/)
+* [Entity Systems are the future of MMOG development](https://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/)
+* [Building an ECS](https://ajmmertens.medium.com/building-an-ecs-1-where-are-my-entities-and-components-63d07c7da742)
 * [Systems Interaction in Entity-Component-System (events)](https://medium.com/@ben.rasooli/systems-interaction-in-entity-component-system-events-4a050153c8ac)
+* [Overview of ECS variants & definitions](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
 * [Understand data-oriented design](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
 * [Unity ECS series](https://gametorrahod.com/tag/unity-dots/)
+* [Seba's Lab](https://www.sebaslab.com/)
 * [WickedEngine's ECS implementation](https://web.archive.org/web/20240531144559/https://wickedengine.net/2019/09/entity-component-system/)
 
 ### [Talks & Slides](#contents)
 
 _Conference talks and presentations about ECS._
 
-* [Codestar 2018 ECS - A Different Approach to Game Development](https://www.youtube.com/watch?v=lt4eL4RSx7k)
-* [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc)
+* [itCppCon19: ECS back and forth](https://youtu.be/WB5bRKKGRUk)
+* [GDC 2018: Unity at GDC - A Data Oriented Approach to Using Component Systems](https://youtu.be/p65Yt20pw0g)
+* [Meeting C++ 2018: Data oriented design in practice](https://youtu.be/NWMx1Q66c14)
 * [CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”](https://youtu.be/yy8jQgmhbAU)
 * [Data Oriented Design Resources](http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
 * [Data Oriented GUI in Rust](https://www.youtube.com/watch?v=4YTfxresvS8)
-* [GDC 2018: Unity at GDC - A Data Oriented Approach to Using Component Systems](https://youtu.be/p65Yt20pw0g)
 * [Is There More to Game Architecture than ECS](https://www.youtube.com/watch?v=JxI3Eu5DPwE) - Bob Nystrom (Roguelike Celebration 2018)
-* [itCppCon19: ECS back and forth](https://youtu.be/WB5bRKKGRUk)
-* [Meeting C++ 2018: Data oriented design in practice](https://youtu.be/NWMx1Q66c14)
 * [Unite 2018: C# Job System + ECS usage and demo with Intel](https://www.youtube.com/watch?v=fp1D45hhVEM)
+* [Codestar 2018 ECS - A Different Approach to Game Development](https://www.youtube.com/watch?v=lt4eL4RSx7k)
+* [CppCon 2014: Mike Acton "Data-Oriented Design and C++"](https://youtu.be/rX0ItVEVjHc)
 
 ### [Books](#contents)
 
@@ -262,8 +262,8 @@ _Related curated lists._
 
 _Wikis, FAQs, glossaries, and other reference material on ECS._
 
-* [Entity Component Systems FAQ](https://github.com/SanderMertens/ecs-faq)
 * [Entity Systems Wiki](http://entity-systems.wikidot.com/)
+* [Entity Component Systems FAQ](https://github.com/SanderMertens/ecs-faq)
 
 ## [Contributing](#contents)
 
