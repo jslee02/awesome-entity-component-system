@@ -477,7 +477,7 @@
     id: 55201061
 - name: Concord
   description: A feature-complete ECS library
-  url: https://github.com/Keyslam-Group/Concord
+  url: https://github.com/Concord-Studio/Concord
   github: Keyslam-Group/Concord
   _subsection: Lua
   _meta:

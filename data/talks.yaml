@@ -7,7 +7,7 @@
 - name: "CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”"
   url: https://youtu.be/yy8jQgmhbAU
 - name: Data Oriented Design Resources
-  url: http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf
+  url: http://web.archive.org/web/20260930161104/https://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf
 - name: Data Oriented GUI in Rust
   url: https://www.youtube.com/watch?v=4YTfxresvS8
 - name: Is There More to Game Architecture than ECS
