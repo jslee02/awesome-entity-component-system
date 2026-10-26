@@ -1,14 +1,14 @@
 - name: bs::framework
   description: Modern C++14 library for the development of real-time graphical applications
   url: https://github.com/GameFoundry/B3DFramework
-  github: GameFoundry/bsf
+  github: GameFoundry/B3DFramework
   _subsection: C++
   _meta:
-    stars: 1934
-    last_commit: '2026-10-08'
+    id: 125349427
+    stars: 1943
+    last_commit: '2026-10-22'
     license: MIT
     language: C++
-    id: 125349427
 - name: The Forge
   description: Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX,
     PS4, PS5, Switch, Quest 2
@@ -16,8 +16,8 @@
   github: ConfettiFX/The-Forge
   _subsection: C++
   _meta:
-    stars: 5681
+    id: 105600991
+    stars: 5700
     last_commit: '2026-08-27'
     license: Apache-2.0
     language: C++
-    id: 105600991

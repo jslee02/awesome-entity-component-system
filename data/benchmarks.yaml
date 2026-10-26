@@ -3,47 +3,47 @@
   description: Benchmarks of common ECS (Entity-Component-System)-Frameworks in C/C++
   github: abeimler/ecs_benchmark
   _meta:
+    id: 72794321
     stars: 308
     last_commit: '2024-08-16'
     license: MIT
     language: C++
-    id: 72794321
 - name: ECS C# Benchmark
   url: https://github.com/Doraku/Ecs.CSharp.Benchmark
   description: 'Benchmarks of the main ECS Frameworks for: C#'
   github: Doraku/Ecs.CSharp.Benchmark
   _meta:
+    id: 368691365
     stars: 181
     last_commit: '2026-04-25'
     license: MIT-0
     language: C#
-    id: 368691365
 - name: ECS C# Benchmark - Common uses-cases
   url: https://github.com/friflo/ECS.CSharp.Benchmark-common-use-cases
   description: Benchmark many common use cases in the simplest and most performant variant
   github: friflo/ECS.CSharp.Benchmark-common-use-cases
   _meta:
+    id: 826384667
     stars: 48
     last_commit: '2026-02-02'
     license: MIT
     language: C#
-    id: 826384667
 - name: CSharpECSComparison
   url: https://github.com/Chillu1/CSharpECSComparison
   description: Benchmarks of common ECS Frameworks for C#
   github: Chillu1/CSharpECSComparison
   _meta:
+    id: 454955077
     stars: 53
     last_commit: '2023-07-18'
     license: MIT-0
-    id: 454955077
 - name: Lua ECS Library Benchmark
   url: https://github.com/jeffzi/lua-ecs-benchmark
   description: Benchmarks of common ECS Frameworks in Lua
   github: jeffzi/lua-ecs-benchmark
   _meta:
+    id: 713624275
     stars: 9
     last_commit: '2026-03-15'
     license: MIT
     language: Lua
-    id: 713624275
