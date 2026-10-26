@@ -1,6 +1,6 @@
 - name: bs::framework
   description: Modern C++14 library for the development of real-time graphical applications
-  url: https://github.com/GameFoundry/bsf
+  url: https://github.com/GameFoundry/B3DFramework
   github: GameFoundry/bsf
   _subsection: C++
   _meta:

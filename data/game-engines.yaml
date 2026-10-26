@@ -134,7 +134,7 @@
     id: 32199327
 - name: supernova
   description: Game engine for 2D and 3D projects with ECS and data-oriented design
-  url: https://github.com/supernovaengine/supernova
+  url: https://github.com/doriaxengine/doriax
   github: supernovaengine/supernova
   _subsection: C++
   _meta:

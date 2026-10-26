@@ -76,7 +76,7 @@ _Libraries and frameworks implementing the Entity-Component-System pattern._
 
 #### Lua
 
-* 🟢 [Concord](https://github.com/Keyslam-Group/Concord) - A feature-complete ECS library. [⭐ 326](https://github.com/Keyslam-Group/Concord)
+* 🟢 [Concord](https://github.com/Concord-Studio/Concord) - A feature-complete ECS library. [⭐ 326](https://github.com/Keyslam-Group/Concord)
 * 🟢 [evolved.lua](https://github.com/BlackMATov/evolved.lua) - Evolved ECS (Entity-Component-System) for Lua. [⭐ 224](https://github.com/BlackMATov/evolved.lua)
 
 #### Julia
@@ -149,7 +149,7 @@ _Game engines built on ECS architecture._
 * 🟡 [MxEngine](https://github.com/asc-community/MxEngine) - C++ open source 3D game engine. [⭐ 1.2k](https://github.com/asc-community/MxEngine)
 * 🟢 [nebula](https://github.com/gscept/nebula) - Open-source and free-to-use modern C++ game engine. [⭐ 1.1k](https://github.com/gscept/nebula)
 * 🟡 [Lina Engine](https://github.com/inanevin/LinaEngine) - Modular, tiny and fast C++ game engine, aimed to develop 3D desktop games. [⭐ 899](https://github.com/inanevin/LinaEngine)
-* 🟢 [supernova](https://github.com/supernovaengine/supernova) - Game engine for 2D and 3D projects with ECS and data-oriented design. [⭐ 866](https://github.com/supernovaengine/supernova)
+* 🟢 [supernova](https://github.com/doriaxengine/doriax) - Game engine for 2D and 3D projects with ECS and data-oriented design. [⭐ 866](https://github.com/supernovaengine/supernova)
 * 🟢 [Nazara Engine](https://github.com/NazaraEngine/NazaraEngine) - Cross-platform framework aimed at real-time applications requiring audio, 2D and 3D real-time rendering, network and more. [⭐ 843](https://github.com/NazaraEngine/NazaraEngine)
 * 🟢 [crown](https://github.com/dbartolini/crown) - General purpose data-driven game engine. [⭐ 30](https://github.com/dbartolini/crown)
 
@@ -187,7 +187,7 @@ _Graphics and rendering engines using ECS._
 #### C++
 
 * 🟢 [The Forge](https://github.com/ConfettiFX/The-Forge) - Cross-Platform Rendering Framework with support for PC Windows, Linux, Ray Tracing, macOS/iOS, Android, XBOX, PS4, PS5, Switch, Quest 2. [⭐ 5.7k](https://github.com/ConfettiFX/The-Forge)
-* 🟢 [bs::framework](https://github.com/GameFoundry/bsf) - Modern C++14 library for the development of real-time graphical applications. [⭐ 1.9k](https://github.com/GameFoundry/bsf)
+* 🟢 [bs::framework](https://github.com/GameFoundry/B3DFramework) - Modern C++14 library for the development of real-time graphical applications. [⭐ 1.9k](https://github.com/GameFoundry/bsf)
 
 ### [Physics Libraries](#contents)
 
@@ -213,7 +213,7 @@ _Performance benchmarks comparing ECS frameworks._
 
 _Articles and blog posts about ECS and data-oriented design._
 
-* [Data-oriented design](http://gamesfromwithin.com/category/data-oriented-design)
+* [Data-oriented design](https://gamesfromwithin.com/category/data-oriented-design/)
 * [ECS back and forth](https://skypjack.github.io/2019-02-14-ecs-baf-part-1/)
 * [Let's build an Entity Component System from scratch](https://devlog.hexops.com/2022/lets-build-ecs-part-1/)
 * [Entity Systems are the future of MMOG development](https://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/)
@@ -233,7 +233,7 @@ _Conference talks and presentations about ECS._
 * [GDC 2018: Unity at GDC - A Data Oriented Approach to Using Component Systems](https://youtu.be/p65Yt20pw0g)
 * [Meeting C++ 2018: Data oriented design in practice](https://youtu.be/NWMx1Q66c14)
 * [CppCon 2018: Stoyan Nikolov “OOP Is Dead, Long Live Data-oriented Design”](https://youtu.be/yy8jQgmhbAU)
-* [Data Oriented Design Resources](http://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
+* [Data Oriented Design Resources](http://web.archive.org/web/20260930161104/https://aras-p.info/texts/files/2018Academy%20-%20ECS-DoD.pdf)
 * [Data Oriented GUI in Rust](https://www.youtube.com/watch?v=4YTfxresvS8)
 * [Is There More to Game Architecture than ECS](https://www.youtube.com/watch?v=JxI3Eu5DPwE) - Bob Nystrom (Roguelike Celebration 2018)
 * [Unite 2018: C# Job System + ECS usage and demo with Intel](https://www.youtube.com/watch?v=fp1D45hhVEM)
@@ -244,7 +244,7 @@ _Conference talks and presentations about ECS._
 
 _Books on ECS and data-oriented design._
 
-* [Data-Oriented Design](http://www.dataorienteddesign.com/dodbook/)
+* [Data-Oriented Design](https://www.dataorienteddesign.com/dodbook/)
 
 ### [Tutorials](#contents)
 
